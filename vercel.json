@@ -1,6 +1,18 @@
 {
-  "rewrites": [
-    { "source": "/api/claude", "destination": "/api/claude" },
-    { "source": "/(.*)", "destination": "/index.html" }
+  "version": 2,
+  "functions": {
+    "api/claude.js": {
+      "runtime": "@vercel/node@3.0.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/claude",
+      "dest": "/api/claude.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
   ]
 }
