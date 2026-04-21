@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "functions": {
-    "api/claude.js": {
-      "runtime": "@vercel/node@3.0.0"
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/claude.js",
+      "use": "@vercel/node"
     }
-  },
+  ],
   "routes": [
     {
       "src": "/api/claude",
@@ -12,7 +17,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/$1"
+      "dest": "/index.html"
     }
   ]
 }
