@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miami Local — Your AI City Guide</title>
+<meta name="description" content="Miami Local is your personal AI-powered guide to the Magic City. From hidden gems to skyline views, Cuban food to nightlife — ask anything.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ─── TOKENS ─────────────────────────────────────────────── */
+:root {
+  --ink:      #0c1a12;
+  --cream:    #faf6ef;
+  --sand:     #f0e9dc;
+  --gold:     #c8943a;
+  --gold-lt:  #e8b96a;
+  --teal:     #1a6e72;
+  --teal-lt:  #2a9197;
+  --coral:    #d95f3b;
+  --coral-lt: #f07a56;
+  --fog:      rgba(12,26,18,0.06);
+  --fog2:     rgba(12,26,18,0.12);
+  --r:        14px;
+  --shadow:   0 4px 32px rgba(12,26,18,0.10);
+  --shadow-lg:0 12px 60px rgba(12,26,18,0.16);
+}
+
+/* ─── RESET ──────────────────────────────────────────────── */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  overflow-x: hidden;
+}
+img { display:block; max-width:100%; }
+a { color: inherit; text-decoration: none; }
+
+/* ─── NOISE TEXTURE ──────────────────────────────────────── */
+body::after {
+  content:'';
+  position:fixed; inset:0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
+  pointer-events:none; z-index:9999; opacity:.4;
+}
+
+/* ─── NAV ─────────────────────────────────────────────────── */
+nav {
+  position: fixed; top:0; left:0; right:0; z-index:100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 48px;
+  height: 68px;
+  background: rgba(250,246,239,0.88);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid var(--fog2);
+  transition: box-shadow .3s;
+}
+nav.scrolled { box-shadow: var(--shadow); }
+
+.nav-logo {
+  display:flex; align-items:center; gap:10px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px; font-weight: 600;
+  letter-spacing: .02em;
+}
+.nav-logo .dot {
+  width:8px; height:8px; border-radius:50%;
+  background: linear-gradient(135deg, var(--coral), var(--gold));
+}
+
+.nav-links {
+  display:flex; align-items:center; gap:36px;
+  list-style:none;
+  font-size:14px; font-weight:500; letter-spacing:.03em;
+}
+.nav-links a {
+  color: var(--ink); opacity:.65;
+  transition: opacity .2s;
+}
+.nav-links a:hover { opacity:1; }
+
+.nav-cta {
+  background: var(--ink);
+  color: var(--cream) !important;
+  opacity:1 !important;
+  padding: 9px 22px;
+  border-radius: 100px;
+  font-size:13px !important;
+  transition: background .2s, transform .15s !important;
+}
+.nav-cta:hover { background: var(--teal) !important; transform: translateY(-1px); }
+
+.nav-ham { display:none; cursor:pointer; flex-direction:column; gap:5px; }
+.nav-ham span { display:block; width:22px; height:2px; background:var(--ink); border-radius:2px; transition:.3s; }
+
+/* ─── HERO ─────────────────────────────────────────────────── */
+#hero {
+  min-height: 100vh;
+  display: flex; flex-direction:column;
+  align-items: center; justify-content: center;
+  text-align: center;
+  padding: 120px 24px 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position:absolute; inset:0; z-index:0;
+  background:
+    radial-gradient(ellipse 70% 60% at 15% 90%, rgba(26,110,114,.13) 0%, transparent 60%),
+    radial-gradient(ellipse 55% 50% at 85% 85%, rgba(217,95,59,.11) 0%, transparent 55%),
+    radial-gradient(ellipse 80% 40% at 50% 100%, rgba(200,148,58,.09) 0%, transparent 50%),
+    var(--cream);
+}
+
+.hero-badge {
+  display:inline-flex; align-items:center; gap:7px;
+  background: var(--sand);
+  border: 1px solid var(--fog2);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size:12px; font-weight:600;
+  letter-spacing:.08em; text-transform:uppercase;
+  color: var(--teal);
+  margin-bottom: 32px;
+  animation: fadeUp .6s ease both;
+  position:relative; z-index:1;
+}
+.hero-badge::before {
+  content:'';
+  width:6px; height:6px; border-radius:50%;
+  background:var(--coral);
+  animation: blink 2s infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+
+.hero-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(52px, 8vw, 100px);
+  font-weight: 300;
+  line-height: 1.0;
+  letter-spacing: -.02em;
+  margin-bottom: 12px;
+  position:relative; z-index:1;
+  animation: fadeUp .7s .1s ease both;
+}
+.hero-title em {
+  font-style: italic;
+  background: linear-gradient(110deg, var(--teal) 0%, var(--coral) 60%, var(--gold) 100%);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+}
+
+.hero-sub {
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: 300;
+  color: rgba(12,26,18,.55);
+  max-width: 520px;
+  line-height: 1.65;
+  margin: 0 auto 48px;
+  position:relative; z-index:1;
+  animation: fadeUp .7s .2s ease both;
+}
+
+.hero-actions {
+  display:flex; gap:14px; flex-wrap:wrap; justify-content:center;
+  position:relative; z-index:1;
+  animation: fadeUp .7s .3s ease both;
+}
+
+.btn-primary {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 14px 32px;
+  border-radius: 100px;
+  font-family:'Outfit',sans-serif;
+  font-size:15px; font-weight:500;
+  cursor:pointer; border:none;
+  transition: background .2s, transform .15s, box-shadow .2s;
+  display:inline-flex; align-items:center; gap:8px;
+}
+.btn-primary:hover { background:var(--teal); transform:translateY(-2px); box-shadow:0 8px 28px rgba(26,110,114,.28); }
+
+.btn-outline {
+  background: transparent;
+  color: var(--ink);
+  padding: 14px 32px;
+  border-radius: 100px;
+  font-family:'Outfit',sans-serif;
+  font-size:15px; font-weight:500;
+  cursor:pointer;
+  border: 1.5px solid var(--fog2);
+  transition: border-color .2s, background .2s, transform .15s;
+  display:inline-flex; align-items:center; gap:8px;
+}
+.btn-outline:hover { border-color:var(--ink); background:var(--fog); transform:translateY(-2px); }
+
+.hero-scroll {
+  position:absolute; bottom:36px; left:50%; transform:translateX(-50%);
+  display:flex; flex-direction:column; align-items:center; gap:8px;
+  font-size:11px; font-weight:500; letter-spacing:.1em; text-transform:uppercase;
+  color:rgba(12,26,18,.35);
+  z-index:1; animation: fadeIn 1s 1s ease both;
+}
+.hero-scroll::after {
+  content:'';
+  width:1px; height:40px;
+  background: linear-gradient(to bottom, rgba(12,26,18,.2), transparent);
+  animation: scrollLine 2s 1.5s ease infinite;
+}
+@keyframes scrollLine { 0%{transform:scaleY(0);transform-origin:top} 50%{transform:scaleY(1);transform-origin:top} 51%{transform-origin:bottom} 100%{transform:scaleY(0);transform-origin:bottom} }
+
+/* ─── STATS STRIP ─────────────────────────────────────────── */
+.stats-strip {
+  background: var(--ink);
+  color: var(--cream);
+  padding: 28px 48px;
+  display: flex; justify-content:center; flex-wrap:wrap; gap:0;
+  overflow:hidden;
+}
+.stat-item {
+  flex:1; min-width:160px; max-width:240px;
+  text-align:center; padding: 12px 24px;
+  border-right: 1px solid rgba(255,255,255,.08);
+}
+.stat-item:last-child { border-right:none; }
+.stat-num {
+  font-family:'Cormorant Garamond',serif;
+  font-size:40px; font-weight:600;
+  background: linear-gradient(90deg, var(--gold-lt), var(--coral-lt));
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+  line-height:1.1; margin-bottom:4px;
+}
+.stat-label { font-size:12px; font-weight:400; opacity:.5; letter-spacing:.06em; text-transform:uppercase; }
+
+/* ─── SECTION SHARED ─────────────────────────────────────── */
+section { padding: 96px 48px; }
+.section-label {
+  font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--teal); margin-bottom:16px;
+  display:flex; align-items:center; gap:10px;
+}
+.section-label::before { content:''; width:28px; height:1.5px; background:var(--teal); }
+.section-title {
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(36px,5vw,58px); font-weight:300;
+  line-height:1.1; letter-spacing:-.02em;
+  margin-bottom:20px;
+}
+.section-title em { font-style:italic; color:var(--coral); }
+
+/* ─── TOPICS ──────────────────────────────────────────────── */
+#topics { background: var(--sand); }
+.topics-inner { max-width:1100px; margin:0 auto; }
+.topics-header { max-width:560px; margin-bottom:60px; }
+.topics-grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap:16px;
+}
+.topic-card {
+  background: var(--cream);
+  border: 1px solid var(--fog2);
+  border-radius: var(--r);
+  padding: 28px 24px;
+  cursor:pointer;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+  position:relative; overflow:hidden;
+}
+.topic-card::before {
+  content:''; position:absolute; inset:0;
+  background: linear-gradient(135deg, rgba(26,110,114,.06), transparent);
+  opacity:0; transition: opacity .3s;
+}
+.topic-card:hover { transform:translateY(-4px); box-shadow:var(--shadow); border-color:rgba(26,110,114,.25); }
+.topic-card:hover::before { opacity:1; }
+.topic-icon { font-size:28px; margin-bottom:14px; }
+.topic-name { font-size:16px; font-weight:600; margin-bottom:6px; }
+.topic-desc { font-size:13px; color:rgba(12,26,18,.5); line-height:1.55; }
+.topic-arrow {
+  position:absolute; bottom:20px; right:20px;
+  font-size:18px; opacity:0; transform:translateX(-6px);
+  transition: opacity .2s, transform .2s;
+}
+.topic-card:hover .topic-arrow { opacity:1; transform:translateX(0); }
+
+/* ─── CHAT SECTION ────────────────────────────────────────── */
+#chat-section { background:var(--cream); }
+.chat-section-inner {
+  max-width: 1100px; margin:0 auto;
+  display:grid; grid-template-columns:1fr 1.4fr; gap:64px; align-items:start;
+}
+.chat-intro { position:sticky; top:100px; }
+.chat-intro .section-title { margin-bottom:16px; }
+.chat-intro p { font-size:15px; color:rgba(12,26,18,.55); line-height:1.7; margin-bottom:32px; }
+.feature-list { list-style:none; display:flex; flex-direction:column; gap:14px; }
+.feature-list li {
+  display:flex; align-items:flex-start; gap:12px;
+  font-size:14px; color:rgba(12,26,18,.7);
+}
+.feat-icon {
+  width:30px; height:30px; border-radius:8px; flex-shrink:0;
+  background: linear-gradient(135deg, var(--teal), var(--teal-lt));
+  display:flex; align-items:center; justify-content:center;
+  font-size:13px; margin-top:1px;
+}
+
+/* ─── CHAT WIDGET ─────────────────────────────────────────── */
+.chat-widget {
+  background: var(--ink);
+  border-radius: 20px;
+  overflow:hidden;
+  box-shadow: var(--shadow-lg);
+  display:flex; flex-direction:column;
+  height: 620px;
+}
+
+.chat-widget-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.07);
+  display:flex; align-items:center; gap:12px;
+  background: rgba(255,255,255,.04);
+}
+.chat-widget-avatar {
+  width:36px; height:36px; border-radius:10px;
+  background: linear-gradient(135deg, var(--teal), var(--coral));
+  display:flex; align-items:center; justify-content:center; font-size:16px;
+}
+.chat-widget-info h4 { font-size:14px; font-weight:600; color:#e8f4ee; }
+.chat-widget-info span { font-size:11px; color:rgba(232,244,238,.4); }
+.online-badge {
+  margin-left:auto; display:flex; align-items:center; gap:5px;
+  font-size:11px; color:rgba(232,244,238,.4);
+}
+.online-dot { width:6px; height:6px; border-radius:50%; background:#4ade80; animation:blink 2s infinite; }
+
+#chat-messages {
+  flex:1; overflow-y:auto; padding:20px 16px;
+  display:flex; flex-direction:column; gap:14px;
+}
+#chat-messages::-webkit-scrollbar { width:3px; }
+#chat-messages::-webkit-scrollbar-thumb { background:rgba(255,255,255,.1); border-radius:2px; }
+
+.msg { display:flex; gap:8px; animation:fadeUp .3s ease; }
+.msg.user { flex-direction:row-reverse; }
+
+.msg-avatar {
+  width:26px; height:26px; border-radius:7px; flex-shrink:0;
+  display:flex; align-items:center; justify-content:center;
+  font-size:12px; margin-top:2px;
+}
+.msg.ai .msg-avatar { background: linear-gradient(135deg,var(--teal),#0d4a4d); }
+.msg.user .msg-avatar { background: linear-gradient(135deg,var(--coral),#9a3820); }
+
+.msg-bubble {
+  max-width:78%; padding:10px 14px;
+  border-radius:13px; font-size:13.5px; line-height:1.6;
+}
+.msg.ai .msg-bubble {
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.09);
+  border-top-left-radius:4px; color:#cce8d4;
+}
+.msg.user .msg-bubble {
+  background:rgba(26,110,114,.45); border:1px solid rgba(26,110,114,.4);
+  border-top-right-radius:4px; color:#e0f4ea;
+}
+.msg-bubble strong { color:var(--gold-lt); font-weight:500; }
+
+.typing-ind { display:flex; gap:8px; animation:fadeUp .3s ease; }
+.typing-bubbles {
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.09);
+  padding:12px 16px; border-radius:13px; border-top-left-radius:4px;
+  display:flex; gap:4px; align-items:center;
+}
+.t-dot {
+  width:5px; height:5px; border-radius:50%;
+  background:rgba(232,244,238,.4);
+  animation:tdot 1.2s infinite;
+}
+.t-dot:nth-child(2){animation-delay:.2s}
+.t-dot:nth-child(3){animation-delay:.4s}
+@keyframes tdot{0%,80%,100%{transform:translateY(0);opacity:.4}40%{transform:translateY(-5px);opacity:1}}
+
+.quick-chips {
+  padding: 0 16px 10px;
+  display:flex; flex-wrap:wrap; gap:6px;
+}
+.chip {
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+  color:rgba(232,244,238,.7); padding:5px 12px; border-radius:100px;
+  font-size:12px; cursor:pointer; font-family:'Outfit',sans-serif;
+  transition: background .2s, border-color .2s, color .2s;
+  white-space:nowrap;
+}
+.chip:hover { background:rgba(26,110,114,.3); border-color:var(--teal-lt); color:#e0f4ea; }
+
+.chat-input-row {
+  padding:12px 14px;
+  border-top:1px solid rgba(255,255,255,.07);
+  display:flex; gap:10px; align-items:flex-end;
+  background:rgba(255,255,255,.03);
+}
+#chat-inp {
+  flex:1; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+  border-radius:10px; padding:10px 14px; color:#e8f4ee;
+  font-family:'Outfit',sans-serif; font-size:13.5px; resize:none;
+  outline:none; max-height:100px; min-height:40px; line-height:1.5;
+  transition:border-color .2s;
+}
+#chat-inp:focus { border-color:var(--teal-lt); }
+#chat-inp::placeholder { color:rgba(232,244,238,.25); }
+#chat-send {
+  width:40px; height:40px; border-radius:10px; border:none; cursor:pointer;
+  background:linear-gradient(135deg,var(--teal),var(--teal-lt));
+  display:flex; align-items:center; justify-content:center;
+  transition:transform .15s, box-shadow .2s; flex-shrink:0;
+}
+#chat-send:hover { transform:translateY(-1px); box-shadow:0 4px 16px rgba(26,110,114,.4); }
+#chat-send:disabled { opacity:.4; cursor:not-allowed; transform:none; box-shadow:none; }
+#chat-send svg { width:16px; height:16px; }
+
+/* API key banner */
+.api-banner {
+  background: rgba(200,148,58,.12);
+  border: 1px solid rgba(200,148,58,.25);
+  border-radius:10px; margin:12px; padding:12px 14px;
+  font-size:12.5px; color:rgba(232,244,238,.7); line-height:1.5;
+}
+.api-banner a { color:var(--gold-lt); text-decoration:underline; cursor:pointer; }
+#key-inline-row { display:flex; gap:8px; margin-top:8px; }
+#key-inline { flex:1; background:rgba(255,255,255,.08); border:1px solid rgba(255,255,255,.15);
+  border-radius:8px; padding:7px 12px; color:#e8f4ee; font-family:'Outfit',sans-serif;
+  font-size:12.5px; outline:none; }
+#key-inline::placeholder { color:rgba(232,244,238,.3); }
+#key-save { background:var(--gold); border:none; color:var(--ink); padding:7px 14px;
+  border-radius:8px; font-size:12.5px; font-family:'Outfit',sans-serif; cursor:pointer;
+  font-weight:600; transition:background .2s; }
+#key-save:hover { background:var(--gold-lt); }
+
+/* ─── NEIGHBORHOODS ────────────────────────────────────────── */
+#neighborhoods { background:var(--sand); }
+.hoods-inner { max-width:1100px; margin:0 auto; }
+.hoods-header { max-width:560px; margin-bottom:60px; }
+.hoods-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:2px; border-radius:20px; overflow:hidden; }
+.hood-card {
+  padding:40px 32px;
+  background:var(--ink); color:var(--cream);
+  cursor:pointer; position:relative; overflow:hidden;
+  transition:background .3s;
+  min-height:200px; display:flex; flex-direction:column; justify-content:flex-end;
+}
+.hood-card:nth-child(2) { background:#12211a; }
+.hood-card:nth-child(3) { background:#0e1d28; }
+.hood-card:nth-child(4) { background:#1a1206; }
+.hood-card:nth-child(5) { background:#100d1a; }
+.hood-card:nth-child(6) { background:#0d1a14; }
+.hood-card:hover { background:var(--teal); }
+.hood-num {
+  font-family:'Cormorant Garamond',serif; font-size:48px; font-weight:300;
+  opacity:.12; position:absolute; top:16px; right:20px; line-height:1;
+}
+.hood-name { font-family:'Cormorant Garamond',serif; font-size:22px; font-weight:600; margin-bottom:6px; }
+.hood-vibe { font-size:12px; opacity:.5; letter-spacing:.05em; }
+
+/* ─── FOOTER ──────────────────────────────────────────────── */
+footer {
+  background: var(--ink); color:var(--cream);
+  padding:64px 48px 40px;
+}
+.footer-inner {
+  max-width:1100px; margin:0 auto;
+  display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:64px;
+  padding-bottom:48px; border-bottom:1px solid rgba(255,255,255,.07);
+  margin-bottom:32px;
+}
+.footer-brand .logo { font-family:'Cormorant Garamond',serif; font-size:26px; font-weight:600; margin-bottom:12px; }
+.footer-brand p { font-size:13.5px; opacity:.4; line-height:1.7; max-width:280px; }
+.footer-col h5 { font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; opacity:.4; margin-bottom:18px; }
+.footer-col ul { list-style:none; display:flex; flex-direction:column; gap:10px; }
+.footer-col ul li a { font-size:14px; opacity:.6; transition:opacity .2s; }
+.footer-col ul li a:hover { opacity:1; }
+.footer-bottom {
+  max-width:1100px; margin:0 auto;
+  display:flex; align-items:center; justify-content:space-between;
+  font-size:12px; opacity:.3;
+}
+
+/* ─── ANIMATIONS ──────────────────────────────────────────── */
+@keyframes fadeUp { from{opacity:0;transform:translateY(16px)} to{opacity:1;transform:translateY(0)} }
+@keyframes fadeIn  { from{opacity:0} to{opacity:1} }
+
+.reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.visible { opacity:1; transform:translateY(0); }
+
+/* ─── MOBILE ──────────────────────────────────────────────── */
+/* ─── RESTAURANT SCANNER ──────────────────────── */
+#scanner { background: var(--cream); }
+.scanner-inner {
+  max-width:1100px; margin:0 auto;
+  display:grid; grid-template-columns:1fr 1.3fr; gap:72px; align-items:start;
+}
+.scanner-intro { position:sticky; top:100px; }
+.scanner-intro .section-title { margin-bottom:16px; }
+.scanner-intro p { font-size:15px; color:rgba(12,26,18,.55); line-height:1.7; margin-bottom:28px; }
+.scanner-steps { display:flex; flex-direction:column; gap:18px; }
+.step {
+  display:flex; gap:14px; align-items:flex-start;
+}
+.step-num {
+  width:32px; height:32px; border-radius:50%; flex-shrink:0;
+  background: linear-gradient(135deg, var(--gold), var(--gold-lt));
+  color: var(--ink); font-size:13px; font-weight:700;
+  display:flex; align-items:center; justify-content:center;
+}
+.step-text strong { display:block; font-size:14px; margin-bottom:3px; }
+.step-text span { font-size:13px; color:rgba(12,26,18,.5); }
+
+/* Upload card */
+.scanner-card {
+  background: var(--ink);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+.scanner-card-header {
+  padding:18px 22px;
+  border-bottom:1px solid rgba(255,255,255,.07);
+  display:flex; align-items:center; gap:12px;
+  background:rgba(255,255,255,.03);
+}
+.scanner-card-header h4 { font-size:14px; font-weight:600; color:#e8f4ee; }
+.scanner-card-header span { font-size:11px; color:rgba(232,244,238,.35); margin-left:auto; }
+.scanner-icon-badge {
+  width:36px; height:36px; border-radius:10px;
+  background:linear-gradient(135deg,var(--gold),var(--coral));
+  display:flex; align-items:center; justify-content:center; font-size:16px;
+}
+
+/* Drop zone */
+.drop-zone {
+  margin:20px;
+  border:2px dashed rgba(255,255,255,.12);
+  border-radius:16px;
+  padding:40px 20px;
+  text-align:center;
+  cursor:pointer;
+  transition:border-color .3s, background .3s;
+  position:relative;
+  overflow:hidden;
+}
+.drop-zone:hover, .drop-zone.drag-over {
+  border-color:var(--gold);
+  background:rgba(200,148,58,.07);
+}
+.drop-zone-icon { font-size:40px; margin-bottom:12px; }
+.drop-zone h5 { font-size:15px; font-weight:600; color:#e0f4ea; margin-bottom:6px; }
+.drop-zone p { font-size:13px; color:rgba(232,244,238,.4); line-height:1.5; }
+.drop-zone input[type=file] {
+  position:absolute; inset:0; opacity:0; cursor:pointer; width:100%; height:100%;
+}
+
+.upload-btns {
+  display:flex; gap:10px; margin:0 20px 20px; flex-wrap:wrap;
+}
+.upload-btn {
+  flex:1; min-width:120px;
+  padding:11px 16px; border-radius:10px; border:none; cursor:pointer;
+  font-family:'Outfit',sans-serif; font-size:13px; font-weight:500;
+  display:flex; align-items:center; justify-content:center; gap:7px;
+  transition:transform .15s, box-shadow .2s;
+}
+.upload-btn:hover { transform:translateY(-1px); }
+.upload-btn.gold { background:linear-gradient(135deg,var(--gold),var(--gold-lt)); color:var(--ink); }
+.upload-btn.gold:hover { box-shadow:0 4px 16px rgba(200,148,58,.4); }
+.upload-btn.outline { background:rgba(255,255,255,.07); color:rgba(232,244,238,.7); border:1px solid rgba(255,255,255,.1); }
+.upload-btn.outline:hover { background:rgba(255,255,255,.12); }
+#camera-input { display:none; }
+#file-input2 { display:none; }
+
+/* Preview */
+#img-preview-wrap {
+  margin:0 20px 16px;
+  border-radius:14px; overflow:hidden;
+  border:1px solid rgba(255,255,255,.1);
+  position:relative; display:none;
+}
+#img-preview {
+  width:100%; max-height:280px; object-fit:cover; display:block;
+}
+.preview-overlay {
+  position:absolute; inset:0;
+  background:linear-gradient(to top, rgba(12,26,18,.7) 0%, transparent 50%);
+  display:flex; align-items:flex-end; padding:14px 16px;
+}
+.preview-label {
+  font-size:12px; color:rgba(232,244,238,.7);
+  display:flex; align-items:center; gap:6px;
+}
+.preview-label span { width:8px; height:8px; border-radius:50%; background:var(--gold-lt); }
+#remove-img {
+  position:absolute; top:10px; right:10px;
+  width:28px; height:28px; border-radius:50%;
+  background:rgba(12,26,18,.7); border:none; cursor:pointer;
+  color:#e8f4ee; font-size:14px;
+  display:flex; align-items:center; justify-content:center;
+  transition:background .2s;
+}
+#remove-img:hover { background:rgba(217,95,59,.6); }
+
+/* Extra context input */
+.context-row {
+  margin:0 20px 16px;
+  display:flex; gap:8px;
+}
+#rest-context {
+  flex:1; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+  border-radius:10px; padding:10px 14px; color:#e8f4ee;
+  font-family:'Outfit',sans-serif; font-size:13px; outline:none;
+  transition:border-color .2s;
+}
+#rest-context::placeholder { color:rgba(232,244,238,.25); }
+#rest-context:focus { border-color:var(--gold); }
+
+#analyze-btn {
+  width:100%; margin:0 20px 20px; width:calc(100% - 40px);
+  padding:14px; border-radius:12px; border:none; cursor:pointer;
+  font-family:'Outfit',sans-serif; font-size:14px; font-weight:600;
+  background:linear-gradient(135deg,var(--teal),var(--teal-lt));
+  color:#e0f4ea;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  transition:transform .15s, box-shadow .2s, opacity .2s;
+}
+#analyze-btn:hover { transform:translateY(-2px); box-shadow:0 6px 24px rgba(26,110,114,.4); }
+#analyze-btn:disabled { opacity:.4; cursor:not-allowed; transform:none; box-shadow:none; }
+
+/* Result panel */
+#result-panel {
+  margin:0 20px 20px;
+  background:rgba(255,255,255,.05);
+  border:1px solid rgba(255,255,255,.09);
+  border-radius:14px;
+  padding:20px;
+  display:none;
+  animation:fadeUp .4s ease;
+}
+.result-top {
+  display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:14px;
+}
+.result-name { font-size:17px; font-weight:600; color:#e0f4ea; }
+.rating-badge {
+  display:flex; align-items:center; gap:6px;
+  padding:6px 14px; border-radius:100px;
+  font-size:13px; font-weight:700;
+}
+.rating-badge.excellent { background:rgba(74,222,128,.15); color:#4ade80; border:1px solid rgba(74,222,128,.25); }
+.rating-badge.good      { background:rgba(200,148,58,.15);  color:var(--gold-lt); border:1px solid rgba(200,148,58,.25); }
+.rating-badge.average   { background:rgba(244,132,95,.15);  color:var(--coral-lt); border:1px solid rgba(244,132,95,.25); }
+.rating-badge.poor      { background:rgba(239,68,68,.15);   color:#f87171; border:1px solid rgba(239,68,68,.25); }
+
+.stars { color:var(--gold-lt); font-size:15px; margin-bottom:12px; }
+
+.result-section { margin-bottom:14px; }
+.result-section h6 {
+  font-size:10px; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:rgba(232,244,238,.35); margin-bottom:6px;
+}
+.result-section p {
+  font-size:13.5px; color:rgba(232,244,238,.75); line-height:1.65;
+}
+
+.result-tags { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+.tag {
+  padding:4px 11px; border-radius:100px;
+  font-size:11.5px; font-weight:500;
+  background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.1);
+  color:rgba(232,244,238,.6);
+}
+
+.score-bars { display:flex; flex-direction:column; gap:8px; }
+.score-row { display:flex; align-items:center; gap:10px; }
+.score-label { font-size:12px; color:rgba(232,244,238,.5); width:90px; flex-shrink:0; }
+.score-track { flex:1; height:5px; background:rgba(255,255,255,.08); border-radius:3px; overflow:hidden; }
+.score-fill { height:100%; border-radius:3px; transition:width 1s ease; }
+.score-fill.high { background:linear-gradient(90deg,var(--teal),var(--teal-lt)); }
+.score-fill.mid  { background:linear-gradient(90deg,var(--gold),var(--gold-lt)); }
+.score-fill.low  { background:linear-gradient(90deg,var(--coral),var(--coral-lt)); }
+.score-val { font-size:12px; font-weight:600; color:rgba(232,244,238,.7); width:28px; text-align:right; }
+
+.result-analyzing {
+  text-align:center; padding:24px 0;
+  color:rgba(232,244,238,.5); font-size:14px;
+}
+.spin {
+  display:inline-block; font-size:28px;
+  animation:spin 1.2s linear infinite;
+}
+@keyframes spin { to{transform:rotate(360deg)} }
+
+@media(max-width:900px){
+  nav { padding:0 20px; }
+  .nav-links { display:none; }
+  .nav-ham { display:flex; }
+  section { padding:72px 24px; }
+  .chat-section-inner { grid-template-columns:1fr; gap:40px; }
+  .chat-intro { position:static; }
+  .scanner-inner { grid-template-columns:1fr; gap:40px; }
+  .scanner-intro { position:static; }
+  .hoods-grid { grid-template-columns:1fr 1fr; }
+  .footer-inner { grid-template-columns:1fr; gap:40px; }
+  .stats-strip { padding:24px; }
+}
+@media(max-width:600px){
+  .hoods-grid { grid-template-columns:1fr; }
+  .topics-grid { grid-template-columns:1fr; }
+  footer { padding:48px 20px 28px; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-logo">
+    <div class="dot"></div>
+    Miami Local
+  </div>
+  <ul class="nav-links">
+    <li><a href="#topics">Explore</a></li>
+    <li><a href="#chat-section">Ask AI</a></li>
+    <li><a href="#neighborhoods">Neighborhoods</a></li>
+    <li><a href="#scanner">Restaurant Scan</a></li>
+    <li><a href="#chat-section" class="nav-cta">Chat Now →</a></li>
+  </ul>
+  <div class="nav-ham" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-badge">🌴 AI-Powered Miami Guide</div>
+  <h1 class="hero-title">Know Miami<br>like a <em>local</em></h1>
+  <p class="hero-sub">Ask anything about the Magic City — from the best Cuban sandwiches to hidden rooftop bars, secret beaches to skyline views.</p>
+  <div class="hero-actions">
+    <button class="btn-primary" onclick="document.getElementById('chat-section').scrollIntoView({behavior:'smooth'})">
+      Ask the AI ✦
+    </button>
+    <button class="btn-outline" onclick="document.getElementById('topics').scrollIntoView({behavior:'smooth'})">
+      Explore Topics
+    </button>
+  </div>
+  <div class="hero-scroll">Scroll</div>
+</section>
+
+<!-- STATS -->
+<div class="stats-strip">
+  <div class="stat-item">
+    <div class="stat-num">200+</div>
+    <div class="stat-label">Local Recommendations</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">32</div>
+    <div class="stat-label">Neighborhoods Covered</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">24/7</div>
+    <div class="stat-label">AI Always Available</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num">100%</div>
+    <div class="stat-label">Free to Use</div>
+  </div>
+</div>
+
+<!-- TOPICS -->
+<section id="topics">
+  <div class="topics-inner">
+    <div class="topics-header reveal">
+      <div class="section-label">What to explore</div>
+      <h2 class="section-title">Everything Miami,<br><em>covered</em></h2>
+    </div>
+    <div class="topics-grid">
+      <div class="topic-card reveal" onclick="askTopic('Best spots to see the Miami skyline and bay views?')">
+        <div class="topic-icon">🌆</div>
+        <div class="topic-name">Skyline Views</div>
+        <div class="topic-desc">Rooftops, bridges, and bayfront parks for the best photos</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('Best beaches in Miami — which one is right for me?')">
+        <div class="topic-icon">🏖️</div>
+        <div class="topic-name">Beaches</div>
+        <div class="topic-desc">South Beach to hidden coves locals actually love</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('Best Asian restaurants in Miami by cuisine type?')">
+        <div class="topic-icon">🍜</div>
+        <div class="topic-name">Asian Food</div>
+        <div class="topic-desc">Japanese, Thai, Vietnamese, Korean — the real deals</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('Best bars and nightlife spots in Miami?')">
+        <div class="topic-icon">🍹</div>
+        <div class="topic-name">Nightlife</div>
+        <div class="topic-desc">Rooftop bars, underground clubs, and late-night lounges</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('Best authentic Cuban food in Miami?')">
+        <div class="topic-icon">🥘</div>
+        <div class="topic-name">Cuban Food</div>
+        <div class="topic-desc">From Versailles to hole-in-the-wall ventanitas</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('What are Miami hidden gems that tourists don\'t know about?')">
+        <div class="topic-icon">💎</div>
+        <div class="topic-name">Hidden Gems</div>
+        <div class="topic-desc">Secrets locals keep — spots that never appear on lists</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('How do I get around Miami? Best transportation tips?')">
+        <div class="topic-icon">🚗</div>
+        <div class="topic-name">Getting Around</div>
+        <div class="topic-desc">Metromover, water taxis, parking hacks, and more</div>
+        <div class="topic-arrow">→</div>
+      </div>
+      <div class="topic-card reveal" onclick="askTopic('Best art and culture experiences in Miami?')">
+        <div class="topic-icon">🎨</div>
+        <div class="topic-name">Art & Culture</div>
+        <div class="topic-desc">Wynwood, Art Basel, Pérez Museum, street murals</div>
+        <div class="topic-arrow">→</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHAT SECTION -->
+<section id="chat-section">
+  <div class="chat-section-inner">
+    <div class="chat-intro reveal">
+      <div class="section-label">AI City Guide</div>
+      <h2 class="section-title">Ask anything,<br><em>instantly</em></h2>
+      <p>Our AI knows Miami the way a lifelong local does — direct, opinionated, and genuinely helpful. No sponsored results. No tourist traps.</p>
+      <ul class="feature-list">
+        <li>
+          <div class="feat-icon">🧠</div>
+          <div><strong>Deep local knowledge</strong> — curated for neighborhoods, food, nightlife, and hidden spots</div>
+        </li>
+        <li>
+          <div class="feat-icon">💬</div>
+          <div><strong>Conversational</strong> — follow up, get specific, ask "what about for families?" and it adapts</div>
+        </li>
+        <li>
+          <div class="feat-icon">⚡</div>
+          <div><strong>Instant answers</strong> — no waiting, no browsing 10 travel blogs</div>
+        </li>
+        <li>
+          <div class="feat-icon">🎯</div>
+          <div><strong>Honest opinions</strong> — it'll tell you what to skip, not just what to visit</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- CHAT WIDGET -->
+    <div class="chat-widget reveal" id="chat-widget">
+      <div class="chat-widget-header">
+        <div class="chat-widget-avatar">🌴</div>
+        <div class="chat-widget-info">
+          <h4>Miami Local AI</h4>
+          <span>Your personal city guide</span>
+        </div>
+        <div class="online-badge">
+          <div class="online-dot"></div>
+          Online
+        </div>
+      </div>
+
+      <div id="chat-messages"></div>
+
+      <div class="quick-chips" id="chips">
+        <div class="chip" onclick="sendChip('Best skyline views?')">🌆 Skyline</div>
+        <div class="chip" onclick="sendChip('Best beaches?')">🏖️ Beaches</div>
+        <div class="chip" onclick="sendChip('Top bars tonight?')">🍹 Bars</div>
+        <div class="chip" onclick="sendChip('Best Cuban food?')">🥘 Cuban</div>
+        <div class="chip" onclick="sendChip('Hidden local spots?')">💎 Gems</div>
+      </div>
+
+      <div class="chat-input-row">
+        <textarea id="chat-inp" placeholder="Ask anything about Miami…" rows="1"></textarea>
+        <button id="chat-send" onclick="sendChat()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESTAURANT SCANNER -->
+<section id="scanner">
+  <div class="scanner-inner">
+    <div class="scanner-intro reveal">
+      <div class="section-label">AI Restaurant Scanner</div>
+      <h2 class="section-title">Snap a photo,<br>get the <em>real story</em></h2>
+      <p>Upload or take a photo of any restaurant in Miami-Dade or Broward County. Our AI will analyze it, identify what kind of spot it is, and give you an honest rating and summary — like asking a local who's eaten there.</p>
+      <div class="scanner-steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">
+            <strong>Upload or snap a photo</strong>
+            <span>Take a photo with your phone camera or upload one from your gallery</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">
+            <strong>AI identifies the restaurant</strong>
+            <span>Vision AI reads signage, logos, and visual clues to identify the spot</span>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">
+            <strong>Real reviews fetched & rated</strong>
+            <span>Live data from Yelp, Google & TripAdvisor powers your honest rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scanner-card reveal">
+      <div class="scanner-card-header">
+        <div class="scanner-icon-badge">📸</div>
+        <h4>Restaurant Scanner</h4>
+        <span>Miami-Dade & Broward</span>
+      </div>
+
+      <!-- Drop zone -->
+      <div class="drop-zone" id="drop-zone">
+        <div class="drop-zone-icon">🍽️</div>
+        <h5>Drop a restaurant photo here</h5>
+        <p>JPEG, PNG, WEBP supported<br>or use the buttons below</p>
+        <input type="file" id="file-input2" accept="image/*" onchange="handleFile(this.files[0])">
+      </div>
+
+      <!-- Action buttons -->
+      <div class="upload-btns">
+        <button class="upload-btn gold" onclick="document.getElementById('file-input2').click()">
+          📁 Upload Photo
+        </button>
+        <button class="upload-btn outline" onclick="document.getElementById('camera-input').click()">
+          📷 Take Photo
+        </button>
+        <input type="file" id="camera-input" accept="image/*" capture="environment" onchange="handleFile(this.files[0])">
+      </div>
+
+      <!-- Image preview -->
+      <div id="img-preview-wrap">
+        <img id="img-preview" src="" alt="Restaurant photo">
+        <div class="preview-overlay">
+          <div class="preview-label"><span></span> Ready to analyze</div>
+        </div>
+        <button id="remove-img" onclick="removeImage()">✕</button>
+      </div>
+
+      <!-- Optional context -->
+      <div class="context-row">
+        <input type="text" id="rest-context" placeholder="Restaurant name or neighborhood (optional)…">
+      </div>
+
+      <!-- Analyze button -->
+      <button id="analyze-btn" onclick="analyzeRestaurant()" disabled>
+        ✦ Analyze Restaurant
+      </button>
+
+      <!-- Result panel -->
+      <div id="result-panel"></div>
+    </div>
+  </div>
+</section>
+
+<!-- NEIGHBORHOODS -->
+<section id="neighborhoods">
+  <div class="hoods-inner">
+    <div class="hoods-header reveal">
+      <div class="section-label">The Magic City</div>
+      <h2 class="section-title">Every neighborhood<br>has a <em>story</em></h2>
+    </div>
+    <div class="hoods-grid reveal">
+      <div class="hood-card" onclick="askTopic('Tell me about South Beach — what to do, eat, and see?')">
+        <div class="hood-num">01</div>
+        <div class="hood-name">South Beach</div>
+        <div class="hood-vibe">Art Deco · Ocean Drive · Parties</div>
+      </div>
+      <div class="hood-card" onclick="askTopic('What is Wynwood like and what should I do there?')">
+        <div class="hood-num">02</div>
+        <div class="hood-name">Wynwood</div>
+        <div class="hood-vibe">Street Art · Galleries · Craft Beer</div>
+      </div>
+      <div class="hood-card" onclick="askTopic('What is Brickell like and what should I do there?')">
+        <div class="hood-num">03</div>
+        <div class="hood-name">Brickell</div>
+        <div class="hood-vibe">Skyline · Finance · Rooftop Bars</div>
+      </div>
+      <div class="hood-card" onclick="askTopic('What is Little Havana like and what are the best things to do there?')">
+        <div class="hood-num">04</div>
+        <div class="hood-name">Little Havana</div>
+        <div class="hood-vibe">Cuban Culture · Calle Ocho · Cigars</div>
+      </div>
+      <div class="hood-card" onclick="askTopic('What is Coconut Grove like and what should I visit?')">
+        <div class="hood-num">05</div>
+        <div class="hood-name">Coconut Grove</div>
+        <div class="hood-vibe">Lush · Bohemian · Waterfront</div>
+      </div>
+      <div class="hood-card" onclick="askTopic('What is the Design District and what is there to do?')">
+        <div class="hood-num">06</div>
+        <div class="hood-name">Design District</div>
+        <div class="hood-vibe">Luxury · Fashion · Public Art</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="logo">🌴 Miami Local</div>
+      <p>Your AI-powered insider guide to the Magic City. Powered by Claude AI — always honest, always local.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#topics" onclick="return false;">Beaches</a></li>
+        <li><a href="#topics" onclick="return false;">Nightlife</a></li>
+        <li><a href="#topics" onclick="return false;">Food & Dining</a></li>
+        <li><a href="#topics" onclick="return false;">Art & Culture</a></li>
+        <li><a href="#topics" onclick="return false;">Hidden Gems</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Neighborhoods</h5>
+      <ul>
+        <li><a href="#neighborhoods" onclick="return false;">South Beach</a></li>
+        <li><a href="#neighborhoods" onclick="return false;">Wynwood</a></li>
+        <li><a href="#neighborhoods" onclick="return false;">Brickell</a></li>
+        <li><a href="#neighborhoods" onclick="return false;">Little Havana</a></li>
+        <li><a href="#neighborhoods" onclick="return false;">Coconut Grove</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Miami Local. AI-powered city guide.</span>
+    <span>Powered by Claude AI</span>
+  </div>
+</footer>
+
+<script>
+/* ─── PROXY ENDPOINT (key lives on server, never in browser) ── */
+const PROXY = '/api/claude';
+
+async function callClaude(body) {
+  const res = await fetch(PROXY, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body)
+  });
+  return res.json();
+}
+
+let chatHistory = [];
+
+window.addEventListener('DOMContentLoaded', () => {
+  addAiMessage("Hey! I'm your Miami Local AI guide 🌴 Ask me anything — best spots, food, nightlife, getting around, you name it. What's on your mind?");
+});
+
+/* ─── SCROLL REVEAL ───────────────────────────── */
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 10);
+});
+
+/* ─── MOBILE MENU ─────────────────────────────── */
+function toggleMenu() {
+  const links = document.querySelector('.nav-links');
+  links.style.display = links.style.display === 'flex' ? 'none' : 'flex';
+  links.style.flexDirection = 'column';
+  links.style.position = 'absolute';
+  links.style.top = '68px';
+  links.style.left = '0';
+  links.style.right = '0';
+  links.style.background = 'var(--cream)';
+  links.style.padding = '20px 24px';
+  links.style.borderBottom = '1px solid var(--fog2)';
+}
+
+/* ─── CHAT ────────────────────────────────────── */
+const SYSTEM = `You are "Miami Local" — an enthusiastic, knowledgeable AI guide who knows Miami like a lifelong resident. You have deep expertise on neighborhoods (South Beach, Wynwood, Brickell, Little Havana, Coconut Grove, Design District, Midtown, Aventura, Coral Gables, Key Biscayne, Little Haiti, Edgewater, and more), food (Cuban classics, Asian by cuisine type, fine dining, hidden spots, food halls), beaches (South Beach, Haulover, Key Biscayne, Crandon Park, Sunny Isles, Bill Baggs), nightlife (rooftop bars, clubs, dive bars, cocktail lounges), skyline views (Brickell Key, Venetian Causeway, Watson Island, rooftops), culture (Wynwood Walls, Art Basel, Calle Ocho, Pérez Art Museum), transportation (Metromover, Metrorail, water taxis, parking tips), and hidden gems locals love. 
+
+Your personality: warm, direct, opinionated. Give specific names and addresses when useful. Warn about tourist traps. Format with bold headers or bullets for multi-item answers. Keep answers conversational but packed with useful local knowledge.`;
+
+function addAiMessage(text) {
+  const msgs = document.getElementById('chat-messages');
+  const wrap = document.createElement('div');
+  wrap.className = 'msg ai';
+  wrap.innerHTML = `<div class="msg-avatar">🌴</div><div class="msg-bubble">${fmt(text)}</div>`;
+  msgs.appendChild(wrap);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function addUserMessage(text) {
+  const msgs = document.getElementById('chat-messages');
+  const wrap = document.createElement('div');
+  wrap.className = 'msg user';
+  wrap.innerHTML = `<div class="msg-avatar">👤</div><div class="msg-bubble">${fmt(text)}</div>`;
+  msgs.appendChild(wrap);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showTyping() {
+  const msgs = document.getElementById('chat-messages');
+  const el = document.createElement('div');
+  el.className = 'typing-ind'; el.id = 'typing';
+  el.innerHTML = `<div class="msg-avatar ai" style="width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,#1a6e72,#0d4a4d);display:flex;align-items:center;justify-content:center;font-size:12px;">🌴</div><div class="typing-bubbles"><div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div></div>`;
+  msgs.appendChild(el);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+function hideTyping() { const t=document.getElementById('typing'); if(t) t.remove(); }
+
+function fmt(text) {
+  return text
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g,'<em>$1</em>')
+    .replace(/^#{1,3} (.+)$/gm,'<strong>$1</strong>')
+    .replace(/^[-•] (.+)$/gm,'• $1')
+    .replace(/\n/g,'<br>');
+}
+
+async function sendChat() {
+  const inp = document.getElementById('chat-inp');
+  const text = inp.value.trim();
+  if (!text) return;
+
+  document.getElementById('chips').style.display = 'none';
+  inp.value = ''; inp.style.height = 'auto';
+  addUserMessage(text);
+  chatHistory.push({ role:'user', content:text });
+
+  document.getElementById('chat-send').disabled = true;
+  showTyping();
+
+  try {
+    const data = await callClaude({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:1024,
+      system:SYSTEM,
+      messages:chatHistory
+    });
+    if (data.error) {
+      hideTyping();
+      addAiMessage('⚠️ ' + (data.error.message || 'Server error. Please try again.'));
+      chatHistory.pop();
+    } else {
+      const reply = data.content[0].text;
+      chatHistory.push({ role:'assistant', content:reply });
+      hideTyping();
+      addAiMessage(reply);
+    }
+  } catch(e) {
+    hideTyping();
+    addAiMessage('⚠️ Network error: ' + e.message);
+    chatHistory.pop();
+  }
+  document.getElementById('chat-send').disabled = false;
+  inp.focus();
+}
+
+function sendChip(text) {
+  document.getElementById('chat-inp').value = text;
+  sendChat();
+}
+
+function askTopic(text) {
+  document.getElementById('chat-section').scrollIntoView({behavior:'smooth'});
+  setTimeout(() => {
+    document.getElementById('chat-inp').value = text;
+    sendChat();
+  }, 600);
+}
+
+/* ─── RESTAURANT SCANNER ──────────────────────── */
+
+document.getElementById('chat-inp').addEventListener('keydown', e => {
+  if (e.key==='Enter' && !e.shiftKey) { e.preventDefault(); sendChat(); }
+});
+document.getElementById('chat-inp').addEventListener('input', function() {
+  this.style.height='auto';
+  this.style.height = Math.min(this.scrollHeight, 100)+'px';
+});
+
+let currentImageBase64 = null;
+let currentImageType = 'image/jpeg';
+
+// Drag & drop
+const dz = document.getElementById('drop-zone');
+dz.addEventListener('dragover', e => { e.preventDefault(); dz.classList.add('drag-over'); });
+dz.addEventListener('dragleave', () => dz.classList.remove('drag-over'));
+dz.addEventListener('drop', e => {
+  e.preventDefault(); dz.classList.remove('drag-over');
+  const f = e.dataTransfer.files[0];
+  if (f && f.type.startsWith('image/')) handleFile(f);
+});
+
+function handleFile(file) {
+  if (!file) return;
+  currentImageType = file.type || 'image/jpeg';
+  const reader = new FileReader();
+  reader.onload = e => {
+    const dataUrl = e.target.result;
+    currentImageBase64 = dataUrl.split(',')[1];
+    const preview = document.getElementById('img-preview');
+    preview.src = dataUrl;
+    document.getElementById('img-preview-wrap').style.display = 'block';
+    document.getElementById('drop-zone').style.display = 'none';
+    document.getElementById('analyze-btn').disabled = false;
+    document.getElementById('result-panel').style.display = 'none';
+  };
+  reader.readAsDataURL(file);
+}
+
+function removeImage() {
+  currentImageBase64 = null;
+  document.getElementById('img-preview-wrap').style.display = 'none';
+  document.getElementById('drop-zone').style.display = 'block';
+  document.getElementById('analyze-btn').disabled = true;
+  document.getElementById('result-panel').style.display = 'none';
+  document.getElementById('file-input2').value = '';
+  document.getElementById('camera-input').value = '';
+}
+
+async function analyzeRestaurant() {
+  if (!currentImageBase64) return;
+
+  const context = document.getElementById('rest-context').value.trim();
+  const btn = document.getElementById('analyze-btn');
+  const panel = document.getElementById('result-panel');
+
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spin">🔍</span> Analyzing…';
+  panel.style.display = 'block';
+
+  // ── STEP 1: Vision — identify the restaurant from the photo ──────────────
+  panel.innerHTML = `<div class="result-analyzing"><div class="spin">👁️</div><br><br><strong style="color:#e0f4ea">Step 1 of 3</strong> — Reading the photo…<br><span style="font-size:12px;opacity:.5">Identifying restaurant name, cuisine & location</span></div>`;
+
+  let identified = null;
+  try {
+    const vd = await callClaude({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:400,
+      messages:[{
+        role:'user',
+        content:[
+          { type:'image', source:{ type:'base64', media_type:currentImageType, data:currentImageBase64 }},
+          { type:'text', text:`Look at this restaurant photo carefully. ${context ? `Context provided: "${context}". ` : ''}
+Identify as much as you can: restaurant name (look for signage, logos, menus in frame), cuisine type, and any location clues (Miami-Dade or Broward neighborhood).
+Respond ONLY with JSON, no markdown:
+{"name":"exact restaurant name from signage or best guess","cuisine":"cuisine type","neighborhood":"neighborhood or city if visible","confidence":"high|medium|low","search_query":"best Google search query to find this restaurant's reviews, e.g. 'Versailles Restaurant Little Havana Miami reviews'"}` }
+        ]
+      }]
+    });
+    if (vd.error) throw new Error(vd.error.message);
+    let raw = vd.content[0].text.trim().replace(/```json|```/g,'').trim();
+    identified = JSON.parse(raw);
+  } catch(e) {
+    panel.innerHTML = `<div class="result-analyzing">⚠️ Vision step failed: ${e.message}</div>`;
+    btn.disabled=false; btn.innerHTML='✦ Analyze Restaurant'; return;
+  }
+
+  // ── STEP 2: Web search — find real reviews ───────────────────────────────
+  panel.innerHTML = `<div class="result-analyzing"><div class="spin">🔎</div><br><br><strong style="color:#e0f4ea">Step 2 of 3</strong> — Searching real reviews…<br><span style="font-size:12px;opacity:.5">Checking Yelp, Google, TripAdvisor & more for <em style="color:var(--gold-lt)">${identified.name}</em></span></div>`;
+
+  const searchQuery = identified.search_query || `${identified.name} ${identified.neighborhood || 'Miami'} restaurant reviews`;
+
+  let reviewData = '';
+  try {
+    const sd = await callClaude({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:1200,
+      tools:[{ type:'web_search_20250305', name:'web_search' }],
+      messages:[{
+        role:'user',
+        content:`Search for real customer reviews of "${identified.name}" restaurant ${identified.neighborhood ? 'in ' + identified.neighborhood : 'in Miami-Dade or Broward County, Florida'}. 
+Search query: "${searchQuery}"
+Also search: "${identified.name} restaurant Miami Yelp rating"
+Find: overall star rating (out of 5), number of reviews, what customers love, common complaints, price range, and any notable mentions. Summarize the real review data you find.`
+      }]
+    });
+    if (sd.error) throw new Error(sd.error.message);
+    reviewData = sd.content.filter(b => b.type === 'text').map(b => b.text).join('\n');
+    if (!reviewData) reviewData = 'Could not retrieve live review data.';
+  } catch(e) {
+    reviewData = `Search failed: ${e.message}. Will use visual analysis only.`;
+  }
+
+  // ── STEP 3: Synthesize into final rating ─────────────────────────────────
+  panel.innerHTML = `<div class="result-analyzing"><div class="spin">⭐</div><br><br><strong style="color:#e0f4ea">Step 3 of 3</strong> — Building your rating…<br><span style="font-size:12px;opacity:.5">Combining real reviews with visual analysis</span></div>`;
+
+  const finalPrompt = `You are an expert Miami restaurant critic. Using the REAL review data found online AND the visual photo analysis, create a comprehensive restaurant rating.
+
+Restaurant identified from photo: ${JSON.stringify(identified)}
+${context ? `User-provided context: ${context}` : ''}
+
+Real review data found online:
+${reviewData}
+
+Now produce a final assessment. The summary, star rating, and verdict MUST be based primarily on the real reviews found online. If no real reviews were found, clearly state that in the summary.
+
+Respond ONLY with valid JSON, no markdown:
+{
+  "name": "exact restaurant name",
+  "cuisine": "cuisine type",
+  "neighborhood_guess": "Miami-Dade or Broward neighborhood",
+  "overall_rating": "Excellent | Good | Average | Poor",
+  "stars": 4.2,
+  "review_count": "number of reviews found online or null",
+  "review_sources": ["Yelp", "Google", "TripAdvisor"],
+  "summary": "2-3 sentence summary based on real customer reviews — what people actually say",
+  "vibe_tags": ["casual", "local favorite", "beachside"],
+  "scores": {
+    "ambiance": 78,
+    "cleanliness": 85,
+    "value_for_money": 70,
+    "food_presentation": 80
+  },
+  "highlights": "What real reviewers praise most",
+  "watch_out": "Common complaints from real reviews",
+  "verdict": "One punchy honest sentence summarizing real customer consensus",
+  "data_source": "real_reviews | mixed | visual_only"
+}`;
+
+  try {
+    const fd = await callClaude({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:1024,
+      messages:[{ role:'user', content: finalPrompt }]
+    });
+    if (fd.error) throw new Error(fd.error.message);
+    let raw = fd.content[0].text.trim().replace(/```json|```/g,'').trim();
+    const r = JSON.parse(raw);
+    renderResult(r);
+  } catch(e) {
+    panel.innerHTML = `<div class="result-analyzing">⚠️ Final analysis failed: ${e.message}</div>`;
+  }
+  btn.disabled = false;
+  btn.innerHTML = '✦ Analyze Restaurant';
+}
+
+function renderResult(r) {
+  const panel = document.getElementById('result-panel');
+  const stars = r.stars || 3;
+  const starsStr = '★'.repeat(Math.round(stars)) + '☆'.repeat(5-Math.round(stars));
+  const ratingClass = { 'Excellent':'excellent','Good':'good','Average':'average','Poor':'poor' }[r.overall_rating] || 'good';
+
+  const scores = r.scores || {};
+  const scoreRows = Object.entries(scores).map(([k,v]) => {
+    const label = k.replace(/_/g,' ');
+    const cls = v>=75?'high':v>=50?'mid':'low';
+    return `<div class="score-row">
+      <span class="score-label">${label}</span>
+      <div class="score-track"><div class="score-fill ${cls}" style="width:${v}%"></div></div>
+      <span class="score-val">${v}</span>
+    </div>`;
+  }).join('');
+
+  const tags = (r.vibe_tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+
+  // Data source badge
+  const srcLabel = r.data_source === 'real_reviews' ? '✅ Based on real online reviews'
+    : r.data_source === 'mixed' ? '⚡ Real reviews + visual analysis'
+    : '👁️ Visual analysis only';
+  const srcColor = r.data_source === 'real_reviews' ? 'rgba(74,222,128,.15)' : r.data_source === 'mixed' ? 'rgba(200,148,58,.15)' : 'rgba(255,255,255,.08)';
+  const srcBorder = r.data_source === 'real_reviews' ? 'rgba(74,222,128,.25)' : r.data_source === 'mixed' ? 'rgba(200,148,58,.25)' : 'rgba(255,255,255,.12)';
+  const srcTextColor = r.data_source === 'real_reviews' ? '#4ade80' : r.data_source === 'mixed' ? 'var(--gold-lt)' : 'rgba(232,244,238,.5)';
+
+  const reviewMeta = r.review_count
+    ? `<span style="font-size:12px;color:rgba(232,244,238,.4);margin-left:8px;">${r.review_count} reviews</span>`
+    : '';
+
+  const sourcesBadges = (r.review_sources||[]).map(s =>
+    `<span class="tag" style="font-size:11px;">${s}</span>`
+  ).join('');
+
+  panel.innerHTML = `
+    <div style="background:${srcColor};border:1px solid ${srcBorder};border-radius:8px;padding:7px 12px;margin-bottom:14px;font-size:11.5px;color:${srcTextColor};display:flex;align-items:center;gap:6px;">
+      ${srcLabel}
+      ${sourcesBadges ? `<span style="margin-left:auto;display:flex;gap:4px;">${sourcesBadges}</span>` : ''}
+    </div>
+    <div class="result-top">
+      <div class="result-name">${r.name||'Restaurant'}</div>
+      <div class="rating-badge ${ratingClass}">${r.overall_rating||'Good'}</div>
+    </div>
+    <div class="stars">${starsStr} <span style="font-size:13px;color:rgba(232,244,238,.5);margin-left:4px;">${stars.toFixed(1)} / 5.0</span>${reviewMeta}</div>
+    ${r.cuisine||r.neighborhood_guess ? `<div class="result-tags">${r.cuisine?`<span class="tag">🍴 ${r.cuisine}</span>`:''}${r.neighborhood_guess?`<span class="tag">📍 ${r.neighborhood_guess}</span>`:''}</div>` : ''}
+    <div class="result-section">
+      <h6>Summary ${r.data_source !== 'visual_only' ? '— from real reviews' : '— from visual analysis'}</h6>
+      <p>${r.summary||''}</p>
+    </div>
+    ${tags ? `<div class="result-tags">${tags}</div>` : ''}
+    ${scoreRows ? `<div class="result-section"><h6>Scores</h6><div class="score-bars">${scoreRows}</div></div>` : ''}
+    ${r.highlights ? `<div class="result-section"><h6>✅ What Reviewers Love</h6><p>${r.highlights}</p></div>` : ''}
+    ${r.watch_out ? `<div class="result-section"><h6>⚠️ Common Complaints</h6><p>${r.watch_out}</p></div>` : ''}
+    ${r.verdict ? `<div class="result-section" style="border-top:1px solid rgba(255,255,255,.08);padding-top:14px;margin-top:4px;"><h6>Verdict</h6><p style="color:var(--gold-lt);font-style:italic;">"${r.verdict}"</p></div>` : ''}
+  `;
+  panel.style.display = 'block';
+  panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+  setTimeout(() => {
+    panel.querySelectorAll('.score-fill').forEach(el => {
+      const w = el.style.width; el.style.width='0'; setTimeout(()=>el.style.width=w, 50);
+    });
+  }, 100);
+}
+</script>
+</body>
+</html>
