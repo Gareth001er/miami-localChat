@@ -19,6 +19,7 @@ try {
 const LIVE_FILES = [
   'google-places-data.json',
   'google-places-asian.json',
+  'google-places-attractions.json',
 ];
 
 function loadLiveData() {
