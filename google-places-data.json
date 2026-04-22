@@ -1,911 +1,2896 @@
-[{
-  "title": "Rusty Pelican Miami",
-  "totalScore": 4.7,
-  "reviewsCount": 20733,
-  "street": "3201 Rickenbacker Cwy",
-  "city": "Key Biscayne",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.therustypelican.com/",
-  "phone": "(305) 361-3818",
-  "categories": [
-    "Seafood restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Rusty%20Pelican%20Miami&query_place_id=ChIJc2PcMM612YgR_kdEdDDuTrQ",
-  "categoryName": "Seafood restaurant"
-},
-{
-  "title": "Villafuerte restaurant",
-  "totalScore": 4.7,
-  "reviewsCount": 50,
-  "street": "1466 SW 6th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(786) 558-9352",
-  "categories": [
-    "Salvadoran restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Villafuerte%20restaurant&query_place_id=ChIJs5af6ay32YgRc30_-nLGjtY",
-  "categoryName": "Salvadoran restaurant"
-},
-{
-  "title": "Ristorante Fratelli Milano",
-  "totalScore": 4.6,
-  "reviewsCount": 1573,
-  "street": "213 SE 1st St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://ristorantefratellimilano.com/?utm_source=google",
-  "phone": "(305) 373-2300",
-  "categories": [
-    "Italian restaurant",
-    "Caterer",
-    "European restaurant",
-    "Family restaurant",
-    "Fine dining restaurant",
-    "Pasta shop",
-    "Pizza restaurant",
-    "Seafood restaurant",
-    "Vegetarian restaurant",
-    "Wine bar"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Ristorante%20Fratelli%20Milano&query_place_id=ChIJ931lzp222YgRAr83muJb5so",
-  "categoryName": "Italian restaurant"
-},
-{
-  "title": "Sabor Nica Restaurant",
-  "totalScore": 4.4,
-  "reviewsCount": 125,
-  "street": "49 NW 12th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 545-0145",
-  "categories": [
-    "Nicaraguan restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Sabor%20Nica%20Restaurant&query_place_id=ChIJ8_n7POy22YgR0fcgQDp5PMo",
-  "categoryName": "Nicaraguan restaurant"
-},
-{
-  "title": "La Terraza Little Havana",
-  "totalScore": 4.6,
-  "reviewsCount": 102,
-  "street": "1440 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(786) 518-2196",
-  "categories": [
-    "Cuban restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=La%20Terraza%20Little%20Havana&query_place_id=ChIJaYXYOg-32YgRS2z4ri8ujBI",
-  "categoryName": "Cuban restaurant"
-},
-{
-  "title": "Delicias en Miami",
-  "totalScore": 4.6,
-  "reviewsCount": 177,
-  "street": "1550 SW 1st St #1",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.facebook.com/DeliciasEnMiami305/",
-  "phone": "(786) 499-5213",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Delicias%20en%20Miami&query_place_id=ChIJITuE6Iy22YgRVct1dKUuX0Y",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Monchys Patio Restaurant",
-  "totalScore": 4.4,
-  "reviewsCount": 215,
-  "street": "1965 NW 17th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://monchyspatiorestaurant.gbiz.shop/",
-  "phone": "(305) 456-7980",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Monchys%20Patio%20Restaurant&query_place_id=ChIJVbVRAuCx2YgRdwSaW87ku_U",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "El Rincon Asturiano",
-  "totalScore": 4.6,
-  "reviewsCount": 1069,
-  "street": "225 SW 17th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://elrinconasturianomiami.com/",
-  "phone": "(305) 643-8822",
-  "categories": [
-    "Asturian restaurant",
-    "Restaurant",
-    "Spanish restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=El%20Rincon%20Asturiano&query_place_id=ChIJAelFy_q22YgRc9rEt_Y17Xo",
-  "categoryName": "Asturian restaurant"
-},
-{
-  "title": "Las Tapas De Rosa",
-  "totalScore": 4.5,
-  "reviewsCount": 593,
-  "street": "449 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.lastapasderosarestaurant.com/",
-  "phone": "(305) 856-9788",
-  "categories": [
-    "Spanish restaurant",
-    "Market",
-    "Tapas restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Las%20Tapas%20De%20Rosa&query_place_id=ChIJJ3ui-Y622YgRoq9Xcc5K0Vc",
-  "categoryName": "Spanish restaurant"
-},
-{
-  "title": "Novecento",
-  "totalScore": 4.7,
-  "reviewsCount": 6459,
-  "street": "900 S Miami Ave #260",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.novecento.com/",
-  "phone": "(305) 403-0900",
-  "categories": [
-    "Argentinian restaurant",
-    "Brunch restaurant",
-    "Italian restaurant",
-    "South American restaurant",
-    "Steak house"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Novecento&query_place_id=ChIJEWuAKIG22YgRPOEUG7BlFsQ",
-  "categoryName": "Argentinian restaurant"
-},
-{
-  "title": "Los Catrachos II Restaurant",
-  "totalScore": 4.3,
-  "reviewsCount": 365,
-  "street": "18 SW 11th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 456-5176",
-  "categories": [
-    "Honduran restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Los%20Catrachos%20II%20Restaurant&query_place_id=ChIJoTopU-y22YgR2vRI-05-IUU",
-  "categoryName": "Honduran restaurant"
-},
-{
-  "title": "Tumba'o",
-  "totalScore": 4.7,
-  "reviewsCount": 412,
-  "street": "1652 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(786) 827-8040",
-  "categories": [
-    "Restaurant",
-    "Art gallery",
-    "Coffee shop",
-    "Tapas bar",
-    "Wine bar"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Tumba'o&query_place_id=ChIJ6Ut3EPq22YgRK_1mHQkk7_k",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Mofongo Restaurant Calle 8",
-  "totalScore": 4.5,
-  "reviewsCount": 3715,
-  "street": "1672 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(786) 359-4418",
-  "categories": [
-    "Puerto Rican restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Mofongo%20Restaurant%20Calle%208&query_place_id=ChIJ-WpYBfq22YgRSEtZyn3upS8",
-  "categoryName": "Puerto Rican restaurant"
-},
-{
-  "title": "Lolita Resturant",
-  "totalScore": 4.3,
-  "reviewsCount": 132,
-  "street": "316 SW 8th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(718) 954-5711",
-  "categories": [
-    "Mexican restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Lolita%20Resturant&query_place_id=ChIJqX-gtPm32YgRxo8YE3qEZWo",
-  "categoryName": "Mexican restaurant"
-},
-{
-  "title": "Modern Garden",
-  "totalScore": 3.7,
-  "reviewsCount": 19,
-  "street": "422 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.seaspice.com/private-events-venue/modern-garden/",
-  "phone": "(305) 440-4200",
-  "categories": [
-    "American restaurant",
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Modern%20Garden&query_place_id=ChIJp1xrL5S22YgR3N0M-xZKn1A",
-  "categoryName": "American restaurant"
-},
-{
-  "title": "The Taco Stand",
-  "totalScore": 4.6,
-  "reviewsCount": 890,
-  "street": "2063 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://letstaco.com/",
-  "phone": "(786) 963-6030",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=The%20Taco%20Stand&query_place_id=ChIJcZdsnN232YgRDH1zGnhoHZk",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Bistro Ocho",
-  "totalScore": 4.9,
-  "reviewsCount": 108,
-  "street": "2069 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.bistro8miami.com/",
-  "phone": "(305) 456-4543",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Bistro%20Ocho&query_place_id=ChIJGz5OnLe32YgR6JUcJFTyaYQ",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "107 Taste Asian Restaurant Brickell",
-  "totalScore": 4.8,
-  "reviewsCount": 1503,
-  "street": "1190 SW 2nd Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://107taste.com/",
-  "phone": "(786) 254-7205",
-  "categories": [
-    "Asian restaurant",
-    "Chinese restaurant",
-    "Japanese restaurant",
-    "Korean restaurant",
-    "Ramen restaurant",
-    "Thai restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=107%20Taste%20Asian%20Restaurant%20Brickell&query_place_id=ChIJMybrb5O32YgR8wkpg5Sd3oA",
-  "categoryName": "Asian restaurant"
-},
-{
-  "title": "La Granja Restaurant Little Havana",
-  "totalScore": 4.8,
-  "reviewsCount": 809,
-  "street": "700 SW 17th Ave #700",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://lagranjarestaurants.com/",
-  "phone": "(786) 231-1460",
-  "categories": [
-    "Peruvian restaurant",
-    "Family restaurant",
-    "Latin American restaurant",
-    "Seafood restaurant",
-    "South American restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=La%20Granja%20Restaurant%20Little%20Havana&query_place_id=ChIJ165xJQC32YgRwfY-pPIGalE",
-  "categoryName": "Peruvian restaurant"
-},
-{
-  "title": "Tin Tin",
-  "totalScore": 4.8,
-  "reviewsCount": 543,
-  "street": "2555 SW 8th St Suite 101",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://tintinmiami.co/",
-  "phone": "(786) 637-2883",
-  "categories": [
-    "Restaurant",
-    "Cocktail bar",
-    "Coffee shop",
-    "Cuban restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Tin%20Tin&query_place_id=ChIJ_YCfCum32YgRz6uuTNbdpGg",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Mina Bistro",
-  "totalScore": 4.7,
-  "reviewsCount": 394,
-  "street": "63 NW 9th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.minabistro.com/",
-  "phone": "(305) 381-5624",
-  "categories": [
-    "Restaurant",
-    "Bistro",
-    "Cafeteria"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Mina%20Bistro&query_place_id=ChIJvUUyz5q22YgRp0UyXJEmF6U",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Sala'o Cuban Restaurant & Bar - Live music",
-  "totalScore": 4.8,
-  "reviewsCount": 12597,
-  "street": "1642 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://salaorestaurant.com/",
-  "phone": "(305) 642-8989",
-  "categories": [
-    "Cuban restaurant",
-    "Cocktail bar",
-    "Event venue",
-    "Latin American restaurant",
-    "Live music venue",
-    "Seafood restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Sala'o%20Cuban%20Restaurant%20%26%20Bar%20-%20Live%20music&query_place_id=ChIJVQ9LYL-32YgRV9kFDwePb4g",
-  "categoryName": "Cuban restaurant"
-},
-{
-  "title": "Whiskylucan Miami I Mexican Restaurant & Bar.",
-  "totalScore": 4.7,
-  "reviewsCount": 1575,
-  "street": "1225 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://whiskylucanmexicanrestaurant.com/?utm_source=google",
-  "phone": "(786) 919-7943",
-  "categories": [
-    "Mexican restaurant",
-    "Burrito restaurant",
-    "Cocktail bar",
-    "Family restaurant",
-    "Latin American restaurant",
-    "Live music bar",
-    "Taco restaurant",
-    "Tamale shop"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Whiskylucan%20Miami%20I%20Mexican%20Restaurant%20%26%20Bar.&query_place_id=ChIJgQQM3vO22YgRjDRoAKxhmpc",
-  "categoryName": "Mexican restaurant"
-},
-{
-  "title": "Marabu Restaurant",
-  "totalScore": 4.8,
-  "reviewsCount": 10500,
-  "street": "701 S Miami Ave Fl 4",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.maraburestaurant.com/",
-  "phone": "(786) 598-8012",
-  "categories": [
-    "Restaurant",
-    "Bar & grill",
-    "Catering food and drink supplier",
-    "Cocktail bar",
-    "Family restaurant",
-    "Seafood restaurant",
-    "Steak house"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Marabu%20Restaurant&query_place_id=ChIJe09Qgem32YgRB2TzZpJ4k3o",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Kiki On The River",
-  "totalScore": 3.8,
-  "reviewsCount": 4006,
-  "street": "450 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://kikiontheriver.com/",
-  "phone": "(786) 502-3243",
-  "categories": [
-    "Mediterranean restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Kiki%20On%20The%20River&query_place_id=ChIJeQ0gW5S22YgRcCOSyhZcRMM",
-  "categoryName": "Mediterranean restaurant"
-},
-{
-  "title": "Ciao Havana",
-  "totalScore": 4.8,
-  "reviewsCount": 933,
-  "street": "1620 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.ciaohavana.com/",
-  "phone": "(305) 686-2951",
-  "categories": [
-    "Restaurant",
-    "Italian restaurant",
-    "Mediterranean restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Ciao%20Havana&query_place_id=ChIJ4XgQA-m32YgR4e5AYPD8IOI",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Gangnam Korean Restaurant",
-  "totalScore": 5,
-  "reviewsCount": 42,
-  "street": "35 SE 6th St #105",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.gangnamkfood.com/",
-  "phone": "(305) 424-9593",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Gangnam%20Korean%20Restaurant&query_place_id=ChIJM-luR4O32YgRVebRm56kQMA",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "El Gallito Grill",
-  "totalScore": 4.1,
-  "reviewsCount": 629,
-  "street": "205 SW 8th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.instagram.com/elgallitogrill/?hl=es",
-  "phone": "(305) 545-5657",
-  "categories": [
-    "Restaurant",
-    "Coffee shop"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=El%20Gallito%20Grill&query_place_id=ChIJJ9PW85K22YgRCFejzdSf0Gk",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Cubata",
-  "totalScore": 4.8,
-  "reviewsCount": 1594,
-  "street": "1605 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://cubatarestaurant.com/",
-  "phone": "(786) 535-4111",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Cubata&query_place_id=ChIJNx2WFD-32YgRhp5oX4c8KQg",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Kuba Kitchen",
-  "totalScore": 4.8,
-  "reviewsCount": 1378,
-  "street": "3640 NW 7th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.kuba.kitchen/",
-  "phone": "(786) 409-7758",
-  "categories": [
-    "Cuban restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Kuba%20Kitchen&query_place_id=ChIJUVKdHVy32YgRqvoNKheG7co",
-  "categoryName": "Cuban restaurant"
-},
-{
-  "title": "Bargean Miami",
-  "totalScore": 4.9,
-  "reviewsCount": 207,
-  "street": "1010 SW 8th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://bargean.com/",
-  "phone": "(305) 707-8904",
-  "categories": [
-    "Latin American restaurant",
-    "Fusion restaurant",
-    "Mediterranean restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Bargean%20Miami&query_place_id=ChIJbdwByia32YgRjVKrSGNiYV4",
-  "categoryName": "Latin American restaurant"
-},
-{
-  "title": "Lil Greenhouse Grill",
-  "totalScore": 4.7,
-  "reviewsCount": 1161,
-  "street": "1300 NW 3rd Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://lilgreenhousegrill.com/",
-  "phone": "(786) 277-3582",
-  "categories": [
-    "Soul food restaurant",
-    "American restaurant",
-    "Brunch restaurant",
-    "Chicken restaurant",
-    "Family restaurant",
-    "Hamburger restaurant",
-    "Lunch restaurant",
-    "Seafood restaurant",
-    "Wine bar"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Lil%20Greenhouse%20Grill&query_place_id=ChIJydrPX7u22YgRY8rX4L9cJjY",
-  "categoryName": "Soul food restaurant"
-},
-{
-  "title": "Allicious trop chops",
-  "totalScore": 5,
-  "reviewsCount": 95,
-  "street": "901 SW 5th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.allicioustropchops.com/",
-  "phone": "(786) 366-7933",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Allicious%20trop%20chops&query_place_id=ChIJoQgFL8232YgRXXkrbSWmPyc",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Habibi Miami",
-  "totalScore": 4,
-  "reviewsCount": 1126,
-  "street": "452 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://habibimia.com/",
-  "phone": "(786) 883-2800",
-  "categories": [
-    "Mediterranean restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Habibi%20Miami&query_place_id=ChIJFQuiYgC32YgRzVJLmIL77c4",
-  "categoryName": "Mediterranean restaurant"
-},
-{
-  "title": "Jamon Iberico Pata Negra Restaurant",
-  "totalScore": 4.6,
-  "reviewsCount": 1700,
-  "street": "10 SW South River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.patanegrarestaurant.com/",
-  "phone": "(305) 324-1111",
-  "categories": [
-    "Spanish restaurant",
-    "Charcuterie",
-    "European restaurant",
-    "Restaurant",
-    "Tapas bar",
-    "Tapas restaurant",
-    "Wine bar",
-    "Wine store"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Jamon%20Iberico%20Pata%20Negra%20Restaurant&query_place_id=ChIJc-cLGpG22YgRYJss3-1Nq_w",
-  "categoryName": "Spanish restaurant"
-},
-{
-  "title": "MAYU",
-  "totalScore": 4.9,
-  "reviewsCount": 2266,
-  "street": "177 SW 7th St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://mayumiami.com/",
-  "phone": "(305) 860-1426",
-  "categories": [
-    "Peruvian restaurant",
-    "Cocktail bar",
-    "Italian restaurant",
-    "Oyster bar restaurant",
-    "Restaurant",
-    "Seafood restaurant",
-    "Sushi restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=MAYU&query_place_id=ChIJP7Zy8Sm32YgRft46Ry2v194",
-  "categoryName": "Peruvian restaurant"
-},
-{
-  "title": "La Porteña Restaurante #2",
-  "totalScore": 3.6,
-  "reviewsCount": 18,
-  "street": "200 NW 8th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 316-6116",
-  "categories": [
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=La%20Porte%C3%B1a%20Restaurante%20%232&query_place_id=ChIJJ2QN-d-32YgRUyxpE823UU8",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Garcia's Seafood Grille & Fish Market",
-  "totalScore": 4.2,
-  "reviewsCount": 4276,
-  "street": "398 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.garciasmiami.com/",
-  "phone": "(305) 375-0765",
-  "categories": [
-    "Seafood restaurant",
-    "Bar",
-    "Bar & grill",
-    "Dessert restaurant",
-    "Oyster bar restaurant",
-    "Salad shop",
-    "Sandwich shop",
-    "Seafood market"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Garcia's%20Seafood%20Grille%20%26%20Fish%20Market&query_place_id=ChIJo5nchJa22YgReZn7JVz0r5k",
-  "categoryName": "Seafood restaurant"
-},
-{
-  "title": "Beijing Garden Chinese Restaurant",
-  "totalScore": 4.1,
-  "reviewsCount": 132,
-  "street": "832 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 545-9824",
-  "categories": [
-    "Chinese restaurant",
-    "Delivery Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Beijing%20Garden%20Chinese%20Restaurant&query_place_id=ChIJZW1gPZO22YgRTE9jOZKgY44",
-  "categoryName": "Chinese restaurant"
-},
-{
-  "title": "Tanuki River Landing",
-  "totalScore": 4.9,
-  "reviewsCount": 4786,
-  "street": "1420 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://tanukimiami.com/?utm_source=google",
-  "phone": "(305) 614-9408",
-  "categories": [
-    "Asian fusion restaurant",
-    "Caterer",
-    "Chinese restaurant",
-    "Cocktail bar",
-    "Family restaurant",
-    "Fine dining restaurant",
-    "Japanese restaurant",
-    "Seafood restaurant",
-    "Sushi restaurant",
-    "Vegetarian restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Tanuki%20River%20Landing&query_place_id=ChIJeU7uMTW32YgRjmffReuy-rc",
-  "categoryName": "Asian fusion restaurant"
-},
-{
-  "title": "Dando La Brasa",
-  "totalScore": 4.9,
-  "reviewsCount": 2667,
-  "street": "1836 SW 3rd Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://dandolabrasa.us/",
-  "phone": "(305) 456-2700",
-  "categories": [
-    "Latin American restaurant",
-    "Chicken restaurant",
-    "Lunch restaurant",
-    "Delivery Restaurant",
-    "Takeout Restaurant",
-    "Peruvian restaurant",
-    "Restaurant",
-    "Brasserie",
-    "Venezuelan restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Dando%20La%20Brasa&query_place_id=ChIJkxYl70232YgRhTbVfyFq6Vw",
-  "categoryName": "Latin American restaurant"
-},
-{
-  "title": "Seaspice Brasserie & Lounge",
-  "totalScore": 4.3,
-  "reviewsCount": 3622,
-  "street": "412 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.seaspice.com/",
-  "phone": "(305) 440-4200",
-  "categories": [
-    "Fine dining restaurant",
-    "Brunch restaurant",
-    "Lounge bar",
-    "Mediterranean restaurant",
-    "Night club",
-    "Seafood restaurant",
-    "Steak house"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Seaspice%20Brasserie%20%26%20Lounge&query_place_id=ChIJg3VLL5S22YgRtjs7MkIFD20",
-  "categoryName": "Fine dining restaurant"
-},
-{
-  "title": "Los Paisanos Restaurant",
-  "totalScore": 4.1,
-  "reviewsCount": 379,
-  "street": "824 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 324-6702",
-  "categories": [
-    "Honduran restaurant",
-    "Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Los%20Paisanos%20Restaurant&query_place_id=ChIJUSfLGZO22YgR77FNw-sXIRU",
-  "categoryName": "Honduran restaurant"
-},
-{
-  "title": "Los Catrachos Restaurant",
-  "totalScore": 4.2,
-  "reviewsCount": 517,
-  "street": "755 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://loscatrachosrestaurantfl.com/",
-  "phone": "(305) 324-7708",
-  "categories": [
-    "Honduran restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Los%20Catrachos%20Restaurant&query_place_id=ChIJ9YaHCZO22YgRr4YLy0Ta8pE",
-  "categoryName": "Honduran restaurant"
-},
-{
-  "title": "Fat Yin Restaurant",
-  "totalScore": 4.2,
-  "reviewsCount": 55,
-  "street": "832 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "phone": "(305) 545-5725",
-  "categories": [
-    "Chinese restaurant",
-    "Delivery Restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Fat%20Yin%20Restaurant&query_place_id=ChIJ9SYpFpO22YgReFzpMEwdFMs",
-  "categoryName": "Chinese restaurant"
-},
-{
-  "title": "Miami River Mexican Cuisine",
-  "totalScore": 4.3,
-  "reviewsCount": 1159,
-  "street": "350 NW 8th Ave",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://miamirivermexican.com/",
-  "phone": "(786) 277-4669",
-  "categories": [
-    "Mexican restaurant",
-    "Latin American restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Miami%20River%20Mexican%20Cuisine&query_place_id=ChIJ6_kk7ZS22YgRbgyMGsFTeVQ",
-  "categoryName": "Mexican restaurant"
-},
-{
-  "title": "Casablanca on the river",
-  "totalScore": 4.2,
-  "reviewsCount": 4009,
-  "street": "400 NW N River Dr",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "http://www.casablancaseafood.com/",
-  "phone": "(305) 371-4107",
-  "categories": [
-    "Restaurant",
-    "Bar & grill",
-    "Seafood restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Casablanca%20on%20the%20river&query_place_id=ChIJSVhOg5a22YgRt9PS3dP4VFg",
-  "categoryName": "Restaurant"
-},
-{
-  "title": "Arepera Araguaney Market",
-  "totalScore": 4.4,
-  "reviewsCount": 205,
-  "street": "701 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://areperaaraguaneymarketfl.com/",
-  "phone": "(786) 896-2361",
-  "categories": [
-    "Venezuelan restaurant",
-    "Brunch restaurant",
-    "Catering food and drink supplier",
-    "Latin American restaurant",
-    "Lunch restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Arepera%20Araguaney%20Market&query_place_id=ChIJiVoQKPW32YgRcBqp1YYscZ8",
-  "categoryName": "Venezuelan restaurant"
-},
-{
-  "title": "Amore Mio Pizzería",
-  "totalScore": 4.8,
-  "reviewsCount": 152,
-  "street": "842 W Flagler St",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://www.amoremiomenu.com/",
-  "phone": "(786) 678-9079",
-  "categories": [
-    "Pizza restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Amore%20Mio%20Pizzer%C3%ADa&query_place_id=ChIJsyk5QIe32YgROSn6D7ZgzeA",
-  "categoryName": "Pizza restaurant"
-},
-{
-  "title": "Crazy About You",
-  "totalScore": 4.8,
-  "reviewsCount": 18796,
-  "street": "1155 Brickell Bay Dr PH101",
-  "city": "Miami",
-  "state": "Florida",
-  "countryCode": "US",
-  "website": "https://passionrestaurantgroup.com/restaurants/crazy-about-you/",
-  "phone": "(305) 377-4442",
-  "categories": [
-    "American restaurant",
-    "Brunch restaurant",
-    "Spanish restaurant"
-  ],
-  "url": "https://www.google.com/maps/search/?api=1&query=Crazy%20About%20You&query_place_id=ChIJ56WSjYG22YgRV8CLvPG3z9E",
-  "categoryName": "American restaurant"
-}]
+[
+  {
+    "title": "Rusty Pelican Miami",
+    "totalScore": 4.7,
+    "reviewsCount": 20733,
+    "street": "3201 Rickenbacker Cwy",
+    "city": "Key Biscayne",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.therustypelican.com/",
+    "phone": "(305) 361-3818",
+    "categories": [
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rusty%20Pelican%20Miami&query_place_id=ChIJc2PcMM612YgR_kdEdDDuTrQ",
+    "categoryName": "Seafood restaurant"
+  },
+  {
+    "title": "Villafuerte restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 50,
+    "street": "1466 SW 6th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 558-9352",
+    "categories": [
+      "Salvadoran restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Villafuerte%20restaurant&query_place_id=ChIJs5af6ay32YgRc30_-nLGjtY",
+    "categoryName": "Salvadoran restaurant"
+  },
+  {
+    "title": "Ristorante Fratelli Milano",
+    "totalScore": 4.6,
+    "reviewsCount": 1573,
+    "street": "213 SE 1st St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://ristorantefratellimilano.com/?utm_source=google",
+    "phone": "(305) 373-2300",
+    "categories": [
+      "Italian restaurant",
+      "Caterer",
+      "European restaurant",
+      "Family restaurant",
+      "Fine dining restaurant",
+      "Pasta shop",
+      "Pizza restaurant",
+      "Seafood restaurant",
+      "Vegetarian restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ristorante%20Fratelli%20Milano&query_place_id=ChIJ931lzp222YgRAr83muJb5so",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Sabor Nica Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 125,
+    "street": "49 NW 12th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 545-0145",
+    "categories": [
+      "Nicaraguan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sabor%20Nica%20Restaurant&query_place_id=ChIJ8_n7POy22YgR0fcgQDp5PMo",
+    "categoryName": "Nicaraguan restaurant"
+  },
+  {
+    "title": "La Terraza Little Havana",
+    "totalScore": 4.6,
+    "reviewsCount": 102,
+    "street": "1440 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 518-2196",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Terraza%20Little%20Havana&query_place_id=ChIJaYXYOg-32YgRS2z4ri8ujBI",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Delicias en Miami",
+    "totalScore": 4.6,
+    "reviewsCount": 177,
+    "street": "1550 SW 1st St #1",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.facebook.com/DeliciasEnMiami305/",
+    "phone": "(786) 499-5213",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Delicias%20en%20Miami&query_place_id=ChIJITuE6Iy22YgRVct1dKUuX0Y",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Monchys Patio Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 215,
+    "street": "1965 NW 17th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://monchyspatiorestaurant.gbiz.shop/",
+    "phone": "(305) 456-7980",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Monchys%20Patio%20Restaurant&query_place_id=ChIJVbVRAuCx2YgRdwSaW87ku_U",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "El Rincon Asturiano",
+    "totalScore": 4.6,
+    "reviewsCount": 1069,
+    "street": "225 SW 17th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://elrinconasturianomiami.com/",
+    "phone": "(305) 643-8822",
+    "categories": [
+      "Asturian restaurant",
+      "Restaurant",
+      "Spanish restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Rincon%20Asturiano&query_place_id=ChIJAelFy_q22YgRc9rEt_Y17Xo",
+    "categoryName": "Asturian restaurant"
+  },
+  {
+    "title": "Las Tapas De Rosa",
+    "totalScore": 4.5,
+    "reviewsCount": 593,
+    "street": "449 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.lastapasderosarestaurant.com/",
+    "phone": "(305) 856-9788",
+    "categories": [
+      "Spanish restaurant",
+      "Market",
+      "Tapas restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Las%20Tapas%20De%20Rosa&query_place_id=ChIJJ3ui-Y622YgRoq9Xcc5K0Vc",
+    "categoryName": "Spanish restaurant"
+  },
+  {
+    "title": "Novecento",
+    "totalScore": 4.7,
+    "reviewsCount": 6459,
+    "street": "900 S Miami Ave #260",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.novecento.com/",
+    "phone": "(305) 403-0900",
+    "categories": [
+      "Argentinian restaurant",
+      "Brunch restaurant",
+      "Italian restaurant",
+      "South American restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Novecento&query_place_id=ChIJEWuAKIG22YgRPOEUG7BlFsQ",
+    "categoryName": "Argentinian restaurant"
+  },
+  {
+    "title": "Los Catrachos II Restaurant",
+    "totalScore": 4.3,
+    "reviewsCount": 365,
+    "street": "18 SW 11th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 456-5176",
+    "categories": [
+      "Honduran restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Los%20Catrachos%20II%20Restaurant&query_place_id=ChIJoTopU-y22YgR2vRI-05-IUU",
+    "categoryName": "Honduran restaurant"
+  },
+  {
+    "title": "Tumba'o",
+    "totalScore": 4.7,
+    "reviewsCount": 412,
+    "street": "1652 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 827-8040",
+    "categories": [
+      "Restaurant",
+      "Art gallery",
+      "Coffee shop",
+      "Tapas bar",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tumba'o&query_place_id=ChIJ6Ut3EPq22YgRK_1mHQkk7_k",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Mofongo Restaurant Calle 8",
+    "totalScore": 4.5,
+    "reviewsCount": 3715,
+    "street": "1672 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 359-4418",
+    "categories": [
+      "Puerto Rican restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mofongo%20Restaurant%20Calle%208&query_place_id=ChIJ-WpYBfq22YgRSEtZyn3upS8",
+    "categoryName": "Puerto Rican restaurant"
+  },
+  {
+    "title": "Lolita Resturant",
+    "totalScore": 4.3,
+    "reviewsCount": 132,
+    "street": "316 SW 8th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(718) 954-5711",
+    "categories": [
+      "Mexican restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lolita%20Resturant&query_place_id=ChIJqX-gtPm32YgRxo8YE3qEZWo",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "Modern Garden",
+    "totalScore": 3.7,
+    "reviewsCount": 19,
+    "street": "422 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.seaspice.com/private-events-venue/modern-garden/",
+    "phone": "(305) 440-4200",
+    "categories": [
+      "American restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Modern%20Garden&query_place_id=ChIJp1xrL5S22YgR3N0M-xZKn1A",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "The Taco Stand",
+    "totalScore": 4.6,
+    "reviewsCount": 890,
+    "street": "2063 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://letstaco.com/",
+    "phone": "(786) 963-6030",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Taco%20Stand&query_place_id=ChIJcZdsnN232YgRDH1zGnhoHZk",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Bistro Ocho",
+    "totalScore": 4.9,
+    "reviewsCount": 108,
+    "street": "2069 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.bistro8miami.com/",
+    "phone": "(305) 456-4543",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bistro%20Ocho&query_place_id=ChIJGz5OnLe32YgR6JUcJFTyaYQ",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "107 Taste Asian Restaurant Brickell",
+    "totalScore": 4.8,
+    "reviewsCount": 1503,
+    "street": "1190 SW 2nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://107taste.com/",
+    "phone": "(786) 254-7205",
+    "categories": [
+      "Asian restaurant",
+      "Chinese restaurant",
+      "Japanese restaurant",
+      "Korean restaurant",
+      "Ramen restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=107%20Taste%20Asian%20Restaurant%20Brickell&query_place_id=ChIJMybrb5O32YgR8wkpg5Sd3oA",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "La Granja Restaurant Little Havana",
+    "totalScore": 4.8,
+    "reviewsCount": 809,
+    "street": "700 SW 17th Ave #700",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://lagranjarestaurants.com/",
+    "phone": "(786) 231-1460",
+    "categories": [
+      "Peruvian restaurant",
+      "Family restaurant",
+      "Latin American restaurant",
+      "Seafood restaurant",
+      "South American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Granja%20Restaurant%20Little%20Havana&query_place_id=ChIJ165xJQC32YgRwfY-pPIGalE",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Tin Tin",
+    "totalScore": 4.8,
+    "reviewsCount": 543,
+    "street": "2555 SW 8th St Suite 101",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://tintinmiami.co/",
+    "phone": "(786) 637-2883",
+    "categories": [
+      "Restaurant",
+      "Cocktail bar",
+      "Coffee shop",
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tin%20Tin&query_place_id=ChIJ_YCfCum32YgRz6uuTNbdpGg",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Mina Bistro",
+    "totalScore": 4.7,
+    "reviewsCount": 394,
+    "street": "63 NW 9th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.minabistro.com/",
+    "phone": "(305) 381-5624",
+    "categories": [
+      "Restaurant",
+      "Bistro",
+      "Cafeteria"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mina%20Bistro&query_place_id=ChIJvUUyz5q22YgRp0UyXJEmF6U",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Sala'o Cuban Restaurant & Bar - Live music",
+    "totalScore": 4.8,
+    "reviewsCount": 12597,
+    "street": "1642 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://salaorestaurant.com/",
+    "phone": "(305) 642-8989",
+    "categories": [
+      "Cuban restaurant",
+      "Cocktail bar",
+      "Event venue",
+      "Latin American restaurant",
+      "Live music venue",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sala'o%20Cuban%20Restaurant%20%26%20Bar%20-%20Live%20music&query_place_id=ChIJVQ9LYL-32YgRV9kFDwePb4g",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Whiskylucan Miami I Mexican Restaurant & Bar.",
+    "totalScore": 4.7,
+    "reviewsCount": 1575,
+    "street": "1225 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://whiskylucanmexicanrestaurant.com/?utm_source=google",
+    "phone": "(786) 919-7943",
+    "categories": [
+      "Mexican restaurant",
+      "Burrito restaurant",
+      "Cocktail bar",
+      "Family restaurant",
+      "Latin American restaurant",
+      "Live music bar",
+      "Taco restaurant",
+      "Tamale shop"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Whiskylucan%20Miami%20I%20Mexican%20Restaurant%20%26%20Bar.&query_place_id=ChIJgQQM3vO22YgRjDRoAKxhmpc",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "Marabu Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 10500,
+    "street": "701 S Miami Ave Fl 4",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.maraburestaurant.com/",
+    "phone": "(786) 598-8012",
+    "categories": [
+      "Restaurant",
+      "Bar & grill",
+      "Catering food and drink supplier",
+      "Cocktail bar",
+      "Family restaurant",
+      "Seafood restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Marabu%20Restaurant&query_place_id=ChIJe09Qgem32YgRB2TzZpJ4k3o",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Kiki On The River",
+    "totalScore": 3.8,
+    "reviewsCount": 4006,
+    "street": "450 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://kikiontheriver.com/",
+    "phone": "(786) 502-3243",
+    "categories": [
+      "Mediterranean restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kiki%20On%20The%20River&query_place_id=ChIJeQ0gW5S22YgRcCOSyhZcRMM",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Ciao Havana",
+    "totalScore": 4.8,
+    "reviewsCount": 933,
+    "street": "1620 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.ciaohavana.com/",
+    "phone": "(305) 686-2951",
+    "categories": [
+      "Restaurant",
+      "Italian restaurant",
+      "Mediterranean restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ciao%20Havana&query_place_id=ChIJ4XgQA-m32YgR4e5AYPD8IOI",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Gangnam Korean Restaurant",
+    "totalScore": 5,
+    "reviewsCount": 42,
+    "street": "35 SE 6th St #105",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.gangnamkfood.com/",
+    "phone": "(305) 424-9593",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Gangnam%20Korean%20Restaurant&query_place_id=ChIJM-luR4O32YgRVebRm56kQMA",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "El Gallito Grill",
+    "totalScore": 4.1,
+    "reviewsCount": 629,
+    "street": "205 SW 8th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.instagram.com/elgallitogrill/?hl=es",
+    "phone": "(305) 545-5657",
+    "categories": [
+      "Restaurant",
+      "Coffee shop"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Gallito%20Grill&query_place_id=ChIJJ9PW85K22YgRCFejzdSf0Gk",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Cubata",
+    "totalScore": 4.8,
+    "reviewsCount": 1594,
+    "street": "1605 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://cubatarestaurant.com/",
+    "phone": "(786) 535-4111",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cubata&query_place_id=ChIJNx2WFD-32YgRhp5oX4c8KQg",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Kuba Kitchen",
+    "totalScore": 4.8,
+    "reviewsCount": 1378,
+    "street": "3640 NW 7th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.kuba.kitchen/",
+    "phone": "(786) 409-7758",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kuba%20Kitchen&query_place_id=ChIJUVKdHVy32YgRqvoNKheG7co",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Bargean Miami",
+    "totalScore": 4.9,
+    "reviewsCount": 207,
+    "street": "1010 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://bargean.com/",
+    "phone": "(305) 707-8904",
+    "categories": [
+      "Latin American restaurant",
+      "Fusion restaurant",
+      "Mediterranean restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bargean%20Miami&query_place_id=ChIJbdwByia32YgRjVKrSGNiYV4",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "Lil Greenhouse Grill",
+    "totalScore": 4.7,
+    "reviewsCount": 1161,
+    "street": "1300 NW 3rd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://lilgreenhousegrill.com/",
+    "phone": "(786) 277-3582",
+    "categories": [
+      "Soul food restaurant",
+      "American restaurant",
+      "Brunch restaurant",
+      "Chicken restaurant",
+      "Family restaurant",
+      "Hamburger restaurant",
+      "Lunch restaurant",
+      "Seafood restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lil%20Greenhouse%20Grill&query_place_id=ChIJydrPX7u22YgRY8rX4L9cJjY",
+    "categoryName": "Soul food restaurant"
+  },
+  {
+    "title": "Allicious trop chops",
+    "totalScore": 5,
+    "reviewsCount": 95,
+    "street": "901 SW 5th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.allicioustropchops.com/",
+    "phone": "(786) 366-7933",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Allicious%20trop%20chops&query_place_id=ChIJoQgFL8232YgRXXkrbSWmPyc",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Habibi Miami",
+    "totalScore": 4,
+    "reviewsCount": 1126,
+    "street": "452 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://habibimia.com/",
+    "phone": "(786) 883-2800",
+    "categories": [
+      "Mediterranean restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Habibi%20Miami&query_place_id=ChIJFQuiYgC32YgRzVJLmIL77c4",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Jamon Iberico Pata Negra Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 1700,
+    "street": "10 SW South River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.patanegrarestaurant.com/",
+    "phone": "(305) 324-1111",
+    "categories": [
+      "Spanish restaurant",
+      "Charcuterie",
+      "European restaurant",
+      "Restaurant",
+      "Tapas bar",
+      "Tapas restaurant",
+      "Wine bar",
+      "Wine store"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Jamon%20Iberico%20Pata%20Negra%20Restaurant&query_place_id=ChIJc-cLGpG22YgRYJss3-1Nq_w",
+    "categoryName": "Spanish restaurant"
+  },
+  {
+    "title": "MAYU",
+    "totalScore": 4.9,
+    "reviewsCount": 2266,
+    "street": "177 SW 7th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://mayumiami.com/",
+    "phone": "(305) 860-1426",
+    "categories": [
+      "Peruvian restaurant",
+      "Cocktail bar",
+      "Italian restaurant",
+      "Oyster bar restaurant",
+      "Restaurant",
+      "Seafood restaurant",
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=MAYU&query_place_id=ChIJP7Zy8Sm32YgRft46Ry2v194",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "La Porte\u00f1a Restaurante #2",
+    "totalScore": 3.6,
+    "reviewsCount": 18,
+    "street": "200 NW 8th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 316-6116",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Porte%C3%B1a%20Restaurante%20%232&query_place_id=ChIJJ2QN-d-32YgRUyxpE823UU8",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Garcia's Seafood Grille & Fish Market",
+    "totalScore": 4.2,
+    "reviewsCount": 4276,
+    "street": "398 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.garciasmiami.com/",
+    "phone": "(305) 375-0765",
+    "categories": [
+      "Seafood restaurant",
+      "Bar",
+      "Bar & grill",
+      "Dessert restaurant",
+      "Oyster bar restaurant",
+      "Salad shop",
+      "Sandwich shop",
+      "Seafood market"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Garcia's%20Seafood%20Grille%20%26%20Fish%20Market&query_place_id=ChIJo5nchJa22YgReZn7JVz0r5k",
+    "categoryName": "Seafood restaurant"
+  },
+  {
+    "title": "Beijing Garden Chinese Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 132,
+    "street": "832 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 545-9824",
+    "categories": [
+      "Chinese restaurant",
+      "Delivery Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Beijing%20Garden%20Chinese%20Restaurant&query_place_id=ChIJZW1gPZO22YgRTE9jOZKgY44",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Tanuki River Landing",
+    "totalScore": 4.9,
+    "reviewsCount": 4786,
+    "street": "1420 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://tanukimiami.com/?utm_source=google",
+    "phone": "(305) 614-9408",
+    "categories": [
+      "Asian fusion restaurant",
+      "Caterer",
+      "Chinese restaurant",
+      "Cocktail bar",
+      "Family restaurant",
+      "Fine dining restaurant",
+      "Japanese restaurant",
+      "Seafood restaurant",
+      "Sushi restaurant",
+      "Vegetarian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tanuki%20River%20Landing&query_place_id=ChIJeU7uMTW32YgRjmffReuy-rc",
+    "categoryName": "Asian fusion restaurant"
+  },
+  {
+    "title": "Dando La Brasa",
+    "totalScore": 4.9,
+    "reviewsCount": 2667,
+    "street": "1836 SW 3rd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://dandolabrasa.us/",
+    "phone": "(305) 456-2700",
+    "categories": [
+      "Latin American restaurant",
+      "Chicken restaurant",
+      "Lunch restaurant",
+      "Delivery Restaurant",
+      "Takeout Restaurant",
+      "Peruvian restaurant",
+      "Restaurant",
+      "Brasserie",
+      "Venezuelan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dando%20La%20Brasa&query_place_id=ChIJkxYl70232YgRhTbVfyFq6Vw",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "Seaspice Brasserie & Lounge",
+    "totalScore": 4.3,
+    "reviewsCount": 3622,
+    "street": "412 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.seaspice.com/",
+    "phone": "(305) 440-4200",
+    "categories": [
+      "Fine dining restaurant",
+      "Brunch restaurant",
+      "Lounge bar",
+      "Mediterranean restaurant",
+      "Night club",
+      "Seafood restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Seaspice%20Brasserie%20%26%20Lounge&query_place_id=ChIJg3VLL5S22YgRtjs7MkIFD20",
+    "categoryName": "Fine dining restaurant"
+  },
+  {
+    "title": "Los Paisanos Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 379,
+    "street": "824 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 324-6702",
+    "categories": [
+      "Honduran restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Los%20Paisanos%20Restaurant&query_place_id=ChIJUSfLGZO22YgR77FNw-sXIRU",
+    "categoryName": "Honduran restaurant"
+  },
+  {
+    "title": "Los Catrachos Restaurant",
+    "totalScore": 4.2,
+    "reviewsCount": 517,
+    "street": "755 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://loscatrachosrestaurantfl.com/",
+    "phone": "(305) 324-7708",
+    "categories": [
+      "Honduran restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Los%20Catrachos%20Restaurant&query_place_id=ChIJ9YaHCZO22YgRr4YLy0Ta8pE",
+    "categoryName": "Honduran restaurant"
+  },
+  {
+    "title": "Fat Yin Restaurant",
+    "totalScore": 4.2,
+    "reviewsCount": 55,
+    "street": "832 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 545-5725",
+    "categories": [
+      "Chinese restaurant",
+      "Delivery Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Fat%20Yin%20Restaurant&query_place_id=ChIJ9SYpFpO22YgReFzpMEwdFMs",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Miami River Mexican Cuisine",
+    "totalScore": 4.3,
+    "reviewsCount": 1159,
+    "street": "350 NW 8th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://miamirivermexican.com/",
+    "phone": "(786) 277-4669",
+    "categories": [
+      "Mexican restaurant",
+      "Latin American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miami%20River%20Mexican%20Cuisine&query_place_id=ChIJ6_kk7ZS22YgRbgyMGsFTeVQ",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "Casablanca on the river",
+    "totalScore": 4.2,
+    "reviewsCount": 4009,
+    "street": "400 NW N River Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.casablancaseafood.com/",
+    "phone": "(305) 371-4107",
+    "categories": [
+      "Restaurant",
+      "Bar & grill",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Casablanca%20on%20the%20river&query_place_id=ChIJSVhOg5a22YgRt9PS3dP4VFg",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Arepera Araguaney Market",
+    "totalScore": 4.4,
+    "reviewsCount": 205,
+    "street": "701 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://areperaaraguaneymarketfl.com/",
+    "phone": "(786) 896-2361",
+    "categories": [
+      "Venezuelan restaurant",
+      "Brunch restaurant",
+      "Catering food and drink supplier",
+      "Latin American restaurant",
+      "Lunch restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Arepera%20Araguaney%20Market&query_place_id=ChIJiVoQKPW32YgRcBqp1YYscZ8",
+    "categoryName": "Venezuelan restaurant"
+  },
+  {
+    "title": "Amore Mio Pizzer\u00eda",
+    "totalScore": 4.8,
+    "reviewsCount": 152,
+    "street": "842 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.amoremiomenu.com/",
+    "phone": "(786) 678-9079",
+    "categories": [
+      "Pizza restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Amore%20Mio%20Pizzer%C3%ADa&query_place_id=ChIJsyk5QIe32YgROSn6D7ZgzeA",
+    "categoryName": "Pizza restaurant"
+  },
+  {
+    "title": "Crazy About You",
+    "totalScore": 4.8,
+    "reviewsCount": 18796,
+    "street": "1155 Brickell Bay Dr PH101",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://passionrestaurantgroup.com/restaurants/crazy-about-you/",
+    "phone": "(305) 377-4442",
+    "categories": [
+      "American restaurant",
+      "Brunch restaurant",
+      "Spanish restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Crazy%20About%20You&query_place_id=ChIJ56WSjYG22YgRV8CLvPG3z9E",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "ll Pastaiolo - Best Italian Restaurant South Beach, Miami Florida",
+    "totalScore": 4.9,
+    "reviewsCount": 19213,
+    "street": "1130 Collins Ave",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://ilpastaiolosouthbeach.com/",
+    "phone": "(786) 362-0152",
+    "categories": [
+      "Italian restaurant",
+      "Northern Italian restaurant",
+      "Southern Italian restaurant",
+      "Tuscan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=ll%20Pastaiolo%20-%20Best%20Italian%20Restaurant%20South%20Beach%2C%20Miami%20Florida&query_place_id=ChIJqSUo67K12YgR3T5kOxPXdF0",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Aromas del Peru",
+    "totalScore": 4.9,
+    "reviewsCount": 9227,
+    "street": "10201 Hammocks Blvd #140",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://aromasperu.com/aromasdelperuhammocks?utm_source=google",
+    "phone": "(305) 408-2373",
+    "categories": [
+      "Peruvian restaurant",
+      "Bar",
+      "Brunch restaurant",
+      "Dessert restaurant",
+      "Fusion restaurant",
+      "Gluten-free restaurant",
+      "Latin American restaurant",
+      "Restaurant",
+      "Seafood restaurant",
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Aromas%20del%20Peru&query_place_id=ChIJ-dWuZs7B2YgRdkmymABfKy0",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Garden House",
+    "totalScore": 4.8,
+    "reviewsCount": 3486,
+    "street": "710 Washington Ave Suite 15",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://gardenhouserestaurant.com/",
+    "phone": "(786) 775-7121",
+    "categories": [
+      "Latin American restaurant",
+      "Bar",
+      "Colombian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Garden%20House&query_place_id=ChIJU8gUzIm12YgRwt0FTZZ2w5w",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "Hate Mondays Tavern",
+    "totalScore": 4.8,
+    "reviewsCount": 648,
+    "street": "12461 SW 130th St A2 A3",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 378-4900",
+    "categories": [
+      "Barbecue restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hate%20Mondays%20Tavern&query_place_id=ChIJY47wgm7B2YgR4eWL-Iy4bn8",
+    "categoryName": "Barbecue restaurant"
+  },
+  {
+    "title": "Havana Island Cafe",
+    "totalScore": 4.9,
+    "reviewsCount": 158,
+    "street": "12700 SW 128th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 360-5499",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Havana%20Island%20Cafe&query_place_id=ChIJeTXBloDB2YgRdZHGd9S9gBY",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Dona Neli Restaurant 2",
+    "totalScore": 4.7,
+    "reviewsCount": 249,
+    "street": "14751 SW 184th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://donanelirestaurant.com/",
+    "phone": "(786) 732-0660",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dona%20Neli%20Restaurant%202&query_place_id=ChIJaYOg7mDD2YgRu2qVcIU-OYE",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Pil\u00f3n Miami",
+    "totalScore": 4.6,
+    "reviewsCount": 609,
+    "street": "12750 SW 128th St Suite 106",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.pilonmiami.com/",
+    "phone": "(305) 414-8141",
+    "categories": [
+      "Latin American restaurant",
+      "Bar",
+      "Brunch restaurant",
+      "Buffet restaurant",
+      "Event venue",
+      "Fusion restaurant",
+      "Lounge bar",
+      "Pizza restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pil%C3%B3n%20Miami&query_place_id=ChIJN7KFD93B2YgR4hjGPq2N3ZQ",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "KOW Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 1176,
+    "street": "14429 SW 42nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://kowrestaurant.com/",
+    "phone": "(786) 641-5186",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=KOW%20Restaurant&query_place_id=ChIJxw3kRVW_2YgRSszZgnOWUgY",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Two Spoons Peruvian Kitchen",
+    "totalScore": 4.9,
+    "reviewsCount": 304,
+    "street": "13868 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://twospoonsperuviankitchen.com/",
+    "phone": "(786) 660-0313",
+    "categories": [
+      "Restaurant",
+      "Bakery",
+      "Peruvian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Two%20Spoons%20Peruvian%20Kitchen&query_place_id=ChIJ_X0JkVrB2YgRc37Ewa2sPrk",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Bocas Grill Kendall",
+    "totalScore": 4.9,
+    "reviewsCount": 10962,
+    "street": "12042 N Kendall Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://bocasgrill.com/bocasgrillkendall?utm_source=google",
+    "phone": "(786) 717-6363",
+    "categories": [
+      "Latin American restaurant",
+      "Bar & grill",
+      "Breakfast restaurant",
+      "Coffee shop",
+      "Dessert restaurant",
+      "Family restaurant",
+      "Seafood restaurant",
+      "Steak house",
+      "Venezuelan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bocas%20Grill%20Kendall&query_place_id=ChIJLTtfZ-bA2YgRY72btBGfZEY",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "Pisco Y Nazca Ceviche Gastrobar",
+    "totalScore": 4.8,
+    "reviewsCount": 15481,
+    "street": "8405 Mills Dr Suite 206",
+    "city": "Kendall",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://piscoynazca.com/kendall-fl",
+    "phone": "(305) 630-3844",
+    "categories": [
+      "Peruvian restaurant",
+      "Brunch restaurant",
+      "Cocktail bar",
+      "Restaurant",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pisco%20Y%20Nazca%20Ceviche%20Gastrobar&query_place_id=ChIJA2jZwsLA2YgRLVJhGdfzl-k",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Between Two Buns",
+    "totalScore": 4.9,
+    "reviewsCount": 651,
+    "street": "12932 SW 120th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.betweentwobunsmiami.com/",
+    "phone": "(786) 701-9247",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Between%20Two%20Buns&query_place_id=ChIJl0m4YXzB2YgRBFU5-dHnaEE",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "La Ca\u00f1ita - Kendall",
+    "totalScore": 4.9,
+    "reviewsCount": 2277,
+    "street": "8405 Mills Dr Suite 203",
+    "city": "Kendall",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.lacanitamiami.com/kendall/",
+    "phone": "(305) 456-4941",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Cocktail bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Ca%C3%B1ita%20-%20Kendall&query_place_id=ChIJV3GTXdnB2YgRzXAm4zYhyb4",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Ciao Ristorante",
+    "totalScore": 4.5,
+    "reviewsCount": 372,
+    "street": "16347 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://ciaoristorantemiamifl.com/",
+    "phone": "(786) 803-8586",
+    "categories": [
+      "Italian restaurant",
+      "Pasta shop",
+      "Pizza delivery",
+      "Pizza restaurant",
+      "Pizza Takeout",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ciao%20Ristorante&query_place_id=ChIJz0bdudbr2YgRkZo2oregj9g",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Los Verdes - Kendall Drive",
+    "totalScore": 4.5,
+    "reviewsCount": 749,
+    "street": "9135 SW 162nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.losverdes.com/",
+    "phone": "(786) 558-5378",
+    "categories": [
+      "Latin American restaurant",
+      "Colombian restaurant",
+      "Hamburger restaurant",
+      "Hot dog restaurant",
+      "Takeout Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Los%20Verdes%20-%20Kendall%20Drive&query_place_id=ChIJscJd1TDr2YgRXUDY2QKehOo",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "Monas Eatery LLC",
+    "totalScore": 5,
+    "reviewsCount": 5,
+    "street": "18950 SW 136th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://monaseatery.com/",
+    "phone": "(786) 759-8964",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Monas%20Eatery%20LLC&query_place_id=ChIJvWSPterr2YgR9MNl0dxn2uM",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Tariacuri",
+    "totalScore": 4.6,
+    "reviewsCount": 193,
+    "street": "19768 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 429-1003",
+    "categories": [
+      "Mexican restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tariacuri&query_place_id=ChIJoftWi0no2YgRT-LVr73FUHo",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "La Campana Pizzeria",
+    "totalScore": 4.6,
+    "reviewsCount": 261,
+    "street": "15701 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.lacampanapizzeria.com/",
+    "phone": "(305) 469-3774",
+    "categories": [
+      "Restaurant",
+      "Cuban restaurant",
+      "Pizza restaurant",
+      "Pizza Takeout"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Campana%20Pizzeria&query_place_id=ChIJdZhkb5Pp2YgRhhywx1DQlvs",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Patria Y Vida Restaurante",
+    "totalScore": 5,
+    "reviewsCount": 1,
+    "street": "15701 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 469-3774",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Patria%20Y%20Vida%20Restaurante&query_place_id=ChIJm0oHDr7p2YgR10L_LGxTQOQ",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Tacos Frescos",
+    "totalScore": 4.9,
+    "reviewsCount": 26,
+    "street": "18950 SW 136th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 484-6781",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tacos%20Frescos&query_place_id=ChIJlaQ4emDr2YgRTJeieO9DDhk",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Mega Wok",
+    "totalScore": 5,
+    "reviewsCount": 7,
+    "street": "15585 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://albertocortesmoral.wixsite.com/megawok",
+    "phone": "(786) 381-0902",
+    "categories": [
+      "Chinese restaurant",
+      "Colombian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mega%20Wok&query_place_id=ChIJm68RRqTp2YgRMES7OCrvEjs",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "El Pirata Ranch 1",
+    "totalScore": 4.6,
+    "reviewsCount": 54,
+    "street": "15901 SW 200th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 566-4587",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Pirata%20Ranch%201&query_place_id=ChIJte5hxqHD2YgRxRTwndGZShk",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Bonjour French Bakery & Cafe - Kendall",
+    "totalScore": 4.5,
+    "reviewsCount": 3459,
+    "street": "16650 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://bonjourbakeryusa.com/",
+    "phone": "(786) 534-8141",
+    "categories": [
+      "Bakery",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Espresso bar",
+      "French restaurant",
+      "Pastry shop",
+      "Patisserie"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bonjour%20French%20Bakery%20%26%20Cafe%20-%20Kendall&query_place_id=ChIJ7wrSSYfq2YgRnPPZbnNUl9s",
+    "categoryName": "Bakery"
+  },
+  {
+    "title": "La Brisa Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 116,
+    "street": "500 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://miccosukee.com/food-drink/la-brisa/",
+    "phone": "(305) 925-8185",
+    "categories": [
+      "Restaurant",
+      "New American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Brisa%20Restaurant&query_place_id=ChIJ55ooTzqV2YgRp0DT9PN565c",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Cheddar's Scratch Kitchen",
+    "totalScore": 4.3,
+    "reviewsCount": 1424,
+    "street": "16455 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.cheddars.com/locations/fl/miami/kendall/2200?cmpid=br:csk_ag:ie_ch:loc_ca:CSKGMB_sn:gmb_gt:miami-fl-2200_pl:locurl_rd:1169",
+    "phone": "(305) 388-6236",
+    "categories": [
+      "Traditional American restaurant",
+      "Chicken restaurant",
+      "Family restaurant",
+      "Takeout Restaurant",
+      "Soul food restaurant",
+      "Southern restaurant (US)"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cheddar's%20Scratch%20Kitchen&query_place_id=ChIJK0u2GOLr2YgRtA-M6IFZXxs",
+    "categoryName": "Traditional American restaurant"
+  },
+  {
+    "title": "Mi Querencia Carne En Vara",
+    "totalScore": 4.7,
+    "reviewsCount": 1613,
+    "street": "16860 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 762-0131",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mi%20Querencia%20Carne%20En%20Vara&query_place_id=ChIJ5S7CeLTp2YgR7Q2JEEvSzaw",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Walk-On's Sports Bistreaux - Kendall Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 1840,
+    "street": "9065 SW 162nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://locate.walk-ons.com/fl/miami/restaurants-411.html",
+    "phone": "(786) 688-6700",
+    "categories": [
+      "Restaurant",
+      "Sports bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Walk-On's%20Sports%20Bistreaux%20-%20Kendall%20Restaurant&query_place_id=ChIJnQ2SrK_B2YgRCvp8Lj4HZbQ",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Mar y Fuego",
+    "totalScore": 4.7,
+    "reviewsCount": 144,
+    "street": "17026 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 862-0228",
+    "categories": [
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mar%20y%20Fuego&query_place_id=ChIJ0X_SLyLp2YgRIbpHfgiK3uI",
+    "categoryName": "Seafood restaurant"
+  },
+  {
+    "title": "Miami to Brazil Rodizio",
+    "totalScore": 4.9,
+    "reviewsCount": 17710,
+    "street": "15750 SW 56th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamitobrazilrodizio.com/",
+    "phone": "(786) 536-5719",
+    "categories": [
+      "Brazilian restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miami%20to%20Brazil%20Rodizio&query_place_id=ChIJ8UD3YrDB2YgRXNhjUj-tpp0",
+    "categoryName": "Brazilian restaurant"
+  },
+  {
+    "title": "La Minutera De Krome",
+    "totalScore": 4.7,
+    "reviewsCount": 61,
+    "street": "16751 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://laminuteradekorme.iposeats.com/",
+    "phone": "(305) 964-5751",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Minutera%20De%20Krome&query_place_id=ChIJc2yS0Lvp2YgRxKiCTr0JRm8",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Pesto Cafe and Grill",
+    "totalScore": 4.8,
+    "reviewsCount": 442,
+    "street": "16323 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.pestocafeandgrill.com/",
+    "phone": "(786) 353-2151",
+    "categories": [
+      "Restaurant",
+      "Breakfast restaurant",
+      "Mediterranean restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pesto%20Cafe%20and%20Grill&query_place_id=ChIJVQyj5n3r2YgR7lHO4mtwCE4",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "La Real Pizzeria",
+    "totalScore": 4.8,
+    "reviewsCount": 30,
+    "street": "18525 SW 177th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.tiktok.com/@larealsazoncubana?_r=1&_t=ZP-92xcx7J4RFW",
+    "phone": "(786) 325-4993",
+    "categories": [
+      "Pizza restaurant",
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Real%20Pizzeria&query_place_id=ChIJbWGvgW7p2YgRfA2mdXQjdgQ",
+    "categoryName": "Pizza restaurant"
+  },
+  {
+    "title": "Bandeja Paisa Restaurant. Latin & Fast Food.",
+    "totalScore": 4.8,
+    "reviewsCount": 7837,
+    "street": "9511 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.bandejapaisa.com/",
+    "phone": "(305) 226-1551",
+    "categories": [
+      "Colombian restaurant",
+      "Family restaurant",
+      "Fast food restaurant",
+      "Hamburger restaurant",
+      "Hot dog restaurant",
+      "Latin American restaurant",
+      "Paisa restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bandeja%20Paisa%20Restaurant.%20Latin%20%26%20Fast%20Food.&query_place_id=ChIJu9cgOCe52YgRdAsbDfuDoUk",
+    "categoryName": "Colombian restaurant"
+  },
+  {
+    "title": "Sergio's Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 3631,
+    "street": "8807 SW 107th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.sergios.com/",
+    "phone": "(305) 275-2880",
+    "categories": [
+      "Cuban restaurant",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Cafe",
+      "Caribbean restaurant",
+      "Caterer",
+      "Family restaurant",
+      "Latin American restaurant",
+      "Delivery Restaurant",
+      "Sandwich shop"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sergio's%20Restaurant&query_place_id=ChIJY7krqzLH2YgRPAlmRxVYfT8",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Taipa Peruvian Restaurant- Kendall (137 Ave)",
+    "totalScore": 4.7,
+    "reviewsCount": 1061,
+    "street": "3855 SW 137th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.taiparestaurants.com/",
+    "phone": "(305) 480-0808",
+    "categories": [
+      "Peruvian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Taipa%20Peruvian%20Restaurant-%20Kendall%20(137%20Ave)&query_place_id=ChIJaRP6flPA2YgRCF8irn4fTnM",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Braga Portuguese Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 423,
+    "street": "1401 SW 22nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://bragarestaurant.com/",
+    "phone": "(305) 392-0959",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Braga%20Portuguese%20Restaurant&query_place_id=ChIJT2-gAgC32YgRTTrFGl9JoAo",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Keik Restaurant",
+    "totalScore": 4.9,
+    "reviewsCount": 10405,
+    "street": "1450 NW 87th Ave Suite 110",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://keikrestaurant.com/",
+    "phone": "(305) 640-5160",
+    "categories": [
+      "Restaurant",
+      "American restaurant",
+      "Bakery",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Cake shop",
+      "Coffee shop",
+      "Dessert restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Keik%20Restaurant&query_place_id=ChIJjaFr9Qe52YgRzvz9t-J9Dlc",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Caf\u00e9 Catula Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 880,
+    "street": "7190 SW 87th Ave #102",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.cafecatula.com/",
+    "phone": "(305) 720-2122",
+    "categories": [
+      "Fine dining restaurant",
+      "Art gallery",
+      "Bar",
+      "Cocktail bar",
+      "Cuban restaurant",
+      "Fusion restaurant",
+      "Italian restaurant",
+      "Live music bar",
+      "Spanish restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Catula%20Restaurant&query_place_id=ChIJU_xyZW7H2YgRrDjjyuGFgAE",
+    "categoryName": "Fine dining restaurant"
+  },
+  {
+    "title": "A Fuego Lento Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 6050,
+    "street": "7780 NW 25th St #22",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://afuegolentodoral.com/?utm_source=google",
+    "phone": "(786) 637-2993",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Barbecue restaurant",
+      "Brazilian restaurant",
+      "Caterer",
+      "Family restaurant",
+      "Latin American restaurant",
+      "Lunch restaurant",
+      "Steak house",
+      "Venezuelan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=A%20Fuego%20Lento%20Restaurant&query_place_id=ChIJX0_9MS652YgR3feFjoxXuu8",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Doc B's Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 2019,
+    "street": "301 Miracle Mile",
+    "city": "Coral Gables",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://docbsrestaurant.com/locations/coral-gables",
+    "phone": "(786) 864-1220",
+    "categories": [
+      "American restaurant",
+      "Bar",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Doc%20B's%20Restaurant&query_place_id=ChIJ__8Dp5C32YgRd4E6f-zoXM4",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Novu Fusion Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 3298,
+    "street": "2475 NW 95th Ave STE 7",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.novufusion.com/",
+    "phone": "(786) 614-5859",
+    "categories": [
+      "Sushi restaurant",
+      "Japanese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Novu%20Fusion%20Restaurant&query_place_id=ChIJLwl3s0252YgReufoTMpe54U",
+    "categoryName": "Sushi restaurant"
+  },
+  {
+    "title": "Manta Wynwood",
+    "totalScore": 4.9,
+    "reviewsCount": 9078,
+    "street": "102 NW 25th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://mantaflorida.com/",
+    "phone": "(786) 932-4678",
+    "categories": [
+      "Peruvian restaurant",
+      "Restaurant",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Manta%20Wynwood&query_place_id=ChIJ7RaDDT632YgRI0_pc0_OYYE",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Good Chef Restaurant",
+    "totalScore": 4.9,
+    "reviewsCount": 4219,
+    "street": "113 SW 107th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.goodchefmiami.com/",
+    "phone": "(786) 763-2008",
+    "categories": [
+      "Asian restaurant",
+      "Asian fusion restaurant",
+      "Noodle shop",
+      "Ramen restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Good%20Chef%20Restaurant&query_place_id=ChIJRx70f6m_2YgRdzltmfb5mUg",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "C\u00e8rto Italian Restaurant (Events Room Available)",
+    "totalScore": 4.9,
+    "reviewsCount": 1752,
+    "street": "1200 SW 57th Ave",
+    "city": "West Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://certomiami.com/",
+    "phone": "(305) 456-3200",
+    "categories": [
+      "Italian restaurant",
+      "Brunch restaurant",
+      "Catering food and drink supplier",
+      "Event venue",
+      "Lunch restaurant",
+      "Pizza delivery",
+      "Pizza restaurant",
+      "Pizza Takeout",
+      "Seafood restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=C%C3%A8rto%20Italian%20Restaurant%20(Events%20Room%20Available)&query_place_id=ChIJs1KNWYy52YgRSKZrC7Hu5Kw",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Super Machi",
+    "totalScore": 4.8,
+    "reviewsCount": 4416,
+    "street": "7931 NW 2nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://supermachirestaurante.com/",
+    "phone": "(786) 728-9006",
+    "categories": [
+      "Restaurant",
+      "Bar",
+      "Floridian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Super%20Machi&query_place_id=ChIJw_ZNxwa52YgRL_JvG1Dsbbw",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "107 Taste Asian Restaurant Coral Gables",
+    "totalScore": 4.9,
+    "reviewsCount": 2187,
+    "street": "357 Alcazar Ave",
+    "city": "Coral Gables",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://107taste.com/",
+    "phone": "(786) 409-6951",
+    "categories": [
+      "Asian restaurant",
+      "Ramen restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=107%20Taste%20Asian%20Restaurant%20Coral%20Gables&query_place_id=ChIJvUPK-cW32YgRMIMWb62DhgM",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "El Pirata Ranch",
+    "totalScore": 4.9,
+    "reviewsCount": 90,
+    "street": "19511 SW 168th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 622-4291",
+    "categories": [
+      "Family restaurant",
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=El%20Pirata%20Ranch&query_place_id=ChIJoY7rHADp2YgR6BhQKl5cNQE",
+    "categoryName": "Family restaurant"
+  },
+  {
+    "title": "Dar Tajine Moroccan Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 1077,
+    "street": "8281 W Sunrise Blvd",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://dar-tajine.com/",
+    "phone": "(954) 306-2447",
+    "categories": [
+      "Moroccan restaurant",
+      "Halal restaurant",
+      "Mediterranean restaurant",
+      "Vegetarian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dar%20Tajine%20Moroccan%20Restaurant&query_place_id=ChIJX2jyQzoG2YgRGHWorjGfOlg",
+    "categoryName": "Moroccan restaurant"
+  },
+  {
+    "title": "Al-Salam Halal Mediterranean Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 2230,
+    "street": "1816 N University Dr",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.alsalam-restaurant.com/",
+    "phone": "(954) 916-5193",
+    "categories": [
+      "Mediterranean restaurant",
+      "Bakery",
+      "Dessert shop",
+      "Halal restaurant",
+      "Meat products store",
+      "Middle Eastern restaurant",
+      "Turkish restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Al-Salam%20Halal%20Mediterranean%20Restaurant&query_place_id=ChIJa3uVNTgG2YgRDZxO5NjCevk",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Hummus Vegas and Grill",
+    "totalScore": 4.8,
+    "reviewsCount": 1558,
+    "street": "5800 Stirling Rd #5800",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://hummusvegas.com/",
+    "phone": "(954) 981-7710",
+    "categories": [
+      "Kosher restaurant",
+      "Caterer",
+      "Chicken restaurant",
+      "Falafel restaurant",
+      "Israeli restaurant",
+      "Delivery Restaurant",
+      "Takeout Restaurant",
+      "Meat dish restaurant",
+      "Middle Eastern restaurant",
+      "Restaurant",
+      "Shawarma restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hummus%20Vegas%20and%20Grill&query_place_id=ChIJxU5Aa5mp2YgRC9dub1QfSAQ",
+    "categoryName": "Kosher restaurant"
+  },
+  {
+    "title": "Padrino's Cuban Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 2095,
+    "street": "1039 S University Dr #210",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://padrinos.com/locations/plantation/",
+    "phone": "(954) 476-5777",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Padrino's%20Cuban%20Restaurant&query_place_id=ChIJec5na5UH2YgRhJp3X2EQhw0",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Alacati Mediterranean Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 1043,
+    "street": "1403 Hallandale Beach Blvd",
+    "city": "Hallandale Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://alacatirestaurantfl.com/",
+    "phone": "(954) 743-2948",
+    "categories": [
+      "Mediterranean restaurant",
+      "Bar & grill",
+      "Greek restaurant",
+      "Restaurant",
+      "Turkish restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Alacati%20Mediterranean%20Restaurant&query_place_id=ChIJ-yzhTeat2YgRb4qemC2UqgI",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Al Natour Middle Eastern Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 3000,
+    "street": "1787 N University Dr",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.alnatourrestaurant.com/",
+    "phone": "(954) 514-7277",
+    "categories": [
+      "Mediterranean restaurant",
+      "Lebanese restaurant",
+      "Middle Eastern restaurant",
+      "Syrian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Al%20Natour%20Middle%20Eastern%20Restaurant&query_place_id=ChIJpbmt2zkG2YgRjSbepNn_bws",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Rickey's Restaurant & Sports Bar",
+    "totalScore": 4.4,
+    "reviewsCount": 2177,
+    "street": "4799 Hollywood Blvd",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://rickeyswings.com/",
+    "phone": "(954) 966-1429",
+    "categories": [
+      "American restaurant",
+      "Chicken restaurant",
+      "Sandwich shop",
+      "Seafood restaurant",
+      "Sports bar",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rickey's%20Restaurant%20%26%20Sports%20Bar&query_place_id=ChIJxa6h7V6p2YgRJBWPECte-hw",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Margaritaville Restaurant",
+    "totalScore": 4.3,
+    "reviewsCount": 1784,
+    "street": "1111 N Ocean Dr",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.margaritavillehollywoodbeachresort.com/the-resort/drinks-dining/margaritaville/?utm_source=google-gbp&utm_medium=organic&utm_campaign=gbp",
+    "phone": "(954) 874-4471",
+    "categories": [
+      "Restaurant",
+      "Bar & grill",
+      "Cocktail bar",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Margaritaville%20Restaurant&query_place_id=ChIJ6_e2-Tyr2YgRuUrTmZJgjiU",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Delicias Chapinas Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 287,
+    "street": "1879 Davie Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(954) 314-7846",
+    "categories": [
+      "Taco restaurant",
+      "Guatemalan restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Delicias%20Chapinas%20Restaurant&query_place_id=ChIJywiWrl0B2YgRjNCOBFcQ-TY",
+    "categoryName": "Taco restaurant"
+  },
+  {
+    "title": "Padrino\u2019s Cuban Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 3650,
+    "street": "2500 E Hallandale Beach Blvd",
+    "city": "Hallandale Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://padrinos.com/?y_source=1_MzIxOTA5ODEtNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+    "phone": "(954) 456-4550",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Padrino%E2%80%99s%20Cuban%20Restaurant&query_place_id=ChIJ0YthJJ6s2YgR38DrNdmOFTo",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Emerald Thai Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 485,
+    "street": "8500 W State Rd 84",
+    "city": "Davie",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.emeraldthaifl.com/",
+    "phone": "(954) 474-3769",
+    "categories": [
+      "Thai restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Emerald%20Thai%20Restaurant&query_place_id=ChIJGRdS1e8H2YgRB0h-twFeiMA",
+    "categoryName": "Thai restaurant"
+  },
+  {
+    "title": "Latitudes Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 1913,
+    "street": "2501 N Ocean Dr",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.latitudeshollywoodbeach.com/",
+    "phone": "(954) 924-2202",
+    "categories": [
+      "Restaurant",
+      "American restaurant",
+      "Bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Latitudes%20Restaurant&query_place_id=ChIJqcvKViGr2YgRY8Ev4xgWoBw",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "My Big Fat Greek Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 2725,
+    "street": "3445 Griffin Rd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://mybigfatgreek.com/",
+    "phone": "(954) 961-5030",
+    "categories": [
+      "Greek restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=My%20Big%20Fat%20Greek%20Restaurant&query_place_id=ChIJ-fip4PSp2YgRtbo0wEm2JLI",
+    "categoryName": "Greek restaurant"
+  },
+  {
+    "title": "Eat Peru restaurant, El warique de Miramar",
+    "totalScore": 4.9,
+    "reviewsCount": 288,
+    "street": "2010 SW 100th Terrace Suite H",
+    "city": "Miramar",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://eatperufl.com/",
+    "phone": "(954) 696-8658",
+    "categories": [
+      "Peruvian restaurant",
+      "Breakfast restaurant",
+      "Chicken restaurant",
+      "Family restaurant",
+      "Fried chicken takeaway",
+      "Latin American restaurant",
+      "Nuevo Latino restaurant",
+      "Restaurant",
+      "Seafood restaurant",
+      "South American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Eat%20Peru%20restaurant%2C%20El%20warique%20de%20Miramar&query_place_id=ChIJ_WVHz_il2YgRyP-lcFcMf4c",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "E41 - Embarcadero 41 Sunrise",
+    "totalScore": 4.7,
+    "reviewsCount": 2119,
+    "street": "189 NW 136th Ave",
+    "city": "Sunrise",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.embarcadero41.us/",
+    "phone": "(954) 368-3452",
+    "categories": [
+      "Peruvian restaurant",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=E41%20-%20Embarcadero%2041%20Sunrise&query_place_id=ChIJYcZnjSwJ2YgRKFGDiF5FflA",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "La Famiglia Italian Restaurant & Pizzeria",
+    "totalScore": 4.6,
+    "reviewsCount": 1585,
+    "street": "11655 Red Rd",
+    "city": "Miramar",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.lafamigliamiramar.com/",
+    "phone": "(954) 862-7499",
+    "categories": [
+      "Italian restaurant",
+      "Pizza restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=La%20Famiglia%20Italian%20Restaurant%20%26%20Pizzeria&query_place_id=ChIJLcj77sKl2YgR9R-Om2kZVV4",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Piola Italian Restaurant Hollywood",
+    "totalScore": 4.8,
+    "reviewsCount": 1168,
+    "street": "4961 Sheridan St",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://piolausa.com/locations-hollywood-fl/",
+    "phone": "(754) 777-7928",
+    "categories": [
+      "Italian restaurant",
+      "Family restaurant",
+      "Pizza delivery",
+      "Pizza restaurant",
+      "Pizza Takeout",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Piola%20Italian%20Restaurant%20Hollywood&query_place_id=ChIJ01S7jGGp2YgRDAmnjlq2ONc",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Cooper\u2019s Hawk Winery & Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 3376,
+    "street": "10310 Pines Blvd",
+    "city": "Pembroke Pines",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://chwinery.com/locations/florida/pembroke-pines",
+    "phone": "(954) 582-9463",
+    "categories": [
+      "American restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cooper%E2%80%99s%20Hawk%20Winery%20%26%20Restaurant&query_place_id=ChIJjS1x3ASm2YgRmI_a_Wp8Mqc",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Sirocco Mediterranean Restaurant & Lounge",
+    "totalScore": 4.8,
+    "reviewsCount": 6886,
+    "street": "521 SW 145th Terrace",
+    "city": "Pembroke Pines",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://siroccomediterranean.com/siroccomediterraneanrestaurantlounge-tmct8o?utm_source=google",
+    "phone": "(954) 534-9399",
+    "categories": [
+      "Mediterranean restaurant",
+      "Caterer",
+      "Chicken wings restaurant",
+      "Falafel restaurant",
+      "Family restaurant",
+      "Greek restaurant",
+      "Halal restaurant",
+      "Middle Eastern restaurant",
+      "Sandwich shop",
+      "Shawarma restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sirocco%20Mediterranean%20Restaurant%20%26%20Lounge&query_place_id=ChIJR6eJtaKp2YgRqucXJq2oCE4",
+    "categoryName": "Mediterranean restaurant"
+  },
+  {
+    "title": "Ovivi's Restaurant",
+    "totalScore": 4.9,
+    "reviewsCount": 599,
+    "street": "3333 N University Dr",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.ovivisrestaurant.com/",
+    "phone": "(954) 544-5653",
+    "categories": [
+      "American restaurant",
+      "Bar",
+      "Live music bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ovivi's%20Restaurant&query_place_id=ChIJ6UL96xep2YgRV-rtpodP6ro",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "The New Blue Mountain Restaurant & Lounge",
+    "totalScore": 4.4,
+    "reviewsCount": 292,
+    "street": "1430 N State Rd 7",
+    "city": "Lauderhill",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://m.facebook.com/Thenewbluemountain/",
+    "phone": "(954) 533-6454",
+    "categories": [
+      "Jamaican restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20New%20Blue%20Mountain%20Restaurant%20%26%20Lounge&query_place_id=ChIJ_-hvM9sG2YgRUx5j0ZZg0sc",
+    "categoryName": "Jamaican restaurant"
+  },
+  {
+    "title": "Quarterdeck Restaurant + Sports Bar",
+    "totalScore": 4.3,
+    "reviewsCount": 5601,
+    "street": "300 N Beach Rd",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://quarterdeckrestaurants.com/#/",
+    "phone": "(954) 929-1400",
+    "categories": [
+      "Sports bar",
+      "Bar",
+      "Bar & grill"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Quarterdeck%20Restaurant%20%2B%20Sports%20Bar&query_place_id=ChIJEWdAX7iq2YgRlq-n5C2ce7I",
+    "categoryName": "Sports bar"
+  },
+  {
+    "title": "\u201cSancocho y Le\u00f1a Steak and Grill Weston",
+    "totalScore": 4.8,
+    "reviewsCount": 1576,
+    "street": "5140 SW 208th Ln",
+    "city": "Southwest Ranches",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://linktr.ee/sancocholenasteakandgrill",
+    "phone": "(407) 867-2444",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=%E2%80%9CSancocho%20y%20Le%C3%B1a%20Steak%20and%20Grill%20Weston&query_place_id=ChIJsQJNXsCh2YgROpUDMzzteIk",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Bistro 17 Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 48,
+    "street": "1617 SE 17th St",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.marriott.com/en-us/dining/restaurant-bar/fllbr-renaissance-fort-lauderdale-marina-hotel/82784-bistro-17.mi",
+    "phone": "(954) 626-1700",
+    "categories": [
+      "American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bistro%2017%20Restaurant&query_place_id=ChIJjfS6MGoA2YgRuXL0irEUlR8",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Billy's Stone Crab Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 4821,
+    "street": "400 N Ocean Dr",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://crabs.com/",
+    "phone": "(954) 923-2300",
+    "categories": [
+      "Seafood restaurant",
+      "Fine dining restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Billy's%20Stone%20Crab%20Restaurant&query_place_id=ChIJ75oUiD6r2YgRgRcdagjXWU4",
+    "categoryName": "Seafood restaurant"
+  },
+  {
+    "title": "Robert's Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 1402,
+    "street": "1320 Stirling Rd #1c",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://robertsrestaurant.restaurantsnapshot.com/",
+    "phone": "(954) 925-9004",
+    "categories": [
+      "American restaurant",
+      "Breakfast restaurant",
+      "Diner",
+      "Family restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Robert's%20Restaurant&query_place_id=ChIJg9SyzFqq2YgRpGks-oYSseo",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Burtons Grill & Bar",
+    "totalScore": 4.6,
+    "reviewsCount": 624,
+    "street": "1003 S University Dr",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://burtonsgrill.com/locations/fl/plantation/",
+    "phone": "(754) 900-0077",
+    "categories": [
+      "American restaurant",
+      "Bar & grill",
+      "Gluten-free restaurant",
+      "New American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Burtons%20Grill%20%26%20Bar&query_place_id=ChIJ0XDs3YQH2YgRixK5ZLHvEF8",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Hard Rock Cafe",
+    "totalScore": 4.5,
+    "reviewsCount": 5997,
+    "street": "1 Seminole Way",
+    "city": "Davie",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://cafe.hardrock.com/hollywood-fl/#utm_source=Google&utm_medium=Yext&utm_campaign=Listings",
+    "phone": "(954) 315-9112",
+    "categories": [
+      "Restaurant",
+      "American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hard%20Rock%20Cafe&query_place_id=ChIJr8kmLL2p2YgRrL-PxRBBOb8",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Vila's Mexican & Cuban Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 1301,
+    "street": "2027 FL-7",
+    "city": "Davie",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://vilasrestaurant.com/",
+    "phone": "(954) 792-4713",
+    "categories": [
+      "Mexican restaurant",
+      "Bar",
+      "Caribbean restaurant",
+      "Cuban restaurant",
+      "Latin American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Vila's%20Mexican%20%26%20Cuban%20Restaurant&query_place_id=ChIJt37oAlsH2YgRD-pXmxlEpmY",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "Cafe Vico \u2013 Authentic Italian Restaurant & Catering in Fort Lauderdale",
+    "totalScore": 4.6,
+    "reviewsCount": 1552,
+    "street": "1125 N Federal Hwy",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://cafevicorestaurant.com/?utm_source=google",
+    "phone": "(954) 565-9681",
+    "categories": [
+      "Italian restaurant",
+      "Bar",
+      "Caterer",
+      "Fine dining restaurant",
+      "Live music bar",
+      "Northern Italian restaurant",
+      "Pasta shop",
+      "Pizza delivery",
+      "Restaurant",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Vico%20%E2%80%93%20Authentic%20Italian%20Restaurant%20%26%20Catering%20in%20Fort%20Lauderdale&query_place_id=ChIJz_QBd7gB2YgRGq3VvqKS8HA",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Padrino\u2019s Cuban Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 2027,
+    "street": "149 S Compass Wy",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://padrinos.com/?y_source=1_MzIyNjA2NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU=",
+    "phone": "(954) 794-7544",
+    "categories": [
+      "Cuban restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Padrino%E2%80%99s%20Cuban%20Restaurant&query_place_id=ChIJxaP2UCCr2YgRTDSm-e4DjRM",
+    "categoryName": "Cuban restaurant"
+  },
+  {
+    "title": "Ocean Alley Restaurant & Beach Bar",
+    "totalScore": 4.2,
+    "reviewsCount": 1892,
+    "street": "900 N Broadwalk",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.oceanalleyrestaurant.com/",
+    "phone": "(954) 921-6171",
+    "categories": [
+      "New American restaurant",
+      "Bar",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ocean%20Alley%20Restaurant%20%26%20Beach%20Bar&query_place_id=ChIJocMcfDyr2YgRxnVFrnip8OA",
+    "categoryName": "New American restaurant"
+  },
+  {
+    "title": "Sea Level Restaurant",
+    "totalScore": 4.4,
+    "reviewsCount": 311,
+    "street": "3030 Holiday Dr",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.marriott.com/en-us/hotels/fllsb-fort-lauderdale-marriott-harbor-beach-resort-and-spa/dining/?scid=feed67b0-9a2f-4de1-8df6-114544116108",
+    "phone": "(954) 765-3041",
+    "categories": [
+      "Restaurant",
+      "Bar & grill",
+      "Seafood restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sea%20Level%20Restaurant&query_place_id=ChIJJzkItDQB2YgRRuAF9g5-FMw",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Floridian Restaurant",
+    "totalScore": 4.2,
+    "reviewsCount": 3313,
+    "street": "1492 E Las Olas Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://thefloridiandiner.com/",
+    "phone": "(954) 463-4041",
+    "categories": [
+      "Floridian restaurant",
+      "Breakfast restaurant",
+      "Diner"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Floridian%20Restaurant&query_place_id=ChIJQWpeWE4A2YgRNKx4pjQK7PE",
+    "categoryName": "Floridian restaurant"
+  },
+  {
+    "title": "Los Kausitas Peruvian Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 1163,
+    "street": "112 N 46th Ave",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(954) 505-7356",
+    "categories": [
+      "Peruvian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Los%20Kausitas%20Peruvian%20Restaurant&query_place_id=ChIJU1yeBV-p2YgRN3zszR1LCOI",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "Broadwalk Restaurant on the Beach",
+    "totalScore": 4.1,
+    "reviewsCount": 2320,
+    "street": "1400 N Surf Rd",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://hollywoodbeachdining.com/",
+    "phone": "(954) 922-0322",
+    "categories": [
+      "Italian restaurant",
+      "American restaurant",
+      "Breakfast restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Broadwalk%20Restaurant%20on%20the%20Beach&query_place_id=ChIJkRCBrDyr2YgROvKpJPvOhbY",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Webby's Grub & Pub",
+    "totalScore": 4.6,
+    "reviewsCount": 503,
+    "street": "6910 Cypress Rd",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.webbysgrubnpub.com/",
+    "phone": "(954) 327-7272",
+    "categories": [
+      "American restaurant",
+      "Bar",
+      "Bistro",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Webby's%20Grub%20%26%20Pub&query_place_id=ChIJd3tQZ68H2YgR2UszWWw-NIw",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "J. Alexander's Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 3817,
+    "street": "8550 W Broward Blvd",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://jalexanders.com/",
+    "phone": "(954) 916-8837",
+    "categories": [
+      "American restaurant",
+      "Bar",
+      "Brewery",
+      "Family restaurant",
+      "Fish restaurant",
+      "Hamburger restaurant",
+      "Lunch restaurant",
+      "Restaurant",
+      "Steak house",
+      "Traditional American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=J.%20Alexander's%20Restaurant&query_place_id=ChIJl9XYi8QH2YgRGVvytATQxQQ",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Buca di Beppo Italian Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 4808,
+    "street": "3355 S University Dr",
+    "city": "Davie",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://dineatbuca.com/locations/davie/?utm_campaign=local&utm_source=gbp&utm_medium=organic&utm_content=davie",
+    "phone": "(954) 577-3287",
+    "categories": [
+      "Italian restaurant",
+      "Family restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Buca%20di%20Beppo%20Italian%20Restaurant&query_place_id=ChIJ02bG-yKo2YgRSLGDdRqZMqg",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "Kaluz Restaurant Plantation",
+    "totalScore": 4.7,
+    "reviewsCount": 1835,
+    "street": "100 N University Dr",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.kaluzrestaurant.com/kaluz-plantation/",
+    "phone": "(954) 820-9050",
+    "categories": [
+      "New American restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kaluz%20Restaurant%20Plantation&query_place_id=ChIJY59o-zQH2YgRlKK3kMiqqrI",
+    "categoryName": "New American restaurant"
+  },
+  {
+    "title": "Francisca Charcoal Chicken & Meats | Davie",
+    "totalScore": 4.9,
+    "reviewsCount": 13396,
+    "street": "2258 S University Dr",
+    "city": "Davie",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://franciscarestaurant.com/davie/",
+    "phone": "(954) 530-6573",
+    "categories": [
+      "Latin American restaurant",
+      "Chicken restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Francisca%20Charcoal%20Chicken%20%26%20Meats%20%7C%20Davie&query_place_id=ChIJV7HGcGwH2YgR7S5oVm2oxTU",
+    "categoryName": "Latin American restaurant"
+  },
+  {
+    "title": "EL MENEO RESTAURANT & LOUNGE",
+    "totalScore": 4.9,
+    "reviewsCount": 433,
+    "street": "5701 Johnson St",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(954) 589-5331",
+    "categories": [
+      "Guatemalan restaurant",
+      "Bar",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=EL%20MENEO%20RESTAURANT%20%26%20LOUNGE&query_place_id=ChIJb-9tCs6p2YgR0FwnGhAirZI",
+    "categoryName": "Guatemalan restaurant"
+  },
+  {
+    "title": "Guatemala Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 449,
+    "street": "3671 Davie Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(954) 792-9737",
+    "categories": [
+      "Guatemalan restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Guatemala%20Restaurant&query_place_id=ChIJ39egk0gH2YgRiI8xW9_oY1s",
+    "categoryName": "Guatemalan restaurant"
+  },
+  {
+    "title": "Luka Restaurant and Coffee - Plantation",
+    "totalScore": 4.8,
+    "reviewsCount": 3294,
+    "street": "244 S University Dr",
+    "city": "Plantation",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://lukarestaurant.com/plantation/",
+    "phone": "(754) 223-5332",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Luka%20Restaurant%20and%20Coffee%20-%20Plantation&query_place_id=ChIJ684VUaUH2YgRHjCxgp4aDwc",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Rendezvous",
+    "totalScore": 4.5,
+    "reviewsCount": 3359,
+    "street": "2525 Marina Bay Dr W",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.therendezvousbarandgrill.com/",
+    "phone": "(954) 797-0054",
+    "categories": [
+      "Seafood restaurant",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Marina"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rendezvous&query_place_id=ChIJmePMCqQA2YgRPypyPWiM5d0",
+    "categoryName": "Seafood restaurant"
+  },
+  {
+    "title": "TIMBR Restaurant & Lounge",
+    "totalScore": 4.6,
+    "reviewsCount": 1015,
+    "street": "15 W Las Olas Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.timbr-restaurant.com/",
+    "phone": "(954) 787-5449",
+    "categories": [
+      "Restaurant",
+      "American restaurant",
+      "Cocktail bar",
+      "Lounge bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=TIMBR%20Restaurant%20%26%20Lounge&query_place_id=ChIJnxuawLkB2YgRHQPx1rPxwxw",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "TooJay\u2019s Deli \u2022 Bakery \u2022 Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 3101,
+    "street": "131 S Compass Wy Space C120",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.toojays.com/locations/dania-beach/?utm_source=google&utm_medium=organic&utm_campaign=google_business_profile",
+    "phone": "(786) 654-4100",
+    "categories": [
+      "Restaurant",
+      "American restaurant",
+      "Bakery",
+      "Breakfast restaurant",
+      "Brunch restaurant",
+      "Caterer",
+      "Deli",
+      "Dessert shop",
+      "Sandwich shop"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=TooJay%E2%80%99s%20Deli%20%E2%80%A2%20Bakery%20%E2%80%A2%20Restaurant&query_place_id=ChIJ-QMkNGKr2YgRvZyZXSRj_Uo",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Bombay Darbar Indian Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 4952,
+    "street": "1521 E Las Olas Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.bombaydarbar.com/",
+    "phone": "(954) 990-7222",
+    "categories": [
+      "Indian restaurant",
+      "Bar",
+      "Family restaurant",
+      "Fine dining restaurant",
+      "Indian takeaway",
+      "Lounge bar",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bombay%20Darbar%20Indian%20Restaurant&query_place_id=ChIJ6TrbL_AB2YgR4H1jUqdKRZM",
+    "categoryName": "Indian restaurant"
+  },
+  {
+    "title": "Eden Restaurant FL",
+    "totalScore": 4.4,
+    "reviewsCount": 434,
+    "street": "2615 S State Rd 7",
+    "city": "West Park",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.edenrestaurantfl.com/",
+    "phone": "(954) 544-5306",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Eden%20Restaurant%20FL&query_place_id=ChIJKyDVsTav2YgRkwZTRGSFCnA",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Cooper\u2019s Hawk Winery & Restaurant",
+    "totalScore": 4.6,
+    "reviewsCount": 3362,
+    "street": "1822 Pointe Blvd",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://chwinery.com/locations/florida/dania-beach-fl",
+    "phone": "(754) 220-0888",
+    "categories": [
+      "American restaurant",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cooper%E2%80%99s%20Hawk%20Winery%20%26%20Restaurant&query_place_id=ChIJn54cym-r2YgRBNwPvXdCN1s",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Firebirds Wood Fired Grill",
+    "totalScore": 4.3,
+    "reviewsCount": 3088,
+    "street": "110 N Pointe Dr",
+    "city": "Dania Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://firebirdsrestaurants.com/dania-beach",
+    "phone": "(954) 767-9333",
+    "categories": [
+      "American restaurant",
+      "Seafood restaurant",
+      "Steak house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Firebirds%20Wood%20Fired%20Grill&query_place_id=ChIJG1vRYC-r2YgRM5TFEdSf7Ys",
+    "categoryName": "American restaurant"
+  },
+  {
+    "title": "Taco Beach Shack - Mexican Restaurant in Hollywood Beach",
+    "totalScore": 4.7,
+    "reviewsCount": 14209,
+    "street": "334 Arizona St",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.tacobeachshack.com/",
+    "phone": "(954) 391-9448",
+    "categories": [
+      "Mexican restaurant",
+      "Bar",
+      "Taco restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Taco%20Beach%20Shack%20-%20Mexican%20Restaurant%20in%20Hollywood%20Beach&query_place_id=ChIJo2zUkz6r2YgRaAReuzK12yo",
+    "categoryName": "Mexican restaurant"
+  },
+  {
+    "title": "YOLO Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 4917,
+    "street": "333 E Las Olas Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://yolorestaurant.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+    "phone": "(954) 523-1000",
+    "categories": [
+      "New American restaurant",
+      "American restaurant",
+      "Bar",
+      "Brunch restaurant",
+      "Cocktail bar",
+      "Event venue",
+      "Lounge bar",
+      "Lunch restaurant",
+      "Night club",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=YOLO%20Restaurant&query_place_id=ChIJ06kN_FYA2YgRulZc3sJuIQc",
+    "categoryName": "New American restaurant"
+  },
+  {
+    "title": "VILLA ROMANA Italian & Romanian Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 1307,
+    "street": "1909 Hollywood Blvd",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.villaromanarestaurant.com/",
+    "phone": "(954) 251-3698",
+    "categories": [
+      "Italian restaurant",
+      "Romanian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=VILLA%20ROMANA%20Italian%20%26%20Romanian%20Restaurant&query_place_id=ChIJ20ByLKCr2YgRZpgj1tODoQw",
+    "categoryName": "Italian restaurant"
+  },
+  {
+    "title": "AKI E RESTAURANT BAR",
+    "totalScore": 4.9,
+    "reviewsCount": 2120,
+    "street": "1840 Harrison St",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://akierestaurantbarfl.com/",
+    "phone": "(754) 210-3181",
+    "categories": [
+      "Dominican restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=AKI%20E%20RESTAURANT%20BAR&query_place_id=ChIJPRL58y-r2YgRDz6NwwqnIUI",
+    "categoryName": "Dominican restaurant"
+  },
+  {
+    "title": "Old Heidelberg Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 2404,
+    "street": "900 W State Rd 84",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://heidelbergfl.com/",
+    "phone": "(954) 463-6747",
+    "categories": [
+      "German restaurant",
+      "Beer hall",
+      "Cocktail bar",
+      "European restaurant",
+      "Lounge bar",
+      "Pub",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Old%20Heidelberg%20Restaurant&query_place_id=ChIJh1oGd3Ug2YgRbpUsmTn287s",
+    "categoryName": "German restaurant"
+  },
+  {
+    "title": "Moxies Fort Lauderdale Restaurant",
+    "totalScore": 4.5,
+    "reviewsCount": 1603,
+    "street": "201 E Las Olas Blvd unit b1",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://moxies.com/restaurants/fort-lauderdale",
+    "phone": "(954) 666-6861",
+    "categories": [
+      "Restaurant",
+      "American restaurant",
+      "Bar",
+      "Bar & grill",
+      "Brunch restaurant",
+      "Cocktail bar",
+      "Family restaurant",
+      "Steak house",
+      "Wine bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Moxies%20Fort%20Lauderdale%20Restaurant&query_place_id=ChIJ4d19JoUB2YgRQ06gW0hA-Js",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "7 Tables On The Beach Authentic Peruvian Cuisine",
+    "totalScore": 4.9,
+    "reviewsCount": 10004,
+    "street": "600 N Surf Rd #6",
+    "city": "Hollywood",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://7tablesonthebeach.com/",
+    "phone": "(305) 497-2638",
+    "categories": [
+      "Peruvian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=7%20Tables%20On%20The%20Beach%20Authentic%20Peruvian%20Cuisine&query_place_id=ChIJZUUdBPer2YgRCEtROnVfzpw",
+    "categoryName": "Peruvian restaurant"
+  },
+  {
+    "title": "The Chimney House - Grill & Cafe",
+    "totalScore": 4.4,
+    "reviewsCount": 1348,
+    "street": "701 W Las Olas Blvd",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.chimneyhousefl.com/",
+    "phone": "(954) 900-5352",
+    "categories": [
+      "Latin American restaurant",
+      "Restaurant",
+      "Spanish restaurant",
+      "Tapas restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Chimney%20House%20-%20Grill%20%26%20Cafe&query_place_id=ChIJgyDkWvoA2YgRFaUgnq2GIKI",
+    "categoryName": "Latin American restaurant"
+  }
+]
