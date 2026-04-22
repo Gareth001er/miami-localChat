@@ -1,6 +1,6 @@
 # 🌴 Miami Local — AI City Guide
 
-Your AI-powered Miami travel guide + restaurant scanner. 
+ AI-powered Miami travel guide + restaurant scanner. 
 
 ---
 
@@ -22,7 +22,7 @@ miami-local/
 
 ---
 
-## 🔒 How the Security Works
+## 🔒 Security 
 
 ```
 User browser  →  /api/claude (your Vercel server)  →  Anthropic API
