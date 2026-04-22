@@ -1,9 +1,11 @@
-const fs = require('fs');
+// api/claude.js — Vercel Serverless Proxy with RAG
+const fs   = require('fs');
 const path = require('path');
 
+// ── Load curated dataset ──────────────────────────────────────────────────────
 let searchRestaurants, formatForContext;
 try {
-  const mod = require('../miami-restaurants.js');
+  const mod     = require('../miami-restaurants.js');
   searchRestaurants = mod.searchRestaurants;
   formatForContext  = mod.formatForContext;
 } catch(e) {
@@ -12,33 +14,61 @@ try {
   formatForContext  = () => '';
 }
 
+// ── Load all live Google Places JSON files ────────────────────────────────────
+// Add new dataset files to this list anytime — no other code changes needed
+const LIVE_FILES = [
+  'google-places-data.json',
+  'google-places-asian.json',
+];
+
 function loadLiveData() {
-  try {
-    const filePath = path.join(__dirname, '..', 'google-places-data.json');
-    if (!fs.existsSync(filePath)) return [];
-    return JSON.parse(fs.readFileSync(filePath, 'utf8')).map((r, i) => ({
-      id: 1000 + i, name: r.title, cuisine: (r.categoryName||'Restaurant').replace(/ restaurant$/i,''),
-      neighborhood: r.city||'Miami', city: r.city||'Miami', rating: r.totalScore||0,
-      reviews: r.reviewsCount||0, price:'$$', address: r.street||'', phone: r.phone||'',
-      source:'google_places_live',
-      highlights:`${r.categoryName||'Restaurant'} with ${r.totalScore}★ and ${(r.reviewsCount||0).toLocaleString()} Google reviews`,
-      warnings:'', mustOrder:'see Google reviews',
-    }));
-  } catch(e) { return []; }
+  let all = [];
+  for (const fname of LIVE_FILES) {
+    try {
+      const filePath = path.join(__dirname, '..', fname);
+      if (!fs.existsSync(filePath)) continue;
+      const entries = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      all = all.concat(entries.map((r, i) => ({
+        id: 2000 + all.length + i,
+        name: r.title || '',
+        cuisine: (r.categoryName || 'Restaurant').replace(/ restaurant$/i, ''),
+        neighborhood: r.city || 'Miami',
+        city: r.city || 'Miami',
+        rating: r.totalScore || 0,
+        reviews: r.reviewsCount || 0,
+        price: '$$',
+        address: r.street || '',
+        phone: r.phone || '',
+        website: r.website || '',
+        source: 'google_places_live',
+        highlights: `${r.categoryName || 'Restaurant'} with ${r.totalScore}★ and ${(r.reviewsCount || 0).toLocaleString()} Google reviews`,
+        warnings: '',
+        mustOrder: 'see Google reviews for recommendations',
+      })));
+    } catch(e) {
+      console.error(`Could not load ${fname}:`, e.message);
+    }
+  }
+  return all;
 }
 
-function searchLive(query, limit=4) {
+function searchLive(query, limit = 5) {
   const q = query.toLowerCase();
   return loadLiveData()
-    .filter(r => q.split(' ').some(w => w.length>3 && `${r.name} ${r.cuisine} ${r.city}`.toLowerCase().includes(w)))
-    .sort((a,b) => b.reviews - a.reviews)
+    .filter(r => q.split(' ').some(w =>
+      w.length > 3 && `${r.name} ${r.cuisine} ${r.city}`.toLowerCase().includes(w)
+    ))
+    .sort((a, b) => b.reviews - a.reviews)
     .slice(0, limit);
 }
 
 function formatLive(list) {
-  return list.map(r => `• ${r.name} [Google ✓] (${r.cuisine}, ${r.city}) — ${r.rating}★ (${r.reviews.toLocaleString()} reviews). ${r.address}`).join('\n');
+  return list.map(r =>
+    `• ${r.name} [Google ✓] (${r.cuisine}, ${r.city}) — ${r.rating}★ (${r.reviews.toLocaleString()} reviews).${r.address ? ' ' + r.address : ''}`
+  ).join('\n');
 }
 
+// ── Handler ───────────────────────────────────────────────────────────────────
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
@@ -66,12 +96,12 @@ export default async function handler(req, res) {
     let ragContext = '';
     if (userQuery && !isVisionCall) {
       const curated = searchRestaurants(userQuery, 6);
-      const live = searchLive(userQuery, 4);
-      const parts = [];
-      if (curated.length > 0) parts.push(`CURATED DATA:\n${formatForContext(curated)}`);
-      if (live.length > 0) parts.push(`LIVE GOOGLE DATA:\n${formatLive(live)}`);
-      if (parts.length > 0) {
-        ragContext = `\n\n---\nRESTAURANT DATA (use as PRIMARY source):\n${parts.join('\n\n')}\n---\n`;
+      const live    = searchLive(userQuery, 5);
+      const parts   = [];
+      if (curated.length) parts.push(`CURATED DATA:\n${formatForContext(curated)}`);
+      if (live.length)    parts.push(`LIVE GOOGLE DATA:\n${formatLive(live)}`);
+      if (parts.length) {
+        ragContext = `\n\n---\nRESTAURANT DATA (use as PRIMARY source, cite ratings):\n${parts.join('\n\n')}\n---\n`;
       }
     }
 
@@ -80,7 +110,11 @@ export default async function handler(req, res) {
 
     const anthropicRes = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'x-api-key': apiKey, 'anthropic-version': '2023-06-01' },
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version': '2023-06-01',
+      },
       body: JSON.stringify(finalBody),
     });
 
