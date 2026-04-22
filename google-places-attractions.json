@@ -1,0 +1,994 @@
+[
+  {
+    "title": "Tamiami Trail Park",
+    "totalScore": 4.5,
+    "reviewsCount": 17,
+    "street": "12760 SW 6th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.miamidade.gov/parks/tamiami-trail-north.asp",
+    "phone": "(305) 207-2420",
+    "categories": [
+      "Park"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tamiami%20Trail%20Park&query_place_id=ChIJxf-soJ-_2YgRQMvbusVuyNw",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Hammocks Community Park",
+    "totalScore": 4.6,
+    "reviewsCount": 740,
+    "street": "9885 Hammocks Blvd",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/hammocks.asp",
+    "phone": "(305) 380-6917",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Hammocks%20Community%20Park&query_place_id=ChIJzzAtIMzB2YgRJHLKZ2kHyMo",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Kitty Roedel Bicycle Path",
+    "totalScore": 4.5,
+    "reviewsCount": 15,
+    "street": "10688 NW 12th St",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Park"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kitty%20Roedel%20Bicycle%20Path&query_place_id=ChIJQ15dW_e_2YgRU9tiG4eIobs",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Regal Southland Mall",
+    "totalScore": 4.2,
+    "reviewsCount": 2191,
+    "street": "20505 S Dixie Hwy Suite 1301",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.regmovies.com/theatres/regal-southland-mall-0683?utm_source=google&utm_medium=organic&utm_campaign=gmb-listing",
+    "phone": "(844) 462-7342",
+    "categories": [
+      "Movie theater"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Regal%20Southland%20Mall&query_place_id=ChIJ1Vj_qX7D2YgRXpubvqFH508",
+    "categoryName": "Movie theater"
+  },
+  {
+    "title": "Kendale Park",
+    "totalScore": 4.6,
+    "reviewsCount": 181,
+    "street": "10351 SW 93rd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kendale%20Park&query_place_id=ChIJTQXISCzH2YgRudu_TNnUs0U",
+    "categoryName": "Park"
+  },
+  {
+    "title": "North Trail Park",
+    "totalScore": 4.5,
+    "reviewsCount": 816,
+    "street": "780 NW 127th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/north-trail.asp",
+    "phone": "(305) 207-2420",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=North%20Trail%20Park&query_place_id=ChIJx24jZfy-2YgRfrvgzCQFjwU",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Millers Pond Park",
+    "totalScore": 4.5,
+    "reviewsCount": 549,
+    "street": "13350 SW 47th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/miller-pond.asp",
+    "phone": "(305) 207-1730",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Millers%20Pond%20Park&query_place_id=ChIJNWXFIH7A2YgRk4HqMspGDpY",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Michael Kors Outlet",
+    "totalScore": 4.4,
+    "reviewsCount": 846,
+    "street": "11401 NW 12th St Suite 360",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://locations.michaelkors.com/us/fl/miami/11401-nw-12th-street",
+    "phone": "(786) 845-8140",
+    "categories": [
+      "Fashion accessories store",
+      "Clothing store",
+      "Jewelry store",
+      "Outlet store",
+      "Shoe store",
+      "Watch store"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Kors%20Outlet&query_place_id=ChIJiyWW_MW-2YgRiwtrACT_Jos",
+    "categoryName": "Fashion accessories store"
+  },
+  {
+    "title": "Jump A Roos Party & Play Center",
+    "totalScore": 3.9,
+    "reviewsCount": 374,
+    "street": "20505 S Dixie Hwy",
+    "city": "Cutler Bay",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 238-5867",
+    "categories": [
+      "Amusement center",
+      "Event venue",
+      "Playground"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Jump%20A%20Roos%20Party%20%26%20Play%20Center&query_place_id=ChIJAQAAjJe22YgR3FflhRnNj7I",
+    "categoryName": "Amusement center"
+  },
+  {
+    "title": "Unike Love (Dolphin Mall)",
+    "totalScore": 4.9,
+    "reviewsCount": 90,
+    "street": "11401 nw 12th street (URM55",
+    "city": "Miami",
+    "state": "FL",
+    "countryCode": "US",
+    "website": "http://www.unikelove.com/",
+    "phone": "(305) 999-5894",
+    "categories": [
+      "Gift shop",
+      "Embroidery shop",
+      "Laser cutting service",
+      "Trophy shop"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Unike%20Love%20(Dolphin%20Mall)&query_place_id=ChIJt7cZ3WW_2YgRaaFNQOoT1-E",
+    "categoryName": "Gift shop"
+  },
+  {
+    "title": "Clawz Plushies Playground at International Mall",
+    "totalScore": 5,
+    "reviewsCount": 320,
+    "street": "1455 NW 107th Ave Store 736",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://clawz.us/",
+    "phone": "(888) 209-6096",
+    "categories": [
+      "Children's store",
+      "Video arcade"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Clawz%20Plushies%20Playground%20at%20International%20Mall&query_place_id=ChIJvXUrcwC52YgRdYBF4Xoclo8",
+    "categoryName": "Children's store"
+  },
+  {
+    "title": "Pine Shore Pineland Preserve",
+    "totalScore": 4.2,
+    "reviewsCount": 39,
+    "street": "11151 SW 128th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://miamidade.gov/",
+    "phone": "(305) 755-7800",
+    "categories": [
+      "Nature preserve",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pine%20Shore%20Pineland%20Preserve&query_place_id=ChIJC4ZrNUjB2YgRsqffJo2RMrw",
+    "categoryName": "Nature preserve"
+  },
+  {
+    "title": "The Women's Park",
+    "totalScore": 4.6,
+    "reviewsCount": 1170,
+    "street": "10251 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.miamidade.gov/parks/womens.asp",
+    "phone": "(305) 480-1717",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Women's%20Park&query_place_id=ChIJlXzb8iq52YgR0MLLY5UCx3o",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Patricia and Phillip Frost Art Museum",
+    "totalScore": 4.5,
+    "reviewsCount": 874,
+    "street": "10975 SW 17th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://frost.fiu.edu/",
+    "phone": "(305) 348-2890",
+    "categories": [
+      "Art museum",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Patricia%20and%20Phillip%20Frost%20Art%20Museum&query_place_id=ChIJNbZeEjG_2YgRFD1TjUzJeBY",
+    "categoryName": "Art museum"
+  },
+  {
+    "title": "Patch of Heaven Sanctuary",
+    "totalScore": 4.7,
+    "reviewsCount": 576,
+    "street": "21900 SW 157th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://patchofheavensanctuary.org/",
+    "phone": "(786) 719-9903",
+    "categories": [
+      "Nature preserve",
+      "Heritage preservation",
+      "Meditation center",
+      "Non-profit organization",
+      "Plant nursery"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Patch%20of%20Heaven%20Sanctuary&query_place_id=ChIJXZ5Lh5jC2YgRRotdv6rygmY",
+    "categoryName": "Nature preserve"
+  },
+  {
+    "title": "House of Horror Haunted Carnival",
+    "totalScore": 3.8,
+    "reviewsCount": 700,
+    "street": "International Mall, 1625 NW 107th Ave Miami",
+    "city": "Doral",
+    "state": "FL",
+    "countryCode": "US",
+    "website": "https://houseofhorrorcarnival.com/",
+    "phone": "(855) 231-4722",
+    "categories": [
+      "Haunted house"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Horror%20Haunted%20Carnival&query_place_id=ChIJZYgs80u52YgRSajdaC1Pbno",
+    "categoryName": "Haunted house"
+  },
+  {
+    "title": "Kendall Indian Hammocks Park",
+    "totalScore": 4.6,
+    "reviewsCount": 2326,
+    "street": "11395 SW 79th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/kendall-indian-hammocks.asp",
+    "phone": "(305) 596-9324",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kendall%20Indian%20Hammocks%20Park&query_place_id=ChIJW5keOcnA2YgRdHHcA2hRMsQ",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Tree Island Park",
+    "totalScore": 4.3,
+    "reviewsCount": 199,
+    "street": "14700 SW 10th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.miamidade.gov/global/recreation/home.page",
+    "phone": "(305) 755-7800",
+    "categories": [
+      "Park"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tree%20Island%20Park&query_place_id=ChIJvQqfm2-_2YgRUBk1OK6LdjU",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Dave & Buster's Miami",
+    "totalScore": 4.4,
+    "reviewsCount": 6758,
+    "street": "11481 NW 12th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.daveandbusters.com/us/en/about/locations/miami",
+    "phone": "(305) 468-1555",
+    "categories": [
+      "Restaurant",
+      "Amusement center",
+      "Bar & grill",
+      "Cocktail bar",
+      "Event venue",
+      "Sports bar",
+      "Video arcade"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dave%20%26%20Buster's%20Miami&query_place_id=ChIJTXzs98y-2YgRyh7W8MCcT-Y",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "Trampoline High",
+    "totalScore": 4.6,
+    "reviewsCount": 461,
+    "street": "12395 SW 130th St Suite #111",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.trampolinehigh.com/",
+    "phone": "(786) 233-8381",
+    "categories": [
+      "Children's amusement center",
+      "Children's party service",
+      "Indoor playground",
+      "Park"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Trampoline%20High&query_place_id=ChIJ24-aAmzB2YgRCraemPruv5M",
+    "categoryName": "Children's amusement center"
+  },
+  {
+    "title": "Bowlero Doral",
+    "totalScore": 4.3,
+    "reviewsCount": 2511,
+    "street": "11401 NW 12th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.bowlero.com/location/bowlero-doral/?utm_source=gbp&utm_medium=organic&utm_campaign=yext_listings",
+    "phone": "(305) 594-0200",
+    "categories": [
+      "Bowling alley",
+      "Grill",
+      "Bar & grill",
+      "Bowling club",
+      "Bowling supply shop",
+      "Event venue",
+      "Leagues club",
+      "Restaurant",
+      "Sports bar",
+      "Video arcade"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bowlero%20Doral&query_place_id=ChIJiyWW_MW-2YgRU7-KoPyiQmk",
+    "categoryName": "Bowling alley"
+  },
+  {
+    "title": "Arcade Odyssey",
+    "totalScore": 4.8,
+    "reviewsCount": 1574,
+    "street": "12045 SW 117th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.arcadeodyssey.com/",
+    "phone": "(305) 253-2722",
+    "categories": [
+      "Video arcade",
+      "Asian fusion restaurant",
+      "Bar",
+      "Event venue"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Arcade%20Odyssey&query_place_id=ChIJ-xmu2z7B2YgR475kG66MeFM",
+    "categoryName": "Video arcade"
+  },
+  {
+    "title": "Tower Shopping Plaza",
+    "totalScore": 4.6,
+    "reviewsCount": 110,
+    "street": "11200 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 220-6008",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tower%20Shopping%20Plaza&query_place_id=ChIJe0mZ5ye_2YgRcE1-ra6kL-Q",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Shops of Kendall",
+    "totalScore": 4.4,
+    "reviewsCount": 1060,
+    "street": "12500 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.sterlingorganization.com/properties/51/downloads",
+    "phone": "(954) 691-4889",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Shops%20of%20Kendall&query_place_id=ChIJjTw1yeTA2YgR_JnzGso6wDY",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Tamiami Park",
+    "totalScore": 4.6,
+    "reviewsCount": 5570,
+    "street": "11201 SW 24th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/tamiami.asp",
+    "phone": "(786) 315-5295",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tamiami%20Park&query_place_id=ChIJqYRvETe_2YgRnOJTSr0CNHg",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Miller Square Shopping Center",
+    "totalScore": 4.4,
+    "reviewsCount": 2912,
+    "street": "13898 SW 56th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 779-3188",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miller%20Square%20Shopping%20Center&query_place_id=ChIJ-7bgtmTA2YgR0ZmI9_Cr7UQ",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "FIU Nature Preserve",
+    "totalScore": 4.6,
+    "reviewsCount": 182,
+    "street": "11200 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://gogreen.fiu.edu/topics/the-nature-preserve/index.html",
+    "phone": "(305) 348-3717",
+    "categories": [
+      "Nature preserve",
+      "Hiking area",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=FIU%20Nature%20Preserve&query_place_id=ChIJvxse-Dq_2YgRaSGzjHT_o6s",
+    "categoryName": "Nature preserve"
+  },
+  {
+    "title": "Kendallgate Shopping Center",
+    "totalScore": 4.4,
+    "reviewsCount": 2274,
+    "street": "12004 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://google.com/url?q=https://business.google.com/website_shared/launch_bw.html?f=https://amzn.to/43vln1W",
+    "phone": "",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kendallgate%20Shopping%20Center&query_place_id=ChIJdyhUrefA2YgR8iaaP349uLA",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "The Palms at Town & Country",
+    "totalScore": 4.5,
+    "reviewsCount": 6586,
+    "street": "11800 Mills Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://thepalms.shopkimco.com/",
+    "phone": "(833) 800-4343",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Palms%20at%20Town%20%26%20Country&query_place_id=ChIJ05nJvMLA2YgRFvx58lblyQ4",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Miracle Marketplace",
+    "totalScore": 4.4,
+    "reviewsCount": 3087,
+    "street": "3301 Coral Wy",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.miracle-marketplace.com/",
+    "phone": "(305) 443-9620",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miracle%20Marketplace&query_place_id=ChIJb90JQ6O32YgRjRgGcPBAXew",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Gator Park",
+    "totalScore": 4.4,
+    "reviewsCount": 4738,
+    "street": "24050 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.gatorpark.miami/",
+    "phone": "(305) 559-2255",
+    "categories": [
+      "Boat tour agency",
+      "National park",
+      "Tourist attraction",
+      "Visitor center"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Gator%20Park&query_place_id=ChIJFfxfdiKT2YgRPMtHpNSo2fM",
+    "categoryName": "Boat tour agency"
+  },
+  {
+    "title": "Off The Wall Kendall",
+    "totalScore": 4.7,
+    "reviewsCount": 1946,
+    "street": "13700 SW 84th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.otwusa.com/kendall",
+    "phone": "(305) 386-5500",
+    "categories": [
+      "Children's amusement center",
+      "Amusement center",
+      "Amusement park",
+      "Children's party service",
+      "Event venue",
+      "Indoor playground",
+      "Recreation center",
+      "Video arcade"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Off%20The%20Wall%20Kendall&query_place_id=ChIJ6eijvSPH2YgRa8l50sdaCh0",
+    "categoryName": "Children's amusement center"
+  },
+  {
+    "title": "Castellow Hammock Preserve & Nature Center",
+    "totalScore": 4.6,
+    "reviewsCount": 338,
+    "street": "22301 SW 162nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamidade.gov/parks/castello-hammock.asp",
+    "phone": "(305) 242-7688",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Castellow%20Hammock%20Preserve%20%26%20Nature%20Center&query_place_id=ChIJiczvY6HC2YgRAwoJ7jtaAG4",
+    "categoryName": "Park"
+  },
+  {
+    "title": "Dadeland Station",
+    "totalScore": 4.4,
+    "reviewsCount": 4206,
+    "street": "8312 S Dixie Hwy",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 667-6525",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dadeland%20Station&query_place_id=ChIJl1AP7L3H2YgRFb1xf_14vDI",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Las Americas V Central Plaza",
+    "totalScore": 4.4,
+    "reviewsCount": 1337,
+    "street": "11865 SW 26th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Las%20Americas%20V%20Central%20Plaza&query_place_id=ChIJN4BuSRW_2YgRU894h3e3QyI",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "London Square",
+    "totalScore": 4.5,
+    "reviewsCount": 5991,
+    "street": "13550 SW 120th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.shoplondonsquare.com/?utm_source=google-business-profile&utm_medium=organic&utm_campaign=business-listing&utm_id=3385",
+    "phone": "(305) 255-4441",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=London%20Square&query_place_id=ChIJB60KYZ_B2YgRLpNeFlY2GDw",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Little Havana Visitors Center",
+    "totalScore": 4.4,
+    "reviewsCount": 2408,
+    "street": "1600 SW 8th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Little%20Havana%20Visitors%20Center&query_place_id=ChIJWy3SxfC22YgRhv9FYwSWjiY",
+    "categoryName": "Tourist attraction"
+  },
+  {
+    "title": "Adventure Kids USA at The Falls Mall",
+    "totalScore": 4,
+    "reviewsCount": 27,
+    "street": "8888 SW 136th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.adventurekidsusa.com/the-falls-mall",
+    "phone": "(786) 661-8413",
+    "categories": [
+      "Amusement park ride",
+      "Amusement center",
+      "Children's amusement center",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Adventure%20Kids%20USA%20at%20The%20Falls%20Mall&query_place_id=ChIJg9XvBsHH2YgRdB2YbbL2h8A",
+    "categoryName": "Amusement park ride"
+  },
+  {
+    "title": "Aventura Mall",
+    "totalScore": 4.6,
+    "reviewsCount": 43785,
+    "street": "19501 Biscayne Blvd",
+    "city": "Aventura",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://aventuramall.com/",
+    "phone": "(305) 935-1110",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Aventura%20Mall&query_place_id=ChIJFdmwIfas2YgR-_QNr2_AO_c",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Mary Brickell Village",
+    "totalScore": 4.5,
+    "reviewsCount": 5582,
+    "street": "901 S Miami Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.marybrickellvillage.com/",
+    "phone": "(305) 564-4443",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mary%20Brickell%20Village&query_place_id=ChIJz2WvQIS22YgRIKiSUakT5uc",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Centro City Plaza",
+    "totalScore": 4.3,
+    "reviewsCount": 4902,
+    "street": "3825 NW 7th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.centrocityplaza.com/",
+    "phone": "",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Centro%20City%20Plaza&query_place_id=ChIJfcMLo2u32YgRrL_Y1O5EPFM",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Adventure Kids USA at Miami International Mall",
+    "totalScore": 4.2,
+    "reviewsCount": 33,
+    "street": "1455 NW 107th Ave",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.adventurekidsusa.com/",
+    "phone": "(786) 661-8413",
+    "categories": [
+      "Amusement park ride",
+      "Amusement center",
+      "Amusement park",
+      "Children's amusement center",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Adventure%20Kids%20USA%20at%20Miami%20International%20Mall&query_place_id=ChIJkVR_UG-52YgRzqBGUHJHRfc",
+    "categoryName": "Amusement park ride"
+  },
+  {
+    "title": "Wings Over Miami Museum",
+    "totalScore": 3.8,
+    "reviewsCount": 345,
+    "street": "14710 SW 128th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.wingsovermiamiairmuseum.com/home",
+    "phone": "(305) 233-5197",
+    "categories": [
+      "Open air museum",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Wings%20Over%20Miami%20Museum&query_place_id=ChIJDYWoVevB2YgRXaoiHmFZb9Y",
+    "categoryName": "Open air museum"
+  },
+  {
+    "title": "Collection at Midtown Miami",
+    "totalScore": 4.5,
+    "reviewsCount": 10323,
+    "street": "3401 N Miami Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://collectionatmidtownmiami.com/",
+    "phone": "(877) 225-5337",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Collection%20at%20Midtown%20Miami&query_place_id=ChIJN78-UVGx2YgRrTtHvUQhmW4",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Kids Empire Miami Dolphin Mall",
+    "totalScore": 4.9,
+    "reviewsCount": 5255,
+    "street": "11401 NW 12th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.kidsempire.com/park/miami?utm_source=gmb&utm_medium=organic",
+    "phone": "(305) 874-7596",
+    "categories": [
+      "Indoor playground",
+      "Children's amusement center",
+      "Children's party service",
+      "Playground"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kids%20Empire%20Miami%20Dolphin%20Mall&query_place_id=ChIJEeqmR7a_2YgRwFZhZiIOMT0",
+    "categoryName": "Indoor playground"
+  },
+  {
+    "title": "The Shops At Sunset Place",
+    "totalScore": 4.2,
+    "reviewsCount": 4482,
+    "street": "5701 Sunset Dr #350",
+    "city": "South Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.shopsunsetplace.com/",
+    "phone": "(305) 663-0482",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Shops%20At%20Sunset%20Place&query_place_id=ChIJqUyluPrH2YgR7zzx1vvrHHQ",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Ocean Mall",
+    "totalScore": 4.7,
+    "reviewsCount": 27,
+    "street": "4700 NW 7th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ocean%20Mall&query_place_id=ChIJ8VxqlWO32YgRrTlNZW6ewSA",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Midway Crossings",
+    "totalScore": 3.9,
+    "reviewsCount": 14810,
+    "street": "7795 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://midwaycrossings.website/",
+    "phone": "(305) 261-1869",
+    "categories": [
+      "Shopping mall",
+      "Food court"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Midway%20Crossings&query_place_id=ChIJ_Sc2ZB652YgRPRA8v8364E0",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Mall of The Americas",
+    "totalScore": 4.4,
+    "reviewsCount": 1419,
+    "street": "7795 W Flagler St Unit M53",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mall%20of%20The%20Americas&query_place_id=ChIJ-2diF6PH2YgRRKpsEPZWjD0",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Miami Merchandise Mall",
+    "totalScore": 4.1,
+    "reviewsCount": 759,
+    "street": "711 NW 72nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.miamimerchandisemall.com/",
+    "phone": "(305) 261-3800",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miami%20Merchandise%20Mall&query_place_id=ChIJVaaKM6W52YgRymU8QzTGNcM",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Southland Mall",
+    "totalScore": 4.2,
+    "reviewsCount": 8185,
+    "street": "20505 S Dixie Hwy",
+    "city": "Cutler Bay",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.mysouthlandmall.com/",
+    "phone": "(305) 235-8880",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Southland%20Mall&query_place_id=ChIJn7bB1H3D2YgRUNb3UnQvfnI",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "The Falls",
+    "totalScore": 4.6,
+    "reviewsCount": 8206,
+    "street": "8888 SW 136th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.simon.com/mall/the-falls",
+    "phone": "(305) 255-4570",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Falls&query_place_id=ChIJb3hhFJTG2YgRBe_10SlsK1w",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Dadeland Mall",
+    "totalScore": 4.6,
+    "reviewsCount": 18328,
+    "street": "7535 N Kendall Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.simon.com/mall/dadeland-mall",
+    "phone": "(305) 665-6226",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dadeland%20Mall&query_place_id=ChIJzXrLE6PH2YgRaBn6RDgMxhw",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Miami International Mall",
+    "totalScore": 4.5,
+    "reviewsCount": 15438,
+    "street": "1455 NW 107th Ave",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.simon.com/mall/miami-international-mall",
+    "phone": "(305) 593-1775",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miami%20International%20Mall&query_place_id=ChIJY35WpDS52YgRen64KjS8FP0",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Dolphin Mall",
+    "totalScore": 4.6,
+    "reviewsCount": 64118,
+    "street": "11401 NW 12th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.simon.com/mall/dolphin-mall",
+    "phone": "(305) 365-7446",
+    "categories": [
+      "Shopping mall",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dolphin%20Mall&query_place_id=ChIJo3EDg8a-2YgRYL74KV5Y4hs",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Brickell City Centre",
+    "totalScore": 4.7,
+    "reviewsCount": 19527,
+    "street": "701 S Miami Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.simon.com/mall/brickell-city-centre",
+    "phone": "(786) 515-9041",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Brickell%20City%20Centre&query_place_id=ChIJ9b849YC32YgR612tUl-KdyM",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "CocoWalk",
+    "totalScore": 4.2,
+    "reviewsCount": 3803,
+    "street": "3015 Grand Ave",
+    "city": "Coconut Grove",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.cocowalk.com/",
+    "phone": "(305) 444-0777",
+    "categories": [
+      "Shopping mall"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=CocoWalk&query_place_id=ChIJXyMlds-32YgRuG6Dgge6vlI",
+    "categoryName": "Shopping mall"
+  },
+  {
+    "title": "Bayside Marketplace",
+    "totalScore": 4.5,
+    "reviewsCount": 78191,
+    "street": "401 Biscayne Blvd",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://baysidemarketplace.com/",
+    "phone": "(305) 577-3344",
+    "categories": [
+      "Shopping mall",
+      "Live music venue",
+      "Marina",
+      "Tourist attraction"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bayside%20Marketplace&query_place_id=ChIJ2YAfbyC02YgRQzEiuI4qloc",
+    "categoryName": "Shopping mall"
+  }
+]
