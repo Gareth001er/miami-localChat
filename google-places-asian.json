@@ -1,0 +1,694 @@
+[
+  {
+    "title": "Neo Ai Tallarin",
+    "totalScore": 4.7,
+    "reviewsCount": 622,
+    "street": "723 Lincoln Ln N",
+    "city": "Miami Beach",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://storefront.getsauce.com/order/neo-ai-tallarin/menu",
+    "phone": "(305) 695-8700",
+    "categories": [
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Neo%20Ai%20Tallarin&query_place_id=ChIJcSPyXw-12YgRL3av_hg6G-8",
+    "categoryName": "Restaurant"
+  },
+  {
+    "title": "4 TO GO ASIAN CUISINE",
+    "totalScore": 4.9,
+    "reviewsCount": 20,
+    "street": "2005 NW 97th Ave",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 989-3265",
+    "categories": [
+      "Chinese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=4%20TO%20GO%20ASIAN%20CUISINE&query_place_id=ChIJw-n9VfK52YgR2T1MPnYLT4c",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "KIMBOP",
+    "totalScore": 4.7,
+    "reviewsCount": 790,
+    "street": "12578 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://kimboptogo.com/",
+    "phone": "(786) 270-9588",
+    "categories": [
+      "Korean restaurant",
+      "Asian restaurant",
+      "Takeout Restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=KIMBOP&query_place_id=ChIJx4uN1RjB2YgRz60ZEUsBVzU",
+    "categoryName": "Korean restaurant"
+  },
+  {
+    "title": "Inari Sushi Fusion Kendall",
+    "totalScore": 4.8,
+    "reviewsCount": 1852,
+    "street": "10712 SW 113th Pl",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.inari-sushi.com/",
+    "phone": "(786) 558-4286",
+    "categories": [
+      "Japanese restaurant",
+      "Fusion restaurant",
+      "Peruvian restaurant",
+      "Restaurant",
+      "Sushi restaurant",
+      "Sushi takeaway"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Inari%20Sushi%20Fusion%20Kendall&query_place_id=ChIJty3TIL_B2YgR2JH0Z-P9IzA",
+    "categoryName": "Japanese restaurant"
+  },
+  {
+    "title": "Jasmine Sushi & Thai Cuisine",
+    "totalScore": 4.6,
+    "reviewsCount": 469,
+    "street": "1429 SW 107th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.jasminesushithaicuisine.com/",
+    "phone": "(305) 207-9700",
+    "categories": [
+      "Asian restaurant",
+      "Southeast Asian restaurant",
+      "Sushi restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Jasmine%20Sushi%20%26%20Thai%20Cuisine&query_place_id=ChIJ6V8i8jK_2YgRm5Tf13e7UbI",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "KamiKoi Sushi Fusion",
+    "totalScore": 4.9,
+    "reviewsCount": 1596,
+    "street": "13816 SW 56th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.kamikoisushifusion.com/",
+    "phone": "(305) 967-8286",
+    "categories": [
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=KamiKoi%20Sushi%20Fusion&query_place_id=ChIJlzoJ81TB2YgRMZyEnUbBvU4",
+    "categoryName": "Sushi restaurant"
+  },
+  {
+    "title": "Z Ramen",
+    "totalScore": 4.6,
+    "reviewsCount": 446,
+    "street": "8352 Mills Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.zramen.com/",
+    "phone": "(786) 558-4405",
+    "categories": [
+      "Japanese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Z%20Ramen&query_place_id=ChIJKUzv7SjB2YgRmumT6Uo0_LI",
+    "categoryName": "Japanese restaurant"
+  },
+  {
+    "title": "Sticky Rice Lao, Thai & Sushi",
+    "totalScore": 4.7,
+    "reviewsCount": 76,
+    "street": "12895 SW 42nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://stickyrice305.com/",
+    "phone": "(305) 229-2888",
+    "categories": [
+      "Thai restaurant",
+      "Laotian restaurant",
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sticky%20Rice%20Lao%2C%20Thai%20%26%20Sushi&query_place_id=ChIJKb_3vFq_2YgR0pcIx71sCRE",
+    "categoryName": "Thai restaurant"
+  },
+  {
+    "title": "Yume Ramen & Hibachi",
+    "totalScore": 4.7,
+    "reviewsCount": 123,
+    "street": "9019 SW 107th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://yumehibachi.com/?UTM_source=GMB_listing&UTM_medium=organic",
+    "phone": "(305) 846-9454",
+    "categories": [
+      "Japanese restaurant",
+      "Asian restaurant",
+      "Ramen restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Yume%20Ramen%20%26%20Hibachi&query_place_id=ChIJkbTIGPrH2YgRGWL1_zeyCls",
+    "categoryName": "Japanese restaurant"
+  },
+  {
+    "title": "Tony Chef Asia Fusion Food Restaurant",
+    "totalScore": 4.7,
+    "reviewsCount": 253,
+    "street": "11557 N Kendall Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.tonychef88.com/",
+    "phone": "(305) 274-6799",
+    "categories": [
+      "Asian fusion restaurant",
+      "Asian restaurant",
+      "Bubble tea store",
+      "Japanese restaurant",
+      "Korean restaurant",
+      "Ramen restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tony%20Chef%20Asia%20Fusion%20Food%20Restaurant&query_place_id=ChIJUx200sTA2YgRqpU3iSI2iO4",
+    "categoryName": "Asian fusion restaurant"
+  },
+  {
+    "title": "Siam Bistro",
+    "totalScore": 4.6,
+    "reviewsCount": 441,
+    "street": "7348 SW 117th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.siambistromiami.com/",
+    "phone": "(305) 274-7423",
+    "categories": [
+      "Thai restaurant",
+      "Vietnamese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Siam%20Bistro&query_place_id=ChIJ8-A9qrjA2YgRsHIPrOZOBbE",
+    "categoryName": "Thai restaurant"
+  },
+  {
+    "title": "Naruto 88 Bistro",
+    "totalScore": 4.6,
+    "reviewsCount": 1208,
+    "street": "10471 N Kendall Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.naruto88bistro.getsauce.com/?utm_source=GMB&utm_medium=Website%20button&utm_id=Naruto%2088%20Bistro",
+    "phone": "(786) 770-8520",
+    "categories": [
+      "Asian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Naruto%2088%20Bistro&query_place_id=ChIJ9-64Uo3H2YgRTuIV6DM4bTI",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Lan Pan-Asian Cafe",
+    "totalScore": 4.7,
+    "reviewsCount": 1422,
+    "street": "8332 S Dixie Hwy",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://lanpanasian.com/",
+    "phone": "(305) 661-8141",
+    "categories": [
+      "Asian restaurant",
+      "Bubble tea store",
+      "Filipino restaurant",
+      "Japanese restaurant",
+      "Korean restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lan%20Pan-Asian%20Cafe&query_place_id=ChIJPRR6E77H2YgRaxYZKZ7iKpE",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "1-800-Lucky",
+    "totalScore": 4.5,
+    "reviewsCount": 3798,
+    "street": "143 NW 23rd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.1-800-lucky.com/",
+    "phone": "(305) 768-9826",
+    "categories": [
+      "Asian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=1-800-Lucky&query_place_id=ChIJrZEg7q222YgRlkyUsCuoyJY",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "107 Taste Asian Restaurant FIU",
+    "totalScore": 4.8,
+    "reviewsCount": 3138,
+    "street": "1679 SW 107th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://107taste.com/",
+    "phone": "(786) 717-6378",
+    "categories": [
+      "Asian restaurant",
+      "Chinese restaurant",
+      "Japanese restaurant",
+      "Korean restaurant",
+      "Ramen restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=107%20Taste%20Asian%20Restaurant%20FIU&query_place_id=ChIJaYFPFTO_2YgRVqu1Daznp_4",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Pla-Tu Sushi Thai Tapas",
+    "totalScore": 4.7,
+    "reviewsCount": 413,
+    "street": "6101 Sunset Dr",
+    "city": "South Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://platumiami.com/",
+    "phone": "(786) 359-4678",
+    "categories": [
+      "Japanese restaurant",
+      "Sushi restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pla-Tu%20Sushi%20Thai%20Tapas&query_place_id=ChIJO-oSF-7H2YgR-dk2yR5Y_1M",
+    "categoryName": "Japanese restaurant"
+  },
+  {
+    "title": "Bali Cafe",
+    "totalScore": 4.7,
+    "reviewsCount": 687,
+    "street": "109 NE 2nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 358-5751",
+    "categories": [
+      "Indonesian restaurant",
+      "Asian restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bali%20Cafe&query_place_id=ChIJlSMTYp622YgRp2aw8opqbVY",
+    "categoryName": "Indonesian restaurant"
+  },
+  {
+    "title": "107 Taste Asian Restaurant South Miami",
+    "totalScore": 4.9,
+    "reviewsCount": 1209,
+    "street": "5966 S Dixie Hwy #103a",
+    "city": "South Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://107taste.com/",
+    "phone": "(786) 641-5122",
+    "categories": [
+      "Asian restaurant",
+      "Chinese restaurant",
+      "Japanese restaurant",
+      "Korean restaurant",
+      "Ramen restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=107%20Taste%20Asian%20Restaurant%20South%20Miami&query_place_id=ChIJ08Bs4VPH2YgRVCFvb70yF6k",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "DOMOISHI",
+    "totalScore": 4.8,
+    "reviewsCount": 168,
+    "street": "8343 W Flagler St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://domoishi.com/",
+    "phone": "(305) 603-9631",
+    "categories": [
+      "Asian restaurant",
+      "Bubble tea store",
+      "Hawaiian restaurant",
+      "Ramen restaurant",
+      "Teppanyaki restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=DOMOISHI&query_place_id=ChIJr1zFHQC52YgRXx8knjXLHNU",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Baku Asian Fusion Sushi Bar Miami",
+    "totalScore": 4.8,
+    "reviewsCount": 1486,
+    "street": "1450 NW 87th Ave",
+    "city": "Doral",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://bakuasianfusionbar.com/",
+    "phone": "(786) 615-3845",
+    "categories": [
+      "Asian fusion restaurant",
+      "Japanese restaurant",
+      "Restaurant",
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Baku%20Asian%20Fusion%20Sushi%20Bar%20Miami&query_place_id=ChIJmYujhVe52YgReP3LMOBmpBU",
+    "categoryName": "Asian fusion restaurant"
+  },
+  {
+    "title": "Kaori Miami",
+    "totalScore": 4.5,
+    "reviewsCount": 420,
+    "street": "871 S Miami Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://kaorimiami.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb",
+    "phone": "(786) 848-5900",
+    "categories": [
+      "Asian restaurant",
+      "Cocktail bar"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kaori%20Miami&query_place_id=ChIJ-0J6oCi32YgRhhxfaT9WcvQ",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Cafe Oriental",
+    "totalScore": 4.9,
+    "reviewsCount": 240,
+    "street": "9800 SW 77th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 294-3101",
+    "categories": [
+      "Ramen restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Oriental&query_place_id=ChIJVTITxNvH2YgRpapn_YoBISY",
+    "categoryName": "Ramen restaurant"
+  },
+  {
+    "title": "Tanka Modern Asian Cuisine & \u5ddd\u6e1d\u5370\u8c61",
+    "totalScore": 4.6,
+    "reviewsCount": 429,
+    "street": "1717 N Bayshore Dr Suite 131",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://tankamiami.com/",
+    "phone": "(305) 374-8888",
+    "categories": [
+      "Asian fusion restaurant",
+      "Bar",
+      "Chinese restaurant",
+      "Dim sum restaurant",
+      "Sichuan restaurant",
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tanka%20Modern%20Asian%20Cuisine%20%26%20%E5%B7%9D%E6%B8%9D%E5%8D%B0%E8%B1%A1&query_place_id=ChIJtVRD5g612YgRDjXLXAMJLR8",
+    "categoryName": "Asian fusion restaurant"
+  },
+  {
+    "title": "KITSUNE HOUSE",
+    "totalScore": 4.8,
+    "reviewsCount": 1288,
+    "street": "19 SE 2nd Ave Suite #4",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.kitsunehouse.com/",
+    "phone": "(786) 534-2768",
+    "categories": [
+      "Asian restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=KITSUNE%20HOUSE&query_place_id=ChIJ0eO0nZS32YgRyomFcXMdVBw",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Sokai Sushi Bar Kendall",
+    "totalScore": 4.9,
+    "reviewsCount": 5008,
+    "street": "11735 SW 147th Ave #36",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.sokaisushi.com/",
+    "phone": "(786) 766-9989",
+    "categories": [
+      "Sushi restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sokai%20Sushi%20Bar%20Kendall&query_place_id=ChIJbWz4S7bB2YgRVdMZyPuJu74",
+    "categoryName": "Sushi restaurant"
+  },
+  {
+    "title": "China Town West",
+    "totalScore": 4.4,
+    "reviewsCount": 235,
+    "street": "4210 SW 152nd Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.chinatownwestmiami.com/",
+    "phone": "(305) 229-3988",
+    "categories": [
+      "Chinese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=China%20Town%20West&query_place_id=ChIJOwN7K_a_2YgROVObiPDfxp8",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Rock-A-Bangkok",
+    "totalScore": 4.7,
+    "reviewsCount": 437,
+    "street": "13718 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://rock-a-bangkok-miami.com/",
+    "phone": "(305) 380-0344",
+    "categories": [
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rock-A-Bangkok&query_place_id=ChIJpeReblHA2YgRFbBa_mHwnvw",
+    "categoryName": "Thai restaurant"
+  },
+  {
+    "title": "China Ocean Chinese Restaurant",
+    "totalScore": 4.8,
+    "reviewsCount": 63,
+    "street": "15098 SW 56th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 385-9938",
+    "categories": [
+      "Chinese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=China%20Ocean%20Chinese%20Restaurant&query_place_id=ChIJMaVmqP7B2YgR-U3Vlhygt6E",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Thai Tapas: Farm to Table @ Patch of Heaven",
+    "totalScore": 4,
+    "reviewsCount": 14,
+    "street": "21900 SW 157th Ave",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://patchofheavensanctuary.org/farm-to-table-in-the-stable-at-patch/",
+    "phone": "",
+    "categories": [
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Thai%20Tapas%3A%20Farm%20to%20Table%20%40%20Patch%20of%20Heaven&query_place_id=ChIJtfoYVwDD2YgRE70jPbmM_-E",
+    "categoryName": "Thai restaurant"
+  },
+  {
+    "title": "Peking One Chinese Restaurant",
+    "totalScore": 4.1,
+    "reviewsCount": 136,
+    "street": "16229 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(305) 388-8816",
+    "categories": [
+      "Chinese restaurant",
+      "Asian restaurant",
+      "Delivery Restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Peking%20One%20Chinese%20Restaurant&query_place_id=ChIJgw35AIHq2YgReZDzc_AROD4",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "KUFFO",
+    "totalScore": 4.8,
+    "reviewsCount": 638,
+    "street": "14433 Country Walk Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.kufforestaurant.com/",
+    "phone": "(786) 418-5183",
+    "categories": [
+      "Asian fusion restaurant",
+      "Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=KUFFO&query_place_id=ChIJ2c7LID7D2YgRwoV7TZV7jGE",
+    "categoryName": "Asian fusion restaurant"
+  },
+  {
+    "title": "Shawarma Miami",
+    "totalScore": 4.5,
+    "reviewsCount": 244,
+    "street": "9165 SW 162nd Ave suite 100",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://menutoeat.com/shawarma-miami/",
+    "phone": "(305) 562-7934",
+    "categories": [
+      "Shawarma restaurant",
+      "Lebanese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Shawarma%20Miami&query_place_id=ChIJ19YdnG_r2YgRdVoTsRL9kI8",
+    "categoryName": "Shawarma restaurant"
+  },
+  {
+    "title": "Jin Jin",
+    "totalScore": 4.2,
+    "reviewsCount": 134,
+    "street": "15705 SW 56th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://jinjinsouthmiami.menucities.com/catalog.aspx?cid=37",
+    "phone": "(305) 553-8887",
+    "categories": [
+      "Chinese restaurant",
+      "Delivery Restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Jin%20Jin&query_place_id=ChIJjSS1YhvA2YgRnD10v576zr4",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Inari Sushi Fusion West Kendall",
+    "totalScore": 4.7,
+    "reviewsCount": 1519,
+    "street": "15672 SW 72nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.inari-sushi.com/",
+    "phone": "(786) 391-2099",
+    "categories": [
+      "Sushi restaurant",
+      "Delivery service",
+      "Japanese restaurant",
+      "Delivery Restaurant",
+      "Takeout Restaurant",
+      "Peruvian restaurant",
+      "Restaurant",
+      "Sushi takeaway"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Inari%20Sushi%20Fusion%20West%20Kendall&query_place_id=ChIJzZfNeyPA2YgR4zgpxk0XzXk",
+    "categoryName": "Sushi restaurant"
+  },
+  {
+    "title": "Lima Fusion",
+    "totalScore": 5,
+    "reviewsCount": 31,
+    "street": "16248 SW 92nd Terrace",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 781-7587",
+    "categories": [
+      "Mobile caterer"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lima%20Fusion&query_place_id=ChIJAW03oDPB2YgR0R2FKf98w3s",
+    "categoryName": "Mobile caterer"
+  },
+  {
+    "title": "Pho Tastic",
+    "totalScore": 4.6,
+    "reviewsCount": 348,
+    "street": "16772 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "phone": "(786) 953-6456",
+    "categories": [
+      "Vietnamese restaurant",
+      "Pho restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pho%20Tastic&query_place_id=ChIJP7ItYDDr2YgRLvg1q0W7yIg",
+    "categoryName": "Vietnamese restaurant"
+  },
+  {
+    "title": "HONG KONG RESTAURANT",
+    "totalScore": 4.4,
+    "reviewsCount": 150,
+    "street": "15741 SW 152nd St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.hongkongmiamifl.com/",
+    "phone": "(305) 251-3039",
+    "categories": [
+      "Chinese restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=HONG%20KONG%20RESTAURANT&query_place_id=ChIJqxVaWbnD2YgR95qZW172XCs",
+    "categoryName": "Chinese restaurant"
+  },
+  {
+    "title": "Moon Thai & Japanese",
+    "totalScore": 4.4,
+    "reviewsCount": 1073,
+    "street": "16311 N Kendall Dr",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://moonthai.com/",
+    "phone": "(305) 388-5901",
+    "categories": [
+      "Asian restaurant",
+      "Japanese restaurant",
+      "Thai restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Moon%20Thai%20%26%20Japanese&query_place_id=ChIJSzd6J4Hq2YgRa09QXwTObqc",
+    "categoryName": "Asian restaurant"
+  },
+  {
+    "title": "Chifa Du Kang (Kendall Drive)",
+    "totalScore": 4.9,
+    "reviewsCount": 4244,
+    "street": "11768 SW 88th St",
+    "city": "Miami",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.chifadukang.com/",
+    "phone": "(786) 254-7135",
+    "categories": [
+      "Chinese restaurant",
+      "Asian fusion restaurant",
+      "Caterer",
+      "Fusion restaurant",
+      "Peruvian restaurant"
+    ],
+    "url": "https://www.google.com/maps/search/?api=1&query=Chifa%20Du%20Kang%20(Kendall%20Drive)&query_place_id=ChIJ6U96DpvB2YgRfi9NjWQYPPg",
+    "categoryName": "Chinese restaurant"
+  }
+]
