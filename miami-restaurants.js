@@ -432,3 +432,4 @@ function formatForContext(restaurants) {
     return `• ${r.name}${src} (${r.cuisine}, ${r.neighborhood}, ${r.city}) — ${r.rating}★ (${r.reviews.toLocaleString()} reviews), ${r.price || '$$'}. Known for: ${r.highlights || 'local favorite'}. Must order: ${r.mustOrder || 'house specials'}. Watch out: ${r.warnings || 'no major complaints'}.`;
   }).join('\n');
 }
+module.exports = { searchRestaurants, formatForContext, MIAMI_RESTAURANTS };
