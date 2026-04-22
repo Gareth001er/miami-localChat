@@ -1162,7 +1162,7 @@ async function sendChat() {
 
   try {
     const data = await callClaude({
-      model:'claude-sonnet-4-20250514',
+      model:'claude-sonnet-4-5',
       max_tokens:1024,
       system:SYSTEM,
       messages:chatHistory
@@ -1266,7 +1266,7 @@ async function analyzeRestaurant() {
   let identified = null;
   try {
     const vd = await callClaude({
-      model:'claude-sonnet-4-20250514',
+      model:'claude-sonnet-4-5',
       max_tokens:400,
       messages:[{
         role:'user',
@@ -1295,7 +1295,7 @@ Respond ONLY with JSON, no markdown:
   let reviewData = '';
   try {
     const sd = await callClaude({
-      model:'claude-sonnet-4-20250514',
+      model:'claude-sonnet-4-5',
       max_tokens:1200,
       tools:[{ type:'web_search_20250305', name:'web_search' }],
       messages:[{
@@ -1351,7 +1351,7 @@ Respond ONLY with valid JSON, no markdown:
 
   try {
     const fd = await callClaude({
-      model:'claude-sonnet-4-20250514',
+      model:'claude-sonnet-4-5',
       max_tokens:1024,
       messages:[{ role:'user', content: finalPrompt }]
     });
