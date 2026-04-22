@@ -1067,7 +1067,11 @@ async function callClaude(body) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body)
   });
-  return res.json();
+  const data = await res.json();
+  if (data.error) {
+    console.error('Claude API error:', JSON.stringify(data.error));
+  }
+  return data;
 }
 
 let chatHistory = [];
@@ -1165,7 +1169,7 @@ async function sendChat() {
     });
     if (data.error) {
       hideTyping();
-      addAiMessage('⚠️ ' + (data.error.message || 'Server error. Please try again.'));
+      addAiMessage('⚠️ Error: ' + (data.error.message || data.error.type || JSON.stringify(data.error)));
       chatHistory.pop();
     } else {
       const reply = data.content[0].text;
