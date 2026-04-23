@@ -86,4 +86,4 @@ That's it. Vercel handles everything else automatically and redeploys whenever y
 - Built entirely from an iPad — no laptop used at any point
 - The AI key is stored in Vercel's environment variables and never touches the frontend
 - Adding new restaurant data is as simple as uploading a new JSON file and adding the filename to the LIVE_FILES list in api/claude.js
-- Built as a college project for a Web Development course, 2025
+  
