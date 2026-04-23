@@ -1,6 +1,6 @@
 # Miami Local 🌴
 
-A web app I built that uses AI to help people explore Miami. You can ask it anything about the city — best beaches, where to eat, nightlife, neighborhoods — and it answers like someone who actually lives there. It also has a restaurant scanner where you take a photo of any restaurant and it pulls the real Google rating and review summary.
+A web app I built that uses AI to help people explore Miami. You can ask it anything about the city — best beaches, where to eat, nightlife, neighborhoods and it answers like someone who actually lives there. It also has a restaurant scanner where you take a photo of any restaurant and it pulls the real Google rating and review summary.
 
 The app is live and currently free to use.
 
@@ -18,7 +18,7 @@ The app is live and currently free to use.
 
 - Frontend is a single HTML file — no frameworks, kept it simple
 - Backend is a Vercel serverless function that proxies requests to the Anthropic Claude API
-- Three restaurant datasets stored as JSON/JS files that get searched on every query before the AI responds (this is the RAG part)
+- Three restaurant datasets stored as JSON/JS files that get searched on every query before the AI responds 
 - API key lives on the server as an environment variable — never exposed in the browser
 
 ---
