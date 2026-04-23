@@ -2,7 +2,7 @@
 
 A web app I built that uses AI to help people explore Miami. You can ask it anything about the city — best beaches, where to eat, nightlife, neighborhoods — and it answers like someone who actually lives there. It also has a restaurant scanner where you take a photo of any restaurant and it pulls the real Google rating and review summary.
 
-The app is live and free to use.
+The app is live and currently free to use.
 
 ---
 
