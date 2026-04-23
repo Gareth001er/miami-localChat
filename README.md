@@ -70,14 +70,7 @@ The result is that the AI knows specific things about Miami that a general Claud
 
 
 
-The app is already deployed at the Vercel link in the About section. If you want to run your own version:
-
-1. Fork or clone the repo
-2. Go to vercel.com and import the repository
-3. Add `ANTHROPIC_API_KEY` as an environment variable (Settings → Environment Variables)
-4. Deploy
-
-That's it. Vercel handles everything else automatically and redeploys whenever you push a change to GitHub.
+The app is already deployed at the Vercel link in the About section. Vercel handles everything else automatically and redeploys whenever I   push a change to GitHub.
 
 ---
 
